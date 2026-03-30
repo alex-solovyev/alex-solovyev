@@ -16,10 +16,10 @@
 | --- | ---: | ---: | ---: | ---: |
 | Screen time (Linux) | h | h | h | ~h* |
 | User AI session hours | 1.3h | 3.7h | 26.0h | 26.0h |
-| AI worker hours | 14.1h | 77.5h | 172.5h | 172.5h |
-| AI concurrency hours | 20.7h | 95.8h | 245.7h | 245.7h |
-| Interactive sessions | 45 | 111 | 229 | 229 |
-| Worker sessions | 93 | 531 | 2,159 | 2,159 |
+| AI worker hours | 14.5h | 77.5h | 173.0h | 173.0h |
+| AI concurrency hours | 20.4h | 96.7h | 247.0h | 247.0h |
+| Interactive sessions | 38 | 113 | 231 | 231 |
+| Worker sessions | 95 | 533 | 2,161 | 2,161 |
 
 _Screen time from systemd-logind session events, snapshotted daily. *365-day extrapolated (accumulating real data)._
 
@@ -29,16 +29,16 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-opus-4-6 | 45,850 | 258.8M | 14.1M | 3,341.2M | $14,039.41 | $45,107.19 | $0.00 |
-| claude-sonnet-4-6 | 13,919 | 148.9M | 3.4M | 1,020.1M | $948.65 | $2,754.35 | $3,219.65 |
+| claude-opus-4-6 | 46,128 | 258.8M | 14.1M | 3,360.3M | $14,122.77 | $45,365.20 | $0.00 |
+| claude-sonnet-4-6 | 13,988 | 148.9M | 3.4M | 1,023.6M | $950.20 | $2,763.97 | $3,224.72 |
 | claude-sonnet-4 | 87 | 158 | 26K | 6.7M | $3.07 | $18.10 | $9.62 |
 | big-pickle | 72 | 77K | 13K | 4.1M | $2.96 | $0.00 | $8.33 |
 | claude-sonnet-4-5 | 15 | 64 | 3K | 1.7M | $1.75 | $4.65 | $2.28 |
-| **Total** | **59,943** | **407.9M** | **17.6M** | **4,373.9M** | **$14,995.84** | **$47,884.28** | **$3,239.88** |
+| **Total** | **60,290** | **407.9M** | **17.7M** | **4,396.6M** | **$15,080.75** | **$48,151.91** | **$3,244.95** |
 
-_5,056.5M total tokens processed. 86.5% cache hit rate._
+_5,082.0M total tokens processed. 86.5% cache hit rate._
 
-_$51,124.17 total saved ($47,884.28 caching + $3,239.88 model routing vs all-Opus)._
+_$51,396.86 total saved ($48,151.91 caching + $3,244.95 model routing vs all-Opus)._
 
 _Model savings are modest because ~86.5% of tokens are cache reads, where price differences between models are small._
 
@@ -46,17 +46,17 @@ _Model savings are modest because ~86.5% of tokens are cache reads, where price 
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-opus-4-6 | 98,849 | 260.3M | 29.3M | 7,560.5M | $17,444.45 | $102,067.14 | $0.00 |
-| claude-sonnet-4-6 | 51,176 | 150.0M | 12.3M | 3,359.5M | $1,643.52 | $9,070.89 | $6,574.15 |
+| claude-opus-4-6 | 99,134 | 260.3M | 29.3M | 7,579.8M | $17,478.90 | $102,327.52 | $0.00 |
+| claude-sonnet-4-6 | 51,245 | 150.0M | 12.3M | 3,363.1M | $1,644.79 | $9,080.51 | $6,579.22 |
 | nemotron-3-super-free | 35 | 2.2M | 10K | 0 | $7.00 | $0.00 | $28.01 |
 | claude-sonnet-4-5 | 217 | 700 | 83K | 17.0M | $6.36 | $46.07 | $25.50 |
 | claude-sonnet-4 | 87 | 158 | 26K | 6.7M | $2.40 | $18.10 | $9.62 |
 | claude-haiku-4-5 | 262 | 734 | 49K | 11.6M | $1.11 | $8.36 | $19.99 |
-| **Total** | **150,626** | **412.7M** | **41.8M** | **10,955.4M** | **$19,104.84** | **$111,210.56** | **$6,657.27** |
+| **Total** | **150,980** | **412.7M** | **41.9M** | **10,978.3M** | **$19,140.56** | **$111,480.56** | **$6,662.33** |
 
-_12,076.1M total tokens processed. 90.8% cache hit rate._
+_12,101.8M total tokens processed. 90.8% cache hit rate._
 
-_$117,867.82 total saved ($111,210.56 caching + $6,657.27 model routing vs all-Opus)._
+_$118,142.89 total saved ($111,480.56 caching + $6,662.33 model routing vs all-Opus)._
 
 _Model savings are modest because ~90.8% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
@@ -82,5 +82,5 @@ _Model savings are modest because ~90.8% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-03-30 19:00 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-03-30 20:00 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
