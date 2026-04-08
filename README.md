@@ -15,11 +15,11 @@
 | Metric | 24h | 7 Days | 28 Days | 365 Days |
 | --- | ---: | ---: | ---: | ---: |
 | Screen time (Linux) | h | h | h | ~h* |
-| User AI session hours | 5.4h | 12.1h | 12.1h | 12.1h |
-| AI worker hours | 10.4h | 23.1h | 23.1h | 23.1h |
-| AI concurrency hours | 17.4h | 37.7h | 37.7h | 37.7h |
-| Interactive sessions | 6 | 9 | 9 | 9 |
-| Worker sessions | 36 | 75 | 75 | 75 |
+| User AI session hours | 4.7h | 12.1h | 12.1h | 12.1h |
+| AI worker hours | 11.8h | 24.5h | 24.5h | 24.5h |
+| AI concurrency hours | 18.1h | 39.2h | 39.2h | 39.2h |
+| Interactive sessions | 7 | 10 | 10 | 10 |
+| Worker sessions | 39 | 78 | 78 | 78 |
 
 _Screen time from systemd-logind session events, snapshotted daily. *365-day extrapolated (accumulating real data)._
 
@@ -29,34 +29,34 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-opus-4-6 | 64,793 | 258.9M | 19.5M | 4,872.2M | $17,964.84 | $65,775.27 | $0.00 |
-| claude-sonnet-4-6 | 34,119 | 148.9M | 7.7M | 2,559.6M | $1,563.94 | $6,911.18 | $5,321.90 |
+| claude-opus-4-6 | 65,013 | 258.9M | 19.6M | 4,903.6M | $18,025.74 | $66,199.22 | $0.00 |
+| claude-sonnet-4-6 | 34,140 | 148.9M | 7.7M | 2,561.3M | $1,564.86 | $6,915.65 | $5,324.18 |
 | gemini-3-flash | 4,744 | 74.7M | 1.6M | 481.6M | $20.68 | $54.19 | $1,939.33 |
 | big-pickle | 88 | 157K | 15K | 4.5M | $3.36 | $0.00 | $10.34 |
 | claude-sonnet-4 | 87 | 158 | 26K | 6.7M | $3.07 | $18.10 | $9.62 |
 | claude-sonnet-4-5 | 15 | 64 | 3K | 1.7M | $1.75 | $4.65 | $2.28 |
 | claude-haiku-4-5 | 107 | 65 | 21K | 6.0M | $0.70 | $4.36 | $10.14 |
-| **Total** | **103,953** | **482.7M** | **29.0M** | **7,932.6M** | **$19,558.34** | **$72,767.74** | **$7,293.61** |
+| **Total** | **104,194** | **482.7M** | **29.0M** | **7,965.7M** | **$19,620.16** | **$73,196.16** | **$7,295.89** |
 
-_8,790.6M total tokens processed. 90.2% cache hit rate._
+_8,824.3M total tokens processed. 90.3% cache hit rate._
 
-_$80,061.35 total saved ($72,767.74 caching + $7,293.61 model routing vs all-Opus)._
+_$80,492.06 total saved ($73,196.16 caching + $7,295.89 model routing vs all-Opus)._
 
-_Model savings are modest because ~90.2% of tokens are cache reads, where price differences between models are small._
+_Model savings are modest because ~90.3% of tokens are cache reads, where price differences between models are small._
 
 ## AI Model Usage (all time)
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-opus-4-6 | 4,824 | 5K | 1.5M | 386.9M | $699.15 | $5,224.08 | $0.00 |
-| claude-sonnet-4-6 | 589 | 602 | 132K | 46.0M | $15.79 | $124.31 | $63.21 |
-| **Total** | **5,413** | **5K** | **1.7M** | **433.0M** | **$714.94** | **$5,348.39** | **$63.21** |
+| claude-opus-4-6 | 5,201 | 5K | 1.6M | 439.0M | $785.25 | $5,927.69 | $0.00 |
+| claude-sonnet-4-6 | 610 | 624 | 137K | 47.6M | $16.36 | $128.77 | $65.49 |
+| **Total** | **5,811** | **6K** | **1.8M** | **486.7M** | **$801.61** | **$6,056.46** | **$65.49** |
 
-_450.0M total tokens processed. 96.2% cache hit rate._
+_504.9M total tokens processed. 96.4% cache hit rate._
 
-_$5,411.59 total saved ($5,348.39 caching + $63.21 model routing vs all-Opus)._
+_$6,121.95 total saved ($6,056.46 caching + $65.49 model routing vs all-Opus)._
 
-_Model savings are modest because ~96.2% of tokens are cache reads, where price differences between models are small._
+_Model savings are modest because ~96.4% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
 
 ## Projects
@@ -80,5 +80,5 @@ _Model savings are modest because ~96.2% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-04-08 02:00 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-04-08 03:00 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
