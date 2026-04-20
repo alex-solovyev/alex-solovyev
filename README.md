@@ -16,10 +16,10 @@
 | --- | ---: | ---: | ---: | ---: |
 | Screen time (Linux) | h | h | h | ~h* |
 | User AI session hours | 0.0h | 47.3h | 77.3h | 77.3h |
-| AI worker hours | 0.0h | 20.9h | 82.6h | 82.6h |
-| AI concurrency hours | 0.0h | 110.9h | 255.2h | 255.2h |
-| Interactive sessions | 2 | 241 | 623 | 623 |
-| Worker sessions | 0 | 64 | 270 | 270 |
+| AI worker hours | 0.0h | 20.9h | 82.4h | 82.4h |
+| AI concurrency hours | 0.0h | 110.9h | 255.0h | 255.0h |
+| Interactive sessions | 2 | 237 | 623 | 623 |
+| Worker sessions | 0 | 64 | 269 | 269 |
 
 _Screen time from systemd-logind session events, snapshotted daily. *365-day extrapolated (accumulating real data)._
 
@@ -81,5 +81,5 @@ _Model savings are modest because ~96.2% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-04-20 06:58 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-04-20 07:58 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
