@@ -15,9 +15,9 @@
 | Metric | 24h | 7 Days | 28 Days | 365 Days |
 | --- | ---: | ---: | ---: | ---: |
 | Screen time (Linux) | h | h | h | ~h* |
-| User AI session hours | 8.9h | 65.0h | 110.3h | 110.3h |
+| User AI session hours | 8.2h | 65.0h | 110.3h | 110.3h |
 | AI worker hours | 2.7h | 4.9h | 28.9h | 28.9h |
-| AI concurrency hours | 13.7h | 90.8h | 203.6h | 203.6h |
+| AI concurrency hours | 12.9h | 90.8h | 203.6h | 203.6h |
 | Interactive sessions | 9 | 21 | 469 | 469 |
 | Worker sessions | 13 | 22 | 94 | 94 |
 
@@ -29,17 +29,17 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-opus-4-6 | 54,992 | 258.9M | 16.8M | 4,964.3M | $17,964.97 | $67,019.10 | $0.00 |
+| claude-opus-4-6 | 54,823 | 258.9M | 16.8M | 4,955.1M | $17,931.39 | $66,894.48 | $0.00 |
 | claude-sonnet-4-6 | 54,793 | 148.9M | 15.3M | 4,507.2M | $2,372.05 | $12,169.55 | $8,115.96 |
 | claude-opus-4-7 | 2,102 | 3K | 984K | 296.5M | $908.53 | $4,003.63 | $0.00 |
 | gemini-3-flash | 4,744 | 74.7M | 1.6M | 481.6M | $20.68 | $54.19 | $1,939.33 |
 | claude-haiku-4-5 | 453 | 472 | 90K | 30.5M | $3.58 | $21.97 | $49.75 |
 | big-pickle | 68 | 150K | 12K | 2.5M | $2.27 | $0.00 | $7.01 |
-| **Total** | **117,152** | **482.7M** | **34.9M** | **10,282.9M** | **$21,272.08** | **$83,268.43** | **$10,112.04** |
+| **Total** | **116,983** | **482.7M** | **34.9M** | **10,273.6M** | **$21,238.50** | **$83,143.80** | **$10,112.04** |
 
-_11,200.3M total tokens processed. 91.8% cache hit rate._
+_11,190.1M total tokens processed. 91.8% cache hit rate._
 
-_$93,380.47 total saved ($83,268.43 caching + $10,112.04 model routing vs all-Opus)._
+_$93,255.85 total saved ($83,143.80 caching + $10,112.04 model routing vs all-Opus)._
 
 _Model savings are modest because ~91.8% of tokens are cache reads, where price differences between models are small._
 
@@ -81,5 +81,5 @@ _Model savings are modest because ~95.5% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-04-25 20:13 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-04-25 21:01 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
