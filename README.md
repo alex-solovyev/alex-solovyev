@@ -16,10 +16,10 @@
 | --- | ---: | ---: | ---: | ---: |
 | Screen time (Linux) | h | h | h | ~h* |
 | User AI session hours | 0.0h | 65.0h | 110.3h | 110.3h |
-| AI worker hours | 2.1h | 6.5h | 27.4h | 27.4h |
-| AI concurrency hours | 2.7h | 92.6h | 202.0h | 202.0h |
-| Interactive sessions | 2 | 22 | 460 | 460 |
-| Worker sessions | 9 | 28 | 92 | 92 |
+| AI worker hours | 4.0h | 8.4h | 29.2h | 29.2h |
+| AI concurrency hours | 5.1h | 95.1h | 204.4h | 204.4h |
+| Interactive sessions | 4 | 24 | 461 | 461 |
+| Worker sessions | 13 | 32 | 96 | 96 |
 
 _Screen time from systemd-logind session events, snapshotted daily. *365-day extrapolated (accumulating real data)._
 
@@ -29,17 +29,17 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-opus-4-6 | 51,131 | 258.9M | 15.7M | 4,639.5M | $17,016.86 | $62,633.88 | $0.00 |
-| claude-sonnet-4-6 | 54,656 | 148.9M | 15.4M | 4,533.9M | $2,380.24 | $12,241.78 | $8,154.14 |
+| claude-opus-4-6 | 51,277 | 258.9M | 15.8M | 4,667.5M | $17,067.49 | $63,011.75 | $0.00 |
+| claude-sonnet-4-6 | 54,894 | 148.9M | 15.5M | 4,569.0M | $2,394.11 | $12,336.56 | $8,203.48 |
 | claude-opus-4-7 | 2,102 | 3K | 984K | 296.5M | $908.53 | $4,003.63 | $0.00 |
 | gemini-3-flash | 4,744 | 74.7M | 1.6M | 481.6M | $20.68 | $54.19 | $1,939.33 |
 | claude-haiku-4-5 | 602 | 783 | 129K | 46.1M | $5.33 | $33.23 | $74.75 |
 | big-pickle | 68 | 150K | 12K | 2.5M | $2.27 | $0.00 | $7.01 |
-| **Total** | **113,303** | **482.7M** | **34.0M** | **10,000.4M** | **$20,333.91** | **$78,966.71** | **$10,175.22** |
+| **Total** | **113,687** | **482.7M** | **34.1M** | **10,063.5M** | **$20,398.41** | **$79,439.36** | **$10,224.57** |
 
-_10,896.6M total tokens processed. 91.8% cache hit rate._
+_10,960.6M total tokens processed. 91.8% cache hit rate._
 
-_$89,141.93 total saved ($78,966.71 caching + $10,175.22 model routing vs all-Opus)._
+_$89,663.93 total saved ($79,439.36 caching + $10,224.57 model routing vs all-Opus)._
 
 _Model savings are modest because ~91.8% of tokens are cache reads, where price differences between models are small._
 
@@ -47,17 +47,17 @@ _Model savings are modest because ~91.8% of tokens are cache reads, where price 
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-opus-4-6 | 15,473 | 18K | 5.5M | 2,034.4M | $3,471.62 | $27,465.53 | $0.00 |
-| claude-sonnet-4-6 | 24,171 | 24K | 8.1M | 2,146.0M | $765.47 | $5,794.41 | $3,061.94 |
+| claude-opus-4-6 | 15,813 | 18K | 5.7M | 2,077.0M | $3,543.56 | $28,040.39 | $0.00 |
+| claude-sonnet-4-6 | 24,417 | 24K | 8.1M | 2,171.4M | $774.39 | $5,863.04 | $3,097.63 |
 | claude-opus-4-7 | 2,122 | 3K | 992K | 298.9M | $522.88 | $4,035.84 | $0.00 |
 | claude-haiku-4-5 | 525 | 726 | 107K | 40.1M | $3.63 | $28.88 | $64.61 |
-| **Total** | **42,291** | **46K** | **14.8M** | **4,519.6M** | **$4,763.60** | **$37,324.66** | **$3,126.55** |
+| **Total** | **42,877** | **47K** | **14.9M** | **4,587.6M** | **$4,844.46** | **$37,968.15** | **$3,162.25** |
 
-_4,730.4M total tokens processed. 95.5% cache hit rate._
+_4,799.8M total tokens processed. 95.6% cache hit rate._
 
-_$40,451.21 total saved ($37,324.66 caching + $3,126.55 model routing vs all-Opus)._
+_$41,130.40 total saved ($37,968.15 caching + $3,162.25 model routing vs all-Opus)._
 
-_Model savings are modest because ~95.5% of tokens are cache reads, where price differences between models are small._
+_Model savings are modest because ~95.6% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
 
 ## Projects
@@ -81,5 +81,5 @@ _Model savings are modest because ~95.5% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-04-26 09:16 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-04-26 10:16 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
