@@ -16,10 +16,10 @@
 | --- | ---: | ---: | ---: | ---: |
 | Screen time (Linux) | h | h | h | ~h* |
 | User AI session hours | 0.8h | 65.8h | 111.2h | 111.2h |
-| AI worker hours | 7.6h | 12.5h | 33.4h | 33.4h |
-| AI concurrency hours | 9.6h | 100.3h | 207.2h | 207.2h |
-| Interactive sessions | 6 | 25 | 303 | 303 |
-| Worker sessions | 27 | 49 | 113 | 113 |
+| AI worker hours | 7.0h | 12.8h | 33.7h | 33.7h |
+| AI concurrency hours | 9.5h | 101.2h | 207.9h | 207.9h |
+| Interactive sessions | 9 | 28 | 284 | 284 |
+| Worker sessions | 26 | 51 | 115 | 115 |
 
 _Screen time from systemd-logind session events, snapshotted daily. *365-day extrapolated (accumulating real data)._
 
@@ -29,17 +29,17 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-opus-4-6 | 46,901 | 258.8M | 14.6M | 4,354.2M | $16,073.11 | $58,781.88 | $0.00 |
-| claude-sonnet-4-6 | 56,275 | 148.9M | 16.5M | 4,756.3M | $2,480.33 | $12,842.11 | $8,487.62 |
-| claude-opus-4-7 | 2,102 | 3K | 984K | 296.5M | $908.53 | $4,003.63 | $0.00 |
+| claude-opus-4-6 | 46,526 | 258.8M | 14.5M | 4,331.7M | $15,994.89 | $58,478.17 | $0.00 |
+| claude-sonnet-4-6 | 56,501 | 148.9M | 16.6M | 4,782.6M | $2,491.60 | $12,913.28 | $8,524.89 |
+| claude-opus-4-7 | 2,219 | 3K | 1.0M | 314.2M | $949.64 | $4,242.83 | $0.00 |
 | gemini-3-flash | 4,744 | 74.7M | 1.6M | 481.6M | $20.68 | $54.19 | $1,939.33 |
 | claude-haiku-4-5 | 602 | 783 | 129K | 46.1M | $5.33 | $33.23 | $74.75 |
 | big-pickle | 68 | 150K | 12K | 2.5M | $2.27 | $0.00 | $7.01 |
-| **Total** | **110,692** | **482.7M** | **34.0M** | **9,937.5M** | **$19,490.25** | **$75,715.04** | **$10,508.70** |
+| **Total** | **110,660** | **482.7M** | **34.0M** | **9,959.0M** | **$19,464.41** | **$75,721.70** | **$10,545.98** |
 
-_10,815.2M total tokens processed. 91.9% cache hit rate._
+_10,835.9M total tokens processed. 91.9% cache hit rate._
 
-_$86,223.75 total saved ($75,715.04 caching + $10,508.70 model routing vs all-Opus)._
+_$86,267.67 total saved ($75,721.70 caching + $10,545.98 model routing vs all-Opus)._
 
 _Model savings are modest because ~91.9% of tokens are cache reads, where price differences between models are small._
 
@@ -48,14 +48,14 @@ _Model savings are modest because ~91.9% of tokens are cache reads, where price 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | claude-opus-4-6 | 15,980 | 18K | 5.7M | 2,094.4M | $3,575.22 | $28,275.08 | $0.00 |
-| claude-sonnet-4-6 | 25,719 | 25K | 8.7M | 2,313.5M | $825.69 | $6,246.70 | $3,302.84 |
-| claude-opus-4-7 | 2,122 | 3K | 992K | 298.9M | $522.88 | $4,035.84 | $0.00 |
+| claude-sonnet-4-6 | 25,850 | 26K | 8.8M | 2,324.0M | $829.55 | $6,274.99 | $3,318.24 |
+| claude-opus-4-7 | 2,240 | 3K | 1.0M | 316.6M | $554.44 | $4,275.05 | $0.00 |
 | claude-haiku-4-5 | 525 | 726 | 107K | 40.1M | $3.63 | $28.88 | $64.61 |
-| **Total** | **44,346** | **48K** | **15.6M** | **4,747.0M** | **$4,927.42** | **$38,586.49** | **$3,367.45** |
+| **Total** | **44,595** | **49K** | **15.7M** | **4,775.2M** | **$4,962.84** | **$38,853.99** | **$3,382.85** |
 
-_4,963.6M total tokens processed. 95.6% cache hit rate._
+_4,992.8M total tokens processed. 95.6% cache hit rate._
 
-_$41,953.94 total saved ($38,586.49 caching + $3,367.45 model routing vs all-Opus)._
+_$42,236.84 total saved ($38,853.99 caching + $3,382.85 model routing vs all-Opus)._
 
 _Model savings are modest because ~95.6% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
@@ -81,5 +81,5 @@ _Model savings are modest because ~95.6% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-04-27 04:21 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-04-27 05:21 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
