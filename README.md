@@ -18,7 +18,7 @@
 | User AI session hours | 10.0h | 64.1h | 121.2h | 121.2h |
 | AI worker hours | 0.3h | 17.1h | 38.0h | 38.0h |
 | AI concurrency hours | 10.7h | 102.6h | 222.2h | 222.2h |
-| Interactive sessions | 5 | 31 | 188 | 188 |
+| Interactive sessions | 4 | 31 | 188 | 188 |
 | Worker sessions | 1 | 62 | 126 | 126 |
 
 _Screen time from systemd-logind session events, snapshotted daily. *365-day extrapolated (accumulating real data)._
@@ -29,13 +29,13 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-opus-4-6 | 39,923 | 128.1M | 12.6M | 3,945.3M | $12,881.19 | $53,261.96 | $0.00 |
-| claude-sonnet-4-6 | 54,410 | 81.6M | 16.3M | 4,675.1M | $2,227.36 | $12,622.93 | $7,570.96 |
+| claude-opus-4-6 | 39,915 | 128.1M | 12.6M | 3,945.3M | $12,881.19 | $53,261.96 | $0.00 |
+| claude-sonnet-4-6 | 54,401 | 81.6M | 16.3M | 4,675.1M | $2,227.36 | $12,622.93 | $7,570.96 |
 | claude-opus-4-7 | 2,222 | 3K | 1.0M | 314.3M | $957.87 | $4,243.15 | $0.00 |
 | gemini-3-flash | 4,736 | 74.7M | 1.6M | 481.6M | $20.68 | $54.19 | $1,939.33 |
 | claude-haiku-4-5 | 602 | 783 | 129K | 46.1M | $5.33 | $33.23 | $74.75 |
 | big-pickle | 68 | 150K | 12K | 2.5M | $2.27 | $0.00 | $7.01 |
-| **Total** | **101,961** | **284.7M** | **31.8M** | **9,465.1M** | **$16,094.70** | **$70,215.47** | **$9,592.04** |
+| **Total** | **101,944** | **284.7M** | **31.8M** | **9,465.1M** | **$16,094.70** | **$70,215.47** | **$9,592.04** |
 
 _10,112.5M total tokens processed. 93.6% cache hit rate._
 
@@ -81,5 +81,5 @@ _Model savings are modest because ~95.5% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-04-28 13:29 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-04-28 14:29 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
