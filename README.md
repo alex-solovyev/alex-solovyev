@@ -19,7 +19,7 @@
 | AI worker hours | 6.2h | 67.4h | 103.4h | 103.4h |
 | AI concurrency hours | 6.2h | 120.7h | 218.0h | 218.0h |
 | Interactive sessions | 0 | 24 | 121 | 121 |
-| Worker sessions | 41 | 424 | 561 | 561 |
+| Worker sessions | 40 | 424 | 561 | 561 |
 
 _Screen time from systemd-logind session events, snapshotted daily. *365-day extrapolated (accumulating real data)._
 
@@ -29,17 +29,17 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-opus-4-6 | 14,278 | 131K | 6.1M | 2,247.2M | $7,238.71 | $30,337.34 | $0.00 |
-| claude-sonnet-4-6 | 30,697 | 31K | 12.6M | 2,913.0M | $1,302.47 | $7,865.22 | $4,255.55 |
+| claude-opus-4-6 | 14,277 | 131K | 6.1M | 2,247.2M | $7,237.12 | $30,337.34 | $0.00 |
+| claude-sonnet-4-6 | 30,086 | 30K | 12.4M | 2,855.3M | $1,277.62 | $7,709.55 | $4,171.09 |
 | claude-opus-4-7 | 3,029 | 4K | 1.4M | 435.5M | $1,252.30 | $5,880.05 | $0.00 |
 | gpt-5.5 | 16,020 | 85.0M | 3.1M | 1,199.0M | $575.63 | $3,237.36 | $2,649.64 |
 | claude-haiku-4-5 | 820 | 1K | 182K | 72.3M | $8.56 | $52.11 | $115.76 |
 | claude-sonnet-4-5 | 1 | 3 | 1K | 0 | $0.26 | $0.00 | $0.06 |
-| **Total** | **64,845** | **85.2M** | **23.6M** | **6,867.2M** | **$10,377.93** | **$47,372.09** | **$7,021.01** |
+| **Total** | **64,233** | **85.2M** | **23.3M** | **6,809.5M** | **$10,351.49** | **$47,216.42** | **$6,936.55** |
 
-_7,249.5M total tokens processed. 94.7% cache hit rate._
+_7,190.2M total tokens processed. 94.7% cache hit rate._
 
-_$54,393.10 total saved ($47,372.09 caching + $7,021.01 model routing vs all-Opus)._
+_$54,152.97 total saved ($47,216.42 caching + $6,936.55 model routing vs all-Opus)._
 
 _Model savings are modest because ~94.7% of tokens are cache reads, where price differences between models are small._
 
@@ -82,5 +82,5 @@ _Model savings are modest because ~94.8% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-05-10 00:06 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-05-10 01:06 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
