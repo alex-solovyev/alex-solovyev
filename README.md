@@ -14,12 +14,12 @@
 
 | Metric | 24h | 7 Days | 28 Days | 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Linux) | 6.7h | 12.8h | 51.2h | ~1,059h* |
+| Screen time (Linux) | 7.4h | 13.5h | 51.9h | ~1,059h* |
 | User AI session hours | 9.8h | 36.2h | 66.8h | 66.8h |
-| AI worker hours | 2.1h | 49.9h | 101.6h | 101.6h |
-| AI concurrency hours | 18.1h | 187.5h | 280.1h | 280.1h |
+| AI worker hours | 2.0h | 49.8h | 101.6h | 101.6h |
+| AI concurrency hours | 17.9h | 187.4h | 280.1h | 280.1h |
 | Interactive sessions | 31 | 47 | 59 | 59 |
-| Worker sessions | 14 | 364 | 636 | 636 |
+| Worker sessions | 13 | 363 | 636 | 636 |
 
 _Screen time from systemd-logind session events, snapshotted daily. *365-day extrapolated (accumulating real data)._
 
@@ -29,18 +29,18 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-opus-4-6 | 11,220 | 128K | 5.0M | 1,819.1M | $6,104.01 | $24,558.93 | $0.00 |
+| claude-opus-4-6 | 11,212 | 128K | 5.0M | 1,817.1M | $6,099.98 | $24,531.83 | $0.00 |
 | claude-opus-4-7 | 3,029 | 4K | 1.4M | 435.5M | $1,252.30 | $5,880.05 | $0.00 |
 | claude-sonnet-4-6 | 21,605 | 22K | 9.8M | 2,185.5M | $989.83 | $5,900.93 | $3,216.08 |
-| gpt-5.5 | 23,454 | 125.5M | 4.4M | 1,652.9M | $818.19 | $4,462.94 | $3,759.68 |
+| gpt-5.5 | 23,541 | 125.9M | 4.5M | 1,657.4M | $820.54 | $4,474.98 | $3,770.24 |
 | claude-haiku-4-5 | 689 | 843 | 157K | 64.2M | $7.57 | $46.29 | $102.48 |
 | claude-sonnet-4-5 | 1 | 3 | 1K | 0 | $0.26 | $0.00 | $0.06 |
 | gpt-5.4-mini | 16 | 63K | 2K | 797K | $0.06 | $1.49 | $1.68 |
-| **Total** | **60,014** | **125.8M** | **21.0M** | **6,158.3M** | **$9,172.22** | **$40,850.64** | **$7,079.97** |
+| **Total** | **60,093** | **126.1M** | **21.0M** | **6,160.7M** | **$9,170.54** | **$40,835.58** | **$7,090.53** |
 
-_6,542.3M total tokens processed. 94.1% cache hit rate._
+_6,545.1M total tokens processed. 94.1% cache hit rate._
 
-_$47,930.61 total saved ($40,850.64 caching + $7,079.97 model routing vs all-Opus)._
+_$47,926.12 total saved ($40,835.58 caching + $7,090.53 model routing vs all-Opus)._
 
 _Model savings are modest because ~94.1% of tokens are cache reads, where price differences between models are small._
 
@@ -50,15 +50,15 @@ _Model savings are modest because ~94.1% of tokens are cache reads, where price 
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | claude-opus-4-6 | 20,467 | 138K | 7.7M | 2,785.7M | $4,760.73 | $37,607.01 | $0.00 |
 | claude-sonnet-4-6 | 31,870 | 32K | 11.6M | 2,990.1M | $1,072.24 | $8,073.52 | $4,289.03 |
-| gpt-5.5 | 22,809 | 120.6M | 4.2M | 1,601.0M | $906.57 | $4,322.82 | $3,626.35 |
+| gpt-5.5 | 22,939 | 121.0M | 4.3M | 1,607.2M | $910.13 | $4,339.48 | $3,640.56 |
 | claude-opus-4-7 | 3,057 | 4K | 1.5M | 437.9M | $769.90 | $5,912.27 | $0.00 |
 | claude-haiku-4-5 | 851 | 1K | 182K | 72.3M | $6.51 | $52.11 | $115.77 |
 | gpt-5.4-mini | 17 | 96K | 2K | 797K | $0.75 | $1.49 | $2.10 |
-| **Total** | **79,071** | **120.9M** | **25.3M** | **7,888.0M** | **$7,516.70** | **$55,969.22** | **$8,033.24** |
+| **Total** | **79,201** | **121.3M** | **25.4M** | **7,894.2M** | **$7,520.26** | **$55,985.88** | **$8,047.46** |
 
-_8,334.8M total tokens processed. 94.6% cache hit rate._
+_8,341.5M total tokens processed. 94.6% cache hit rate._
 
-_$64,002.46 total saved ($55,969.22 caching + $8,033.24 model routing vs all-Opus)._
+_$64,033.34 total saved ($55,985.88 caching + $8,047.46 model routing vs all-Opus)._
 
 _Model savings are modest because ~94.6% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
@@ -84,5 +84,5 @@ _Model savings are modest because ~94.6% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-05-14 11:18 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-05-14 12:01 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
