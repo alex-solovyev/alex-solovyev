@@ -14,12 +14,12 @@
 
 | Metric | 24h | 7 Days | 28 Days | 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Linux) | 15.3h | 15.3h | 63.7h | ~1,059h* |
+| Screen time (Linux) | 15.8h | 15.8h | 64.3h | ~1,059h* |
 | User AI session hours | 8.8h | 42.6h | 67.7h | 67.7h |
-| AI worker hours | 5.2h | 46.9h | 78.8h | 78.8h |
-| AI concurrency hours | 18.0h | 116.7h | 228.5h | 228.5h |
+| AI worker hours | 5.1h | 46.9h | 78.8h | 78.8h |
+| AI concurrency hours | 17.9h | 116.6h | 228.5h | 228.5h |
 | Interactive sessions | 19 | 86 | 127 | 127 |
-| Worker sessions | 33 | 349 | 575 | 575 |
+| Worker sessions | 32 | 348 | 575 | 575 |
 
 _Screen time from systemd-logind session events, snapshotted daily. *365-day extrapolated (accumulating real data)._
 
@@ -33,12 +33,12 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 | claude-opus-4-6 | 1,299 | 1K | 574K | 247.2M | $1,127.26 | $3,337.80 | $0.00 |
 | claude-sonnet-4-6 | 2,821 | 2K | 1.3M | 311.8M | $143.27 | $842.05 | $457.32 |
 | gpt-5.4-mini | 941 | 3.3M | 136K | 60.4M | $3.15 | $113.37 | $103.78 |
-| claude-haiku-4-5 | 120 | 161 | 25K | 11.7M | $1.38 | $8.44 | $18.44 |
-| **Total** | **64,071** | **294.0M** | **12.7M** | **4,975.2M** | **$3,305.23** | **$16,030.41** | **$9,920.05** |
+| claude-haiku-4-5 | 70 | 74 | 14K | 7.1M | $0.77 | $5.17 | $11.21 |
+| **Total** | **64,021** | **294.0M** | **12.7M** | **4,970.7M** | **$3,304.62** | **$16,027.14** | **$9,912.82** |
 
-_5,328.2M total tokens processed. 93.4% cache hit rate._
+_5,323.4M total tokens processed. 93.4% cache hit rate._
 
-_$25,950.46 total saved ($16,030.41 caching + $9,920.05 model routing vs all-Opus)._
+_$25,939.96 total saved ($16,027.14 caching + $9,912.82 model routing vs all-Opus)._
 
 _Model savings are modest because ~93.4% of tokens are cache reads, where price differences between models are small._
 
@@ -88,5 +88,5 @@ _Model savings are modest because ~92.8% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-05-30 06:00 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-05-30 06:33 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
