@@ -14,12 +14,12 @@
 
 | Metric | 24h | 7 Days | 28 Days | 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Linux) | 24h | 2.9h | 2,141.4h | ~1,059h* |
+| Screen time (Linux) | 24h | 2.9h | 2,142.4h | ~1,059h* |
 | User AI session hours | 0.0h | 39.8h | 67.7h | 67.7h |
-| AI worker hours | 3.1h | 42.7h | 83.4h | 83.4h |
-| AI concurrency hours | 3.1h | 108.5h | 233.1h | 233.1h |
-| Interactive sessions | 3 | 83 | 133 | 133 |
-| Worker sessions | 26 | 321 | 615 | 615 |
+| AI worker hours | 3.1h | 42.7h | 83.5h | 83.5h |
+| AI concurrency hours | 3.1h | 108.5h | 233.2h | 233.2h |
+| Interactive sessions | 4 | 84 | 134 | 134 |
+| Worker sessions | 27 | 321 | 616 | 616 |
 
 _Screen time from systemd-logind session events, snapshotted daily. *365-day extrapolated (accumulating real data)._
 
@@ -29,16 +29,16 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.5 | 60,177 | 294.3M | 10.8M | 4,393.9M | $2,055.43 | $11,863.75 | $9,454.34 |
-| claude-opus-4-6 | 312 | 422 | 136K | 95.5M | $572.12 | $1,289.63 | $0.00 |
+| gpt-5.5 | 60,201 | 294.4M | 10.8M | 4,394.8M | $2,055.92 | $11,866.07 | $9,456.56 |
+| claude-opus-4-6 | 302 | 400 | 131K | 93.0M | $520.86 | $1,255.76 | $0.00 |
 | gpt-5.4-mini | 941 | 3.3M | 136K | 60.4M | $3.15 | $113.37 | $103.78 |
-| **Total** | **61,430** | **297.7M** | **11.0M** | **4,549.9M** | **$2,630.70** | **$13,266.74** | **$9,558.12** |
+| **Total** | **61,444** | **297.8M** | **11.0M** | **4,548.3M** | **$2,579.93** | **$13,235.20** | **$9,560.34** |
 
-_4,881.1M total tokens processed. 93.2% cache hit rate._
+_4,877.0M total tokens processed. 93.3% cache hit rate._
 
-_$22,824.86 total saved ($13,266.74 caching + $9,558.12 model routing vs all-Opus)._
+_$22,795.54 total saved ($13,235.20 caching + $9,560.34 model routing vs all-Opus)._
 
-_Model savings are modest because ~93.2% of tokens are cache reads, where price differences between models are small._
+_Model savings are modest because ~93.3% of tokens are cache reads, where price differences between models are small._
 
 ## AI Model Usage (all time)
 
@@ -46,7 +46,7 @@ _Model savings are modest because ~93.2% of tokens are cache reads, where price 
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | claude-opus-4-6 | 81,888 | 259.0M | 26.4M | 7,484.0M | $26,082.33 | $101,035.04 | $0.00 |
 | claude-sonnet-4-6 | 71,305 | 148.9M | 22.0M | 6,176.0M | $3,143.34 | $16,675.28 | $10,519.66 |
-| gpt-5.5 | 60,177 | 294.3M | 10.8M | 4,393.9M | $2,055.43 | $11,863.75 | $9,454.34 |
+| gpt-5.5 | 60,201 | 294.4M | 10.8M | 4,394.8M | $2,055.92 | $11,866.07 | $9,456.56 |
 | claude-opus-4-7 | 3,029 | 4K | 1.4M | 435.5M | $1,252.30 | $5,880.05 | $0.00 |
 | gemini-3-flash | 4,744 | 74.7M | 1.6M | 481.6M | $20.68 | $54.19 | $1,939.33 |
 | claude-haiku-4-5 | 928 | 1K | 204K | 78.4M | $9.30 | $56.46 | $125.90 |
@@ -54,11 +54,11 @@ _Model savings are modest because ~93.2% of tokens are cache reads, where price 
 | gpt-5.4-mini | 941 | 3.3M | 136K | 60.4M | $3.15 | $113.37 | $103.78 |
 | claude-sonnet-4 | 87 | 158 | 26K | 6.7M | $3.07 | $18.10 | $9.62 |
 | claude-sonnet-4-5 | 16 | 67 | 4K | 1.7M | $2.00 | $4.65 | $2.34 |
-| **Total** | **223,203** | **780.7M** | **62.8M** | **19,123.1M** | **$32,574.96** | **$135,700.88** | **$22,165.32** |
+| **Total** | **223,227** | **780.7M** | **62.8M** | **19,124.0M** | **$32,575.45** | **$135,703.21** | **$22,167.54** |
 
-_20,611.8M total tokens processed. 92.8% cache hit rate._
+_20,612.8M total tokens processed. 92.8% cache hit rate._
 
-_$157,866.20 total saved ($135,700.88 caching + $22,165.32 model routing vs all-Opus)._
+_$157,870.75 total saved ($135,703.21 caching + $22,167.54 model routing vs all-Opus)._
 
 _Model savings are modest because ~92.8% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
@@ -86,5 +86,5 @@ _Model savings are modest because ~92.8% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-05-31 18:34 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-05-31 19:34 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
