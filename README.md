@@ -14,12 +14,12 @@
 
 | Metric | 24h | 7 Days | 28 Days | 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Linux) | 12h | 38.5h | 69.4h | ~1,059h* |
+| Screen time (Linux) | 13h | 39.5h | 70.4h | ~1,059h* |
 | User AI session hours | 8.1h | 30.3h | 79.9h | 79.9h |
-| AI worker hours | 3.4h | 25.8h | 73.4h | 73.4h |
-| AI concurrency hours | 14.6h | 69.9h | 201.6h | 201.6h |
-| Interactive sessions | 12 | 64 | 141 | 141 |
-| Worker sessions | 23 | 174 | 531 | 531 |
+| AI worker hours | 3.4h | 25.8h | 73.3h | 73.3h |
+| AI concurrency hours | 14.6h | 69.9h | 201.5h | 201.5h |
+| Interactive sessions | 13 | 64 | 142 | 142 |
+| Worker sessions | 23 | 175 | 531 | 531 |
 
 _Screen time from systemd-logind session events, snapshotted daily. *365-day extrapolated (accumulating real data)._
 
@@ -29,13 +29,13 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.5 | 62,442 | 299.4M | 11.0M | 4,559.5M | $2,115.08 | $12,310.75 | $9,729.86 |
+| gpt-5.5 | 62,420 | 299.3M | 11.0M | 4,557.6M | $2,114.12 | $12,305.66 | $9,725.43 |
 | gpt-5.4-mini | 1,067 | 3.8M | 156K | 69.4M | $3.60 | $130.22 | $118.87 |
-| **Total** | **63,509** | **303.2M** | **11.2M** | **4,628.9M** | **$2,118.68** | **$12,440.97** | **$9,848.72** |
+| **Total** | **63,487** | **303.1M** | **11.2M** | **4,627.0M** | **$2,117.72** | **$12,435.87** | **$9,844.30** |
 
-_4,943.4M total tokens processed. 93.6% cache hit rate._
+_4,941.4M total tokens processed. 93.6% cache hit rate._
 
-_$22,289.69 total saved ($12,440.97 caching + $9,848.72 model routing vs all-Opus)._
+_$22,280.17 total saved ($12,435.87 caching + $9,844.30 model routing vs all-Opus)._
 
 _Model savings are modest because ~93.6% of tokens are cache reads, where price differences between models are small._
 
@@ -45,7 +45,7 @@ _Model savings are modest because ~93.6% of tokens are cache reads, where price 
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | claude-opus-4-6 | 81,888 | 259.0M | 26.4M | 7,484.0M | $26,082.33 | $101,035.04 | $0.00 |
 | claude-sonnet-4-6 | 71,305 | 148.9M | 22.0M | 6,176.0M | $3,143.34 | $16,675.28 | $10,519.66 |
-| gpt-5.5 | 66,136 | 321.3M | 11.9M | 4,924.1M | $2,277.63 | $13,295.24 | $10,483.50 |
+| gpt-5.5 | 66,148 | 321.4M | 11.9M | 4,924.3M | $2,277.84 | $13,295.80 | $10,484.45 |
 | claude-opus-4-7 | 3,029 | 4K | 1.4M | 435.5M | $1,252.30 | $5,880.05 | $0.00 |
 | gemini-3-flash | 4,744 | 74.7M | 1.6M | 481.6M | $20.68 | $54.19 | $1,939.33 |
 | claude-haiku-4-5 | 928 | 1K | 204K | 78.4M | $9.30 | $56.46 | $125.90 |
@@ -53,11 +53,11 @@ _Model savings are modest because ~93.6% of tokens are cache reads, where price 
 | big-pickle | 88 | 157K | 15K | 4.5M | $3.36 | $0.00 | $10.34 |
 | claude-sonnet-4 | 87 | 158 | 26K | 6.7M | $3.07 | $18.10 | $9.62 |
 | claude-sonnet-4-5 | 16 | 67 | 4K | 1.7M | $2.00 | $4.65 | $2.34 |
-| **Total** | **229,288** | **808.1M** | **64.0M** | **19,662.3M** | **$32,797.61** | **$137,149.23** | **$23,209.57** |
+| **Total** | **229,300** | **808.2M** | **64.0M** | **19,662.5M** | **$32,797.82** | **$137,149.78** | **$23,210.52** |
 
-_21,179.6M total tokens processed. 92.8% cache hit rate._
+_21,179.9M total tokens processed. 92.8% cache hit rate._
 
-_$160,358.79 total saved ($137,149.23 caching + $23,209.57 model routing vs all-Opus)._
+_$160,360.30 total saved ($137,149.78 caching + $23,210.52 model routing vs all-Opus)._
 
 _Model savings are modest because ~92.8% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
@@ -85,5 +85,5 @@ _Model savings are modest because ~92.8% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-06-05 07:34 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-06-05 08:34 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
