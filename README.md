@@ -14,12 +14,12 @@
 
 | Metric | 24h | 7 Days | 28 Days | 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Linux) | 48h | 74.5h | 105.4h | ~1,059h* |
-| User AI session hours | 6.0h | 27.5h | 72.2h | 72.2h |
-| AI worker hours | 2.9h | 24.1h | 68.5h | 68.5h |
-| AI concurrency hours | 13.8h | 66.3h | 186.9h | 186.9h |
-| Interactive sessions | 11 | 59 | 140 | 140 |
-| Worker sessions | 27 | 169 | 501 | 501 |
+| Screen time (Linux) | 49h | 75.5h | 106.4h | ~1,059h* |
+| User AI session hours | 5.4h | 27.5h | 72.2h | 72.2h |
+| AI worker hours | 2.7h | 24.1h | 68.3h | 68.3h |
+| AI concurrency hours | 12.6h | 66.3h | 186.7h | 186.7h |
+| Interactive sessions | 10 | 58 | 140 | 140 |
+| Worker sessions | 26 | 168 | 500 | 500 |
 
 _Screen time from systemd-logind session events, snapshotted daily. *365-day extrapolated (accumulating real data)._
 
@@ -29,13 +29,13 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.5 | 57,537 | 272.4M | 10.1M | 4,259.4M | $1,953.86 | $11,500.43 | $8,989.87 |
+| gpt-5.5 | 57,299 | 271.7M | 10.1M | 4,244.0M | $1,947.25 | $11,459.06 | $8,959.80 |
 | gpt-5.4-mini | 1,067 | 3.8M | 156K | 69.4M | $3.60 | $130.22 | $118.87 |
-| **Total** | **58,604** | **276.3M** | **10.3M** | **4,328.8M** | **$1,957.46** | **$11,630.64** | **$9,108.74** |
+| **Total** | **58,366** | **275.5M** | **10.2M** | **4,313.5M** | **$1,950.85** | **$11,589.28** | **$9,078.66** |
 
-_4,615.4M total tokens processed. 93.8% cache hit rate._
+_4,599.1M total tokens processed. 93.8% cache hit rate._
 
-_$20,739.38 total saved ($11,630.64 caching + $9,108.74 model routing vs all-Opus)._
+_$20,667.94 total saved ($11,589.28 caching + $9,078.66 model routing vs all-Opus)._
 
 _Model savings are modest because ~93.8% of tokens are cache reads, where price differences between models are small._
 
@@ -85,5 +85,5 @@ _Model savings are modest because ~92.9% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-06-06 19:35 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-06-06 20:35 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
