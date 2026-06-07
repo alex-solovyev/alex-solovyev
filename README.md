@@ -14,12 +14,12 @@
 
 | Metric | 24h | 7 Days | 28 Days | 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Linux) | 24h | 93h | 123.8h | ~1,059h* |
-| User AI session hours | 10.2h | 37.7h | 82.3h | 82.3h |
-| AI worker hours | 2.3h | 23.3h | 66.0h | 66.0h |
-| AI concurrency hours | 15.3h | 78.4h | 197.2h | 197.2h |
-| Interactive sessions | 6 | 60 | 137 | 137 |
-| Worker sessions | 22 | 162 | 487 | 487 |
+| Screen time (Linux) | 24h | 93.5h | 124.4h | ~1,059h* |
+| User AI session hours | 10.4h | 37.9h | 82.5h | 82.5h |
+| AI worker hours | 2.6h | 23.6h | 66.4h | 66.4h |
+| AI concurrency hours | 16.5h | 79.7h | 198.5h | 198.5h |
+| Interactive sessions | 7 | 61 | 138 | 138 |
+| Worker sessions | 24 | 164 | 489 | 489 |
 
 _Screen time from systemd-logind session events, snapshotted daily. *365-day extrapolated (accumulating real data)._
 
@@ -29,13 +29,13 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.5 | 56,058 | 262.0M | 9.8M | 4,212.4M | $1,909.12 | $11,373.68 | $8,789.78 |
+| gpt-5.5 | 56,145 | 263.2M | 9.8M | 4,219.9M | $1,914.27 | $11,393.88 | $8,813.95 |
 | gpt-5.4-mini | 1,067 | 3.8M | 156K | 69.4M | $3.60 | $130.22 | $118.87 |
-| **Total** | **57,125** | **265.9M** | **9.9M** | **4,281.9M** | **$1,912.72** | **$11,503.89** | **$8,908.65** |
+| **Total** | **57,212** | **267.0M** | **10.0M** | **4,289.4M** | **$1,917.87** | **$11,524.10** | **$8,932.82** |
 
-_4,557.8M total tokens processed. 93.9% cache hit rate._
+_4,566.6M total tokens processed. 93.9% cache hit rate._
 
-_$20,412.54 total saved ($11,503.89 caching + $8,908.65 model routing vs all-Opus)._
+_$20,456.92 total saved ($11,524.10 caching + $8,932.82 model routing vs all-Opus)._
 
 _Model savings are modest because ~93.9% of tokens are cache reads, where price differences between models are small._
 
@@ -45,7 +45,7 @@ _Model savings are modest because ~93.9% of tokens are cache reads, where price 
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | claude-opus-4-6 | 81,888 | 259.0M | 26.4M | 7,484.0M | $26,082.33 | $101,035.04 | $0.00 |
 | claude-sonnet-4-6 | 71,305 | 148.9M | 22.0M | 6,176.0M | $3,143.34 | $16,675.28 | $10,519.66 |
-| gpt-5.5 | 70,233 | 341.0M | 12.7M | 5,315.5M | $2,439.25 | $14,351.96 | $11,233.23 |
+| gpt-5.5 | 70,415 | 342.6M | 12.7M | 5,328.1M | $2,447.15 | $14,385.98 | $11,269.91 |
 | claude-opus-4-7 | 3,029 | 4K | 1.4M | 435.5M | $1,252.30 | $5,880.05 | $0.00 |
 | gemini-3-flash | 4,744 | 74.7M | 1.6M | 481.6M | $20.68 | $54.19 | $1,939.33 |
 | claude-haiku-4-5 | 928 | 1K | 204K | 78.4M | $9.30 | $56.46 | $125.90 |
@@ -53,11 +53,11 @@ _Model savings are modest because ~93.9% of tokens are cache reads, where price 
 | big-pickle | 88 | 157K | 15K | 4.5M | $3.36 | $0.00 | $10.34 |
 | claude-sonnet-4 | 87 | 158 | 26K | 6.7M | $3.07 | $18.10 | $9.62 |
 | claude-sonnet-4-5 | 16 | 67 | 4K | 1.7M | $2.00 | $4.65 | $2.34 |
-| **Total** | **233,385** | **827.8M** | **64.7M** | **20,053.7M** | **$32,959.23** | **$138,205.95** | **$23,959.30** |
+| **Total** | **233,567** | **829.4M** | **64.8M** | **20,066.3M** | **$32,967.13** | **$138,239.97** | **$23,995.98** |
 
-_21,591.5M total tokens processed. 92.9% cache hit rate._
+_21,605.8M total tokens processed. 92.9% cache hit rate._
 
-_$162,165.24 total saved ($138,205.95 caching + $23,959.30 model routing vs all-Opus)._
+_$162,235.95 total saved ($138,239.97 caching + $23,995.98 model routing vs all-Opus)._
 
 _Model savings are modest because ~92.9% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
@@ -85,5 +85,5 @@ _Model savings are modest because ~92.9% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-06-07 14:00 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-06-07 14:35 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
