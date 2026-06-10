@@ -14,12 +14,12 @@
 
 | Metric | 24h | 7 Days | 28 Days | 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Linux) | 24h | 2330h | 2,381.3h | ~1,059h* |
+| Screen time (Linux) | 24h | 2331h | 2,382.3h | ~1,059h* |
 | User AI session hours | 5.2h | 42.7h | 88.9h | 88.9h |
-| AI worker hours | 3.8h | 23.5h | 55.7h | 55.7h |
-| AI concurrency hours | 11.2h | 87.0h | 193.1h | 193.1h |
-| Interactive sessions | 13 | 69 | 150 | 150 |
-| Worker sessions | 24 | 170 | 381 | 381 |
+| AI worker hours | 3.7h | 23.4h | 55.4h | 55.4h |
+| AI concurrency hours | 11.1h | 86.9h | 192.8h | 192.8h |
+| Interactive sessions | 13 | 70 | 151 | 151 |
+| Worker sessions | 23 | 169 | 380 | 380 |
 
 _Screen time from systemd-logind session events, snapshotted daily. *365-day extrapolated (accumulating real data)._
 
@@ -29,13 +29,13 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.5 | 56,886 | 278.5M | 10.0M | 4,404.0M | $2,001.29 | $11,890.93 | $9,229.71 |
+| gpt-5.5 | 56,787 | 277.5M | 10.0M | 4,395.2M | $1,996.21 | $11,867.19 | $9,205.89 |
 | gpt-5.4-mini | 1,067 | 3.8M | 156K | 69.4M | $3.60 | $130.22 | $118.87 |
-| **Total** | **57,953** | **282.3M** | **10.2M** | **4,473.4M** | **$2,004.89** | **$12,021.15** | **$9,348.57** |
+| **Total** | **57,854** | **281.3M** | **10.1M** | **4,464.7M** | **$1,999.81** | **$11,997.40** | **$9,324.75** |
 
-_4,766.0M total tokens processed. 93.9% cache hit rate._
+_4,756.2M total tokens processed. 93.9% cache hit rate._
 
-_$21,369.72 total saved ($12,021.15 caching + $9,348.57 model routing vs all-Opus)._
+_$21,322.15 total saved ($11,997.40 caching + $9,324.75 model routing vs all-Opus)._
 
 _Model savings are modest because ~93.9% of tokens are cache reads, where price differences between models are small._
 
@@ -85,5 +85,5 @@ _Model savings are modest because ~92.9% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-06-10 15:36 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-06-10 16:36 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
