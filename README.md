@@ -14,11 +14,11 @@
 
 | Metric | 24h | 7 Days | 28 Days | 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Linux) | 24h | 2359h | 2,388.1h | ~1,059h* |
-| User AI session hours | 0.0h | 36.1h | 83.4h | 83.4h |
-| AI worker hours | 4.5h | 25.9h | 53.0h | 53.0h |
-| AI concurrency hours | 5.3h | 80.6h | 182.6h | 182.6h |
-| Interactive sessions | 21 | 90 | 156 | 156 |
+| Screen time (Linux) | 24h | 2359.4h | 2,388.5h | ~1,059h* |
+| User AI session hours | 0.0h | 35.6h | 83.4h | 83.4h |
+| AI worker hours | 4.5h | 25.8h | 53.0h | 53.0h |
+| AI concurrency hours | 5.3h | 79.7h | 182.6h | 182.6h |
+| Interactive sessions | 19 | 89 | 156 | 156 |
 | Worker sessions | 26 | 177 | 361 | 361 |
 
 _Screen time from systemd-logind session events, snapshotted daily. *365-day extrapolated (accumulating real data)._
@@ -29,13 +29,13 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.5 | 56,821 | 273.5M | 9.9M | 4,348.4M | $1,973.88 | $11,740.90 | $9,098.81 |
+| gpt-5.5 | 56,800 | 273.4M | 9.9M | 4,347.7M | $1,973.51 | $11,738.89 | $9,097.15 |
 | gpt-5.4-mini | 1,123 | 4.4M | 160K | 69.4M | $3.79 | $130.31 | $127.30 |
-| **Total** | **57,944** | **277.9M** | **10.1M** | **4,417.9M** | **$1,977.67** | **$11,871.21** | **$9,226.10** |
+| **Total** | **57,923** | **277.9M** | **10.1M** | **4,417.2M** | **$1,977.30** | **$11,869.20** | **$9,224.44** |
 
-_4,706.1M total tokens processed. 93.9% cache hit rate._
+_4,705.3M total tokens processed. 93.9% cache hit rate._
 
-_$21,097.31 total saved ($11,871.21 caching + $9,226.10 model routing vs all-Opus)._
+_$21,093.64 total saved ($11,869.20 caching + $9,224.44 model routing vs all-Opus)._
 
 _Model savings are modest because ~93.9% of tokens are cache reads, where price differences between models are small._
 
@@ -85,5 +85,5 @@ _Model savings are modest because ~92.9% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-06-11 20:36 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-06-11 21:01 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
