@@ -14,12 +14,12 @@
 
 | Metric | 24h | 7 Days | 28 Days | 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Linux) | 7.6h | 33h | 59.6h | ~1,059h* |
-| User AI session hours | 7.9h | 14.9h | 130.9h | 305.3h |
-| AI worker hours | 20.8h | 35.4h | 154.4h | 904.2h |
-| AI concurrency hours | 33.2h | 62.0h | 363.5h | 1,552.0h |
-| Interactive sessions | 4 | 19 | 95 | 809 |
-| Worker sessions | 34 | 130 | 1,016 | 2,112 |
+| Screen time (Linux) | 8.6h | 34h | 60.6h | ~1,059h* |
+| User AI session hours | 6.8h | 15.3h | 131.2h | 305.7h |
+| AI worker hours | 20.8h | 37.2h | 156.1h | 906.0h |
+| AI concurrency hours | 32.1h | 65.0h | 366.4h | 1,555.0h |
+| Interactive sessions | 5 | 20 | 96 | 810 |
+| Worker sessions | 37 | 129 | 1,018 | 2,115 |
 
 _Screen time from systemd-logind session events, snapshotted daily. *365-day extrapolated (accumulating real data)._
 
@@ -31,13 +31,13 @@ _AI session 365-day totals cover 73 days of local assistant session history (not
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.5 | 51,659 | 250.0M | 9.0M | 4,066.6M | $1,824.28 | $10,980.01 | $8,421.52 |
+| gpt-5.5 | 51,957 | 251.9M | 9.0M | 4,091.9M | $1,836.46 | $11,048.32 | $8,477.96 |
 | gpt-5.4-mini | 675 | 3.3M | 67K | 27.9M | $1.95 | $52.49 | $70.90 |
-| **Total** | **52,334** | **253.3M** | **9.0M** | **4,094.6M** | **$1,826.23** | **$11,032.49** | **$8,492.42** |
+| **Total** | **52,632** | **255.3M** | **9.1M** | **4,119.9M** | **$1,838.41** | **$11,100.81** | **$8,548.87** |
 
-_4,357.2M total tokens processed. 94% cache hit rate._
+_4,384.3M total tokens processed. 94% cache hit rate._
 
-_$19,524.91 total saved ($11,032.49 caching + $8,492.42 model routing vs all-Opus)._
+_$19,649.68 total saved ($11,100.81 caching + $8,548.87 model routing vs all-Opus)._
 
 _Model savings are modest because ~94% of tokens are cache reads, where price differences between models are small._
 
@@ -47,7 +47,7 @@ _Model savings are modest because ~94% of tokens are cache reads, where price di
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | claude-opus-4-6 | 81,888 | 259.0M | 26.4M | 7,484.0M | $26,082.33 | $101,035.04 | $0.00 |
 | claude-sonnet-4-6 | 71,305 | 148.9M | 22.0M | 6,176.0M | $3,143.34 | $16,675.28 | $10,519.66 |
-| gpt-5.5 | 85,012 | 415.2M | 15.1M | 6,330.6M | $2,929.35 | $17,092.80 | $13,489.30 |
+| gpt-5.5 | 85,441 | 417.9M | 15.2M | 6,363.2M | $2,945.71 | $17,180.65 | $13,564.91 |
 | claude-opus-4-7 | 3,029 | 4K | 1.4M | 435.5M | $1,252.30 | $5,880.05 | $0.00 |
 | gemini-3-flash | 4,744 | 74.7M | 1.6M | 481.6M | $20.68 | $54.19 | $1,939.33 |
 | claude-haiku-4-5 | 928 | 1K | 204K | 78.4M | $9.30 | $56.46 | $125.90 |
@@ -55,11 +55,11 @@ _Model savings are modest because ~94% of tokens are cache reads, where price di
 | big-pickle | 88 | 157K | 15K | 4.5M | $3.36 | $0.00 | $10.34 |
 | claude-sonnet-4 | 87 | 158 | 26K | 6.7M | $3.07 | $18.10 | $9.62 |
 | claude-sonnet-4-5 | 16 | 67 | 4K | 1.7M | $2.00 | $4.65 | $2.34 |
-| **Total** | **248,393** | **903.4M** | **67.2M** | **21,068.9M** | **$33,449.74** | **$140,946.91** | **$26,234.08** |
+| **Total** | **248,822** | **906.1M** | **67.3M** | **21,101.4M** | **$33,466.10** | **$141,034.76** | **$26,309.69** |
 
-_22,684.8M total tokens processed. 92.9% cache hit rate._
+_22,720.0M total tokens processed. 92.9% cache hit rate._
 
-_$167,180.99 total saved ($140,946.91 caching + $26,234.08 model routing vs all-Opus)._
+_$167,344.45 total saved ($141,034.76 caching + $26,309.69 model routing vs all-Opus)._
 
 _Model savings are modest because ~92.9% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
@@ -87,5 +87,5 @@ _Model savings are modest because ~92.9% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-06-17 20:05 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-06-17 21:04 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
