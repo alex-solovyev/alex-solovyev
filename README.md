@@ -14,12 +14,12 @@
 
 | Metric | 24h | 7 Days | 28 Days | 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Linux) | 10.1h | 37.6h | 64.1h | ~1,059h* |
-| User AI session hours | 7.9h | 18.4h | 131.0h | 308.7h |
-| AI worker hours | 20.7h | 39.4h | 156.2h | 908.5h |
-| AI concurrency hours | 32.9h | 71.2h | 365.8h | 1,561.5h |
+| Screen time (Linux) | 9h | 38.6h | 65.1h | ~1,059h* |
+| User AI session hours | 7.4h | 18.4h | 130.1h | 308.7h |
+| AI worker hours | 20.0h | 39.3h | 155.8h | 908.5h |
+| AI concurrency hours | 31.6h | 71.1h | 364.3h | 1,561.5h |
 | Interactive sessions | 5 | 20 | 95 | 810 |
-| Worker sessions | 31 | 126 | 1,010 | 2,116 |
+| Worker sessions | 31 | 124 | 1,006 | 2,116 |
 
 _Screen time from systemd-logind session events, snapshotted daily. *365-day extrapolated (accumulating real data)._
 
@@ -31,15 +31,15 @@ _AI session 365-day totals cover 73 days of local assistant session history (not
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.5 | 52,188 | 254.0M | 9.0M | 4,115.8M | $1,848.05 | $11,112.71 | $8,532.25 |
+| gpt-5.5 | 52,092 | 253.4M | 9.0M | 4,103.5M | $1,843.29 | $11,079.57 | $8,510.05 |
 | gpt-5.4-mini | 682 | 3.4M | 67K | 27.9M | $1.97 | $52.49 | $71.83 |
-| **Total** | **52,870** | **257.4M** | **9.1M** | **4,143.8M** | **$1,850.02** | **$11,165.19** | **$8,604.08** |
+| **Total** | **52,774** | **256.9M** | **9.1M** | **4,131.5M** | **$1,845.26** | **$11,132.06** | **$8,581.87** |
 
-_4,410.4M total tokens processed. 94% cache hit rate._
+_4,397.6M total tokens processed. 93.9% cache hit rate._
 
-_$19,769.27 total saved ($11,165.19 caching + $8,604.08 model routing vs all-Opus)._
+_$19,713.93 total saved ($11,132.06 caching + $8,581.87 model routing vs all-Opus)._
 
-_Model savings are modest because ~94% of tokens are cache reads, where price differences between models are small._
+_Model savings are modest because ~93.9% of tokens are cache reads, where price differences between models are small._
 
 ## AI Model Usage (all time)
 
@@ -87,5 +87,5 @@ _Model savings are modest because ~92.9% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-06-18 01:04 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-06-18 02:04 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
