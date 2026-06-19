@@ -14,10 +14,10 @@
 
 | Metric | 24h | 7 Days | 28 Days | 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Linux) | 9.8h | 44.3h | 70.8h | ~1,059h* |
+| Screen time (Linux) | 9.9h | 44.4h | 70.9h | ~1,059h* |
 | User AI session hours | 5.0h | 25.4h | 126.8h | 315.8h |
-| AI worker hours | 6.9h | 41.5h | 153.1h | 917.4h |
-| AI concurrency hours | 14.6h | 82.7h | 356.1h | 1,580.9h |
+| AI worker hours | 6.9h | 41.4h | 153.1h | 917.4h |
+| AI concurrency hours | 14.6h | 82.6h | 356.1h | 1,580.9h |
 | Interactive sessions | 5 | 12 | 95 | 812 |
 | Worker sessions | 7 | 70 | 920 | 2,124 |
 
@@ -87,5 +87,5 @@ _Model savings are modest because ~92.9% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-06-19 13:01 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-06-19 13:05 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
