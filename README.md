@@ -14,12 +14,12 @@
 
 | Metric | 24h | 7 Days | 28 Days | 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Linux) | 34.8h | 69.3h | 95.8h | ~1,059h* |
+| Screen time (Linux) | 34.9h | 69.4h | 95.9h | ~1,059h* |
 | User AI session hours | 5.5h | 29.6h | 123.6h | 319.9h |
-| AI worker hours | 12.4h | 54.9h | 162.4h | 931.8h |
-| AI concurrency hours | 20.1h | 101.9h | 356.3h | 1,601.1h |
+| AI worker hours | 12.4h | 54.9h | 162.3h | 931.8h |
+| AI concurrency hours | 20.1h | 101.9h | 356.2h | 1,601.1h |
 | Interactive sessions | 8 | 14 | 91 | 814 |
-| Worker sessions | 6 | 68 | 872 | 2,129 |
+| Worker sessions | 6 | 68 | 871 | 2,129 |
 
 _Screen time from systemd-logind session events, snapshotted daily. *365-day extrapolated (accumulating real data)._
 
@@ -31,13 +31,13 @@ _AI session 365-day totals cover 75 days of local assistant session history (not
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.5 | 51,811 | 255.9M | 9.1M | 4,044.4M | $1,836.18 | $10,920.00 | $8,473.96 |
+| gpt-5.5 | 51,803 | 255.9M | 9.1M | 4,043.9M | $1,836.03 | $10,918.79 | $8,473.27 |
 | gpt-5.4-mini | 457 | 2.2M | 41K | 14.5M | $1.16 | $27.28 | $43.27 |
-| **Total** | **52,268** | **258.2M** | **9.1M** | **4,058.9M** | **$1,837.34** | **$10,947.28** | **$8,517.23** |
+| **Total** | **52,260** | **258.2M** | **9.1M** | **4,058.5M** | **$1,837.19** | **$10,946.07** | **$8,516.54** |
 
-_4,326.4M total tokens processed. 93.8% cache hit rate._
+_4,325.9M total tokens processed. 93.8% cache hit rate._
 
-_$19,464.50 total saved ($10,947.28 caching + $8,517.23 model routing vs all-Opus)._
+_$19,462.61 total saved ($10,946.07 caching + $8,516.54 model routing vs all-Opus)._
 
 _Model savings are modest because ~93.8% of tokens are cache reads, where price differences between models are small._
 
@@ -87,5 +87,5 @@ _Model savings are modest because ~92.9% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-06-20 14:01 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-06-20 14:05 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
