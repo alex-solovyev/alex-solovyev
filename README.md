@@ -14,12 +14,12 @@
 
 | Metric | 24h | 7 Days | 28 Days | 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Linux) | 24h | 119.3h | 151.9h | ~1,059h* |
-| User AI session hours | 3.3h | 32.2h | 119.9h | 323.2h |
-| AI worker hours | 11.4h | 79.8h | 174.0h | 957.4h |
-| AI concurrency hours | 18.0h | 132.2h | 362.6h | 1,633.3h |
-| Interactive sessions | 3 | 12 | 88 | 816 |
-| Worker sessions | 16 | 104 | 798 | 2,165 |
+| Screen time (Linux) | 24h | 120.3h | 152.9h | ~1,059h* |
+| User AI session hours | 4.3h | 32.5h | 120.1h | 324.3h |
+| AI worker hours | 11.4h | 79.7h | 174.0h | 957.5h |
+| AI concurrency hours | 19.6h | 132.6h | 363.4h | 1,635.2h |
+| Interactive sessions | 4 | 13 | 89 | 817 |
+| Worker sessions | 16 | 103 | 797 | 2,165 |
 
 _Screen time from systemd-logind session events, snapshotted daily. *365-day extrapolated (accumulating real data)._
 
@@ -31,13 +31,13 @@ _AI session 365-day totals cover 78 days of local assistant session history (not
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.5 | 52,335 | 252.2M | 9.0M | 3,828.8M | $1,773.39 | $10,338.02 | $8,167.53 |
+| gpt-5.5 | 52,518 | 253.1M | 9.1M | 3,853.4M | $1,782.52 | $10,404.38 | $8,210.08 |
 | gpt-5.4-mini | 457 | 2.2M | 41K | 14.5M | $1.16 | $27.28 | $43.27 |
-| **Total** | **52,792** | **254.4M** | **9.1M** | **3,843.4M** | **$1,774.55** | **$10,365.30** | **$8,210.80** |
+| **Total** | **52,975** | **255.3M** | **9.1M** | **3,868.0M** | **$1,783.68** | **$10,431.66** | **$8,253.35** |
 
-_4,107.0M total tokens processed. 93.6% cache hit rate._
+_4,132.6M total tokens processed. 93.6% cache hit rate._
 
-_$18,576.10 total saved ($10,365.30 caching + $8,210.80 model routing vs all-Opus)._
+_$18,685.01 total saved ($10,431.66 caching + $8,253.35 model routing vs all-Opus)._
 
 _Model savings are modest because ~93.6% of tokens are cache reads, where price differences between models are small._
 
@@ -46,7 +46,7 @@ _Model savings are modest because ~93.6% of tokens are cache reads, where price 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | claude-opus-4-6 | 81,888 | 259.0M | 26.4M | 7,484.0M | $26,082.33 | $101,035.04 | $0.00 |
-| gpt-5.5 | 97,138 | 469.3M | 17.2M | 7,035.8M | $3,283.54 | $18,996.84 | $15,108.11 |
+| gpt-5.5 | 97,363 | 470.3M | 17.2M | 7,061.5M | $3,293.34 | $19,066.25 | $15,153.63 |
 | claude-sonnet-4-6 | 71,305 | 148.9M | 22.0M | 6,176.0M | $3,143.34 | $16,675.28 | $10,519.66 |
 | claude-opus-4-7 | 3,029 | 4K | 1.4M | 435.5M | $1,252.30 | $5,880.05 | $0.00 |
 | gemini-3-flash | 4,744 | 74.7M | 1.6M | 481.6M | $20.68 | $54.19 | $1,939.33 |
@@ -55,11 +55,11 @@ _Model savings are modest because ~93.6% of tokens are cache reads, where price 
 | big-pickle | 88 | 157K | 15K | 4.5M | $3.36 | $0.00 | $10.34 |
 | claude-sonnet-4 | 87 | 158 | 26K | 6.7M | $3.07 | $18.10 | $9.62 |
 | claude-sonnet-4-5 | 16 | 67 | 4K | 1.7M | $2.00 | $4.65 | $2.34 |
-| **Total** | **260,526** | **957.7M** | **69.3M** | **21,774.1M** | **$33,803.95** | **$142,850.94** | **$27,853.81** |
+| **Total** | **260,751** | **958.6M** | **69.3M** | **21,799.8M** | **$33,813.75** | **$142,920.36** | **$27,899.33** |
 
-_23,446.2M total tokens processed. 92.9% cache hit rate._
+_23,473.0M total tokens processed. 92.9% cache hit rate._
 
-_$170,704.75 total saved ($142,850.94 caching + $27,853.81 model routing vs all-Opus)._
+_$170,819.69 total saved ($142,920.36 caching + $27,899.33 model routing vs all-Opus)._
 
 _Model savings are modest because ~92.9% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
@@ -87,5 +87,5 @@ _Model savings are modest because ~92.9% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-06-22 22:05 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-06-22 23:05 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
