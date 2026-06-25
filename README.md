@@ -14,12 +14,12 @@
 
 | Metric | 24h | 7 Days | 28 Days | 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Linux) | 7.7h | 240.4h | 301.4h | ~1,059h* |
+| Screen time (Linux) | 7.7h | 241.4h | 302.4h | ~1,059h* |
 | User AI session hours | 2.2h | 32.2h | 120.1h | 341.6h |
-| AI worker hours | 11.7h | 70.9h | 175.7h | 983.4h |
-| AI concurrency hours | 17.5h | 129.8h | 371.0h | 1,696.5h |
+| AI worker hours | 11.7h | 70.8h | 175.6h | 983.4h |
+| AI concurrency hours | 17.5h | 129.7h | 370.5h | 1,696.5h |
 | Interactive sessions | 5 | 16 | 83 | 821 |
-| Worker sessions | 12 | 75 | 640 | 2,192 |
+| Worker sessions | 12 | 75 | 638 | 2,192 |
 
 _Screen time from systemd-logind session events, snapshotted daily. *365-day extrapolated (accumulating real data)._
 
@@ -31,13 +31,13 @@ _AI session 365-day totals cover 80 days of local assistant session history (not
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.5 | 54,058 | 263.4M | 9.6M | 4,035.1M | $1,861.29 | $10,894.93 | $8,579.21 |
+| gpt-5.5 | 54,039 | 263.3M | 9.6M | 4,034.5M | $1,860.93 | $10,893.36 | $8,577.61 |
 | gpt-5.4-mini | 457 | 2.2M | 41K | 14.5M | $1.16 | $27.28 | $43.27 |
-| **Total** | **54,515** | **265.6M** | **9.6M** | **4,049.7M** | **$1,862.45** | **$10,922.21** | **$8,622.48** |
+| **Total** | **54,496** | **265.5M** | **9.6M** | **4,049.1M** | **$1,862.09** | **$10,920.64** | **$8,620.87** |
 
-_4,324.9M total tokens processed. 93.6% cache hit rate._
+_4,324.3M total tokens processed. 93.6% cache hit rate._
 
-_$19,544.69 total saved ($10,922.21 caching + $8,622.48 model routing vs all-Opus)._
+_$19,541.51 total saved ($10,920.64 caching + $8,620.87 model routing vs all-Opus)._
 
 _Model savings are modest because ~93.6% of tokens are cache reads, where price differences between models are small._
 
@@ -87,5 +87,5 @@ _Model savings are modest because ~92.9% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-06-25 14:05 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-06-25 15:05 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
