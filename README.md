@@ -14,12 +14,12 @@
 
 | Metric | 24h | 7 Days | 28 Days | 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Linux) | 18.3h | 26h | 87h | ~1,059h* |
-| User AI session hours | 5.5h | 32.8h | 111.1h | 347.2h |
-| AI worker hours | 8.6h | 72.6h | 175.4h | 992.9h |
-| AI concurrency hours | 20.8h | 136.1h | 361.4h | 1,718.1h |
-| Interactive sessions | 5 | 17 | 76 | 823 |
-| Worker sessions | 9 | 78 | 590 | 2,201 |
+| Screen time (Linux) | 19.3h | 27h | 88h | ~1,059h* |
+| User AI session hours | 5.5h | 32.8h | 109.6h | 347.2h |
+| AI worker hours | 8.5h | 71.8h | 174.6h | 993.3h |
+| AI concurrency hours | 20.6h | 135.3h | 358.0h | 1,718.5h |
+| Interactive sessions | 5 | 17 | 70 | 823 |
+| Worker sessions | 8 | 78 | 586 | 2,201 |
 
 _Screen time from systemd-logind session events, snapshotted daily. *365-day extrapolated (accumulating real data)._
 
@@ -31,13 +31,13 @@ _AI session 365-day totals cover 81 days of local assistant session history (not
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.5 | 53,443 | 261.6M | 9.5M | 3,960.0M | $1,836.61 | $10,692.11 | $8,464.83 |
+| gpt-5.5 | 53,406 | 261.1M | 9.5M | 3,958.5M | $1,835.05 | $10,688.21 | $8,457.43 |
 | gpt-5.4-mini | 567 | 2.7M | 54K | 20.7M | $1.51 | $38.98 | $56.29 |
-| **Total** | **54,010** | **264.4M** | **9.6M** | **3,980.8M** | **$1,838.12** | **$10,731.09** | **$8,521.12** |
+| **Total** | **53,973** | **263.8M** | **9.6M** | **3,979.3M** | **$1,836.56** | **$10,727.19** | **$8,513.73** |
 
-_4,254.8M total tokens processed. 93.6% cache hit rate._
+_4,252.8M total tokens processed. 93.6% cache hit rate._
 
-_$19,252.21 total saved ($10,731.09 caching + $8,521.12 model routing vs all-Opus)._
+_$19,240.92 total saved ($10,727.19 caching + $8,513.73 model routing vs all-Opus)._
 
 _Model savings are modest because ~93.6% of tokens are cache reads, where price differences between models are small._
 
@@ -46,7 +46,7 @@ _Model savings are modest because ~93.6% of tokens are cache reads, where price 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | claude-opus-4-6 | 81,888 | 259.0M | 26.4M | 7,484.0M | $26,082.33 | $101,035.04 | $0.00 |
-| gpt-5.5 | 106,077 | 514.6M | 19.0M | 7,765.5M | $3,615.53 | $20,967.01 | $16,640.27 |
+| gpt-5.5 | 106,136 | 514.9M | 19.1M | 7,768.0M | $3,617.21 | $20,973.74 | $16,647.75 |
 | claude-sonnet-4-6 | 71,305 | 148.9M | 22.0M | 6,176.0M | $3,143.34 | $16,675.28 | $10,519.66 |
 | claude-opus-4-7 | 3,029 | 4K | 1.4M | 435.5M | $1,252.30 | $5,880.05 | $0.00 |
 | gemini-3-flash | 4,744 | 74.7M | 1.6M | 481.6M | $20.68 | $54.19 | $1,939.33 |
@@ -55,11 +55,11 @@ _Model savings are modest because ~93.6% of tokens are cache reads, where price 
 | big-pickle | 88 | 157K | 15K | 4.5M | $3.36 | $0.00 | $10.34 |
 | claude-sonnet-4 | 87 | 158 | 26K | 6.7M | $3.07 | $18.10 | $9.62 |
 | claude-sonnet-4-5 | 16 | 67 | 4K | 1.7M | $2.00 | $4.65 | $2.34 |
-| **Total** | **269,611** | **1,003.6M** | **71.2M** | **22,511.7M** | **$34,136.40** | **$144,835.95** | **$29,402.47** |
+| **Total** | **269,670** | **1,003.9M** | **71.2M** | **22,514.2M** | **$34,138.08** | **$144,842.69** | **$29,409.95** |
 
-_24,231.6M total tokens processed. 92.9% cache hit rate._
+_24,234.4M total tokens processed. 92.9% cache hit rate._
 
-_$174,238.42 total saved ($144,835.95 caching + $29,402.47 model routing vs all-Opus)._
+_$174,252.63 total saved ($144,842.69 caching + $29,409.95 model routing vs all-Opus)._
 
 _Model savings are modest because ~92.9% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
@@ -87,5 +87,5 @@ _Model savings are modest because ~92.9% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-06-26 17:06 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-06-26 18:06 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
