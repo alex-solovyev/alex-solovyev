@@ -72,13 +72,11 @@ _Model savings are modest because ~92.9% of tokens are cache reads, where price 
 
 - **[aidevops](https://github.com/marcusquinn/aidevops)** -- Vibe-Coding is easy. DevOps is hard. AI DevOps automates your software, business, and personal development with managed infrastructure through AI chat in OpenCode. Opinionated tools, services, CLI & API tech-stack — for speed, security, and 24/7 results. Open-source-preferred, and SOTA everything.
 - **[jquery-ui](https://github.com/jquery/jquery-ui)** -- The official jQuery user interface library.
-- **[openwrt-slide-switch](https://github.com/jefferyto/openwrt-slide-switch)** -- Translate slide switch position changes into normal button presses
 - **[quickfile-mcp](https://github.com/marcusquinn/quickfile-mcp)** -- MCP server for QuickFile UK accounting software - invoices, clients, purchases, banking, and reports
 - **[ru-study-python](https://github.com/dualboot-partners/eu-python-learn-challenge)** -- No description
 - **[shadowsocks](https://github.com/shadowsocks/shadowsocks)** -- No description
 - **[tambo](https://github.com/tambo-ai/tambo)** -- Generative UI SDK for React
 - **[wordpress-cd](https://github.com/rossigee/wordpress-cd)** -- No description
-- **[wordpress-cd-s3](https://github.com/rossigee/wordpress-cd-s3)** -- Wordpress CD driver to deploy WP artifacts to S3 buckets.
 - **[yc-remote-dev](https://github.com/MrRTi/yc-remote-dev)** -- Terraform config for remote dev environment at Yandex Cloud<!-- CONTRIBUTIONS-END -->
 
 ## Connect
@@ -87,5 +85,5 @@ _Model savings are modest because ~92.9% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-06-29 00:17 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-06-29 01:24 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
