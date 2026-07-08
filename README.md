@@ -15,11 +15,11 @@
 | Metric | 24h | 7 Days | 28 Days | 365 Days |
 | --- | ---: | ---: | ---: | ---: |
 | Screen time (Linux) | h | h | 0h | ~0h* |
-| User AI session hours | 5.4h | 30.2h | 97.6h | 388.0h |
-| AI worker hours | 5.6h | 61.0h | 240.5h | 1108.4h |
-| AI concurrency hours | 12.1h | 121.4h | 427.0h | 1,916.1h |
+| User AI session hours | 4.5h | 30.2h | 97.6h | 388.0h |
+| AI worker hours | 5.6h | 60.4h | 240.4h | 1108.4h |
+| AI concurrency hours | 11.1h | 120.8h | 426.9h | 1,916.1h |
 | Interactive sessions | 3 | 5 | 72 | 862 |
-| Worker sessions | 10 | 130 | 445 | 2,421 |
+| Worker sessions | 10 | 128 | 442 | 2,421 |
 
 _Screen time from systemd-logind session events, snapshotted daily. *365-day extrapolated (accumulating real data)._
 
@@ -31,13 +31,13 @@ _AI session 365-day totals cover 93 days of local assistant session history (not
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.5 | 58,945 | 268.2M | 11.0M | 4,128.5M | $1,923.05 | $11,147.13 | $8,837.66 |
+| gpt-5.5 | 58,936 | 268.2M | 11.0M | 4,128.1M | $1,922.89 | $11,145.88 | $8,836.95 |
 | gpt-5.4-mini | 384 | 2.2M | 25K | 7.9M | $0.90 | $14.96 | $36.45 |
-| **Total** | **59,329** | **270.5M** | **11.0M** | **4,136.5M** | **$1,923.95** | **$11,162.09** | **$8,874.11** |
+| **Total** | **59,320** | **270.5M** | **11.0M** | **4,136.0M** | **$1,923.79** | **$11,160.84** | **$8,873.40** |
 
-_4,418.1M total tokens processed. 93.6% cache hit rate._
+_4,417.6M total tokens processed. 93.6% cache hit rate._
 
-_$20,036.21 total saved ($11,162.09 caching + $8,874.11 model routing vs all-Opus)._
+_$20,034.24 total saved ($11,160.84 caching + $8,873.40 model routing vs all-Opus)._
 
 _Model savings are modest because ~93.6% of tokens are cache reads, where price differences between models are small._
 
@@ -87,5 +87,5 @@ _Model savings are modest because ~93% of tokens are cache reads, where price di
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-07-08 17:01 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-07-08 17:58 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
