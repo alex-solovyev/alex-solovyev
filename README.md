@@ -81,7 +81,8 @@ _Model savings are modest because ~93% of tokens are cache reads, where price di
 - **[tambo](https://github.com/tambo-ai/tambo)** -- Generative UI SDK for React
 - **[wordpress-cd](https://github.com/rossigee/wordpress-cd)** -- No description
 - **[wordpress-cd-s3](https://github.com/rossigee/wordpress-cd-s3)** -- Wordpress CD driver to deploy WP artifacts to S3 buckets.
-- **[yc-remote-dev](https://github.com/MrRTi/yc-remote-dev)** -- Terraform config for remote dev environment at Yandex Cloud<!-- CONTRIBUTIONS-END -->
+- **[yc-remote-dev](https://github.com/MrRTi/yc-remote-dev)** -- Terraform config for remote dev environment at Yandex Cloud
+<!-- CONTRIBUTIONS-END -->
 
 ## Connect
 
@@ -89,5 +90,5 @@ _Model savings are modest because ~93% of tokens are cache reads, where price di
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-07-10 15:59 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-07-10 16:59 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
