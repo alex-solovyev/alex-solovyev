@@ -15,11 +15,11 @@
 | Metric | 24h | 7 Days | 28 Days | 365 Days |
 | --- | ---: | ---: | ---: | ---: |
 | Screen time (Linux) | h | h | 0h | ~0h* |
-| User AI session hours | 9.6h | 39.6h | 120.5h | 410.9h |
-| AI worker hours | 11.7h | 41.5h | 251.2h | 1128.1h |
-| AI concurrency hours | 25.1h | 100.3h | 467.0h | 1,966.2h |
+| User AI session hours | 9.4h | 39.6h | 120.5h | 410.9h |
+| AI worker hours | 12.6h | 42.7h | 252.5h | 1129.4h |
+| AI concurrency hours | 25.6h | 101.6h | 468.3h | 1,967.5h |
 | Interactive sessions | 4 | 6 | 65 | 865 |
-| Worker sessions | 18 | 80 | 392 | 2,453 |
+| Worker sessions | 19 | 82 | 394 | 2,455 |
 
 _Screen time from systemd-logind session events, snapshotted daily. *365-day extrapolated (accumulating real data)._
 
@@ -31,14 +31,14 @@ _AI session 365-day totals cover 96 days of local assistant session history (not
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.5 | 57,474 | 251.3M | 10.6M | 4,152.1M | $1,878.46 | $11,210.81 | $8,640.38 |
-| gpt-5.6-sol | 2,336 | 11.2M | 570K | 157.3M | $163.17 | $424.72 | $358.32 |
-| gpt-5.4-mini | 337 | 1.6M | 22K | 7.9M | $0.74 | $14.90 | $29.30 |
-| **Total** | **60,147** | **264.3M** | **11.2M** | **4,317.4M** | **$2,042.37** | **$11,650.43** | **$9,027.99** |
+| gpt-5.5 | 57,449 | 251.2M | 10.6M | 4,151.5M | $1,878.03 | $11,209.08 | $8,638.43 |
+| gpt-5.6-sol | 2,587 | 12.5M | 658K | 180.6M | $186.23 | $487.83 | $407.42 |
+| gpt-5.4-mini | 335 | 1.6M | 22K | 7.9M | $0.73 | $14.90 | $28.98 |
+| **Total** | **60,371** | **265.5M** | **11.3M** | **4,340.1M** | **$2,064.99** | **$11,711.81** | **$9,074.83** |
 
-_4,593.0M total tokens processed. 94% cache hit rate._
+_4,617.0M total tokens processed. 94% cache hit rate._
 
-_$20,678.43 total saved ($11,650.43 caching + $9,027.99 model routing vs all-Opus)._
+_$20,786.64 total saved ($11,711.81 caching + $9,074.83 model routing vs all-Opus)._
 
 _Model savings are modest because ~94% of tokens are cache reads, where price differences between models are small._
 
@@ -50,18 +50,18 @@ _Model savings are modest because ~94% of tokens are cache reads, where price di
 | gpt-5.5 | 133,959 | 629.5M | 24.4M | 9,914.0M | $4,543.44 | $26,767.88 | $20,917.98 |
 | claude-sonnet-4-6 | 71,313 | 148.9M | 22.0M | 6,176.0M | $3,143.34 | $16,675.28 | $10,519.66 |
 | claude-opus-4-7 | 3,029 | 4K | 1.4M | 435.5M | $1,252.30 | $5,880.05 | $0.00 |
-| gpt-5.6-sol | 2,336 | 11.2M | 570K | 157.3M | $163.17 | $424.72 | $358.32 |
+| gpt-5.6-sol | 2,587 | 12.5M | 658K | 180.6M | $186.23 | $487.83 | $407.42 |
 | gemini-3-flash | 4,744 | 74.7M | 1.6M | 481.6M | $20.68 | $54.19 | $1,939.33 |
 | claude-haiku-4-5 | 928 | 1K | 204K | 78.4M | $9.30 | $56.46 | $125.90 |
 | gpt-5.4-mini | 1,451 | 6.0M | 181K | 77.4M | $4.50 | $145.18 | $155.32 |
 | big-pickle | 88 | 157K | 15K | 4.5M | $3.36 | $0.00 | $10.34 |
 | claude-sonnet-4 | 87 | 158 | 26K | 6.7M | $3.07 | $18.10 | $9.62 |
 | claude-sonnet-4-5 | 16 | 67 | 4K | 1.7M | $2.00 | $4.65 | $2.34 |
-| **Total** | **299,839** | **1,129.8M** | **77.1M** | **24,817.5M** | **$35,227.49** | **$151,061.55** | **$34,038.82** |
+| **Total** | **300,090** | **1,131.1M** | **77.2M** | **24,840.8M** | **$35,250.55** | **$151,124.66** | **$34,087.92** |
 
-_26,669.5M total tokens processed. 93.1% cache hit rate._
+_26,694.3M total tokens processed. 93.1% cache hit rate._
 
-_$185,100.36 total saved ($151,061.55 caching + $34,038.82 model routing vs all-Opus)._
+_$185,212.58 total saved ($151,124.66 caching + $34,087.92 model routing vs all-Opus)._
 
 _Model savings are modest because ~93.1% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
@@ -90,5 +90,5 @@ _Model savings are modest because ~93.1% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-07-11 16:59 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-07-11 17:59 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
