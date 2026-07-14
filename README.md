@@ -35,10 +35,10 @@ _AI session 365-day totals cover 112 days of local assistant session history (no
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.5 | 56,406 | 246.9M | 10.5M | 4,108.6M | $1,853.03 | $11,093.28 | $8,525.18 |
+| gpt-5.5 | 56,404 | 246.9M | 10.5M | 4,108.6M | $1,853.03 | $11,093.28 | $8,525.18 |
 | gpt-5.6-sol | 5,181 | 23.0M | 1.2M | 371.4M | $364.37 | $1,003.00 | $799.88 |
-| gpt-5.4-mini | 262 | 1.3M | 20K | 7.9M | $0.65 | $14.87 | $25.14 |
-| **Total** | **61,849** | **271.3M** | **11.8M** | **4,488.0M** | **$2,218.05** | **$12,111.15** | **$9,350.20** |
+| gpt-5.4-mini | 261 | 1.3M | 20K | 7.9M | $0.65 | $14.87 | $25.14 |
+| **Total** | **61,846** | **271.3M** | **11.8M** | **4,488.0M** | **$2,218.05** | **$12,111.15** | **$9,350.20** |
 
 _4,771.1M total tokens processed. 94.1% cache hit rate._
 
@@ -94,5 +94,5 @@ _Model savings are modest because ~93.1% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-07-14 02:59 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-07-14 03:59 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
