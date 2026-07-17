@@ -35,15 +35,15 @@ _AI session 365-day totals cover 115 days of local assistant session history (no
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.5 | 50,318 | 219.8M | 9.4M | 3,657.9M | $1,650.95 | $9,876.37 | $7,596.21 |
+| gpt-5.5 | 50,213 | 219.4M | 9.4M | 3,648.9M | $1,647.45 | $9,852.24 | $7,580.14 |
 | gpt-5.6-sol | 10,056 | 40.7M | 2.2M | 753.1M | $687.69 | $2,033.59 | $1,526.07 |
 | gpt-5.6-terra | 66 | 210K | 11K | 3.9M | $1.76 | $10.57 | $7.92 |
 | gpt-5.4-mini | 156 | 783K | 18K | 7.9M | $0.49 | $14.84 | $17.90 |
-| **Total** | **60,596** | **261.5M** | **11.7M** | **4,422.9M** | **$2,340.89** | **$11,935.37** | **$9,148.09** |
+| **Total** | **60,491** | **261.2M** | **11.7M** | **4,413.9M** | **$2,337.39** | **$11,911.24** | **$9,132.02** |
 
-_4,696.2M total tokens processed. 94.2% cache hit rate._
+_4,686.9M total tokens processed. 94.2% cache hit rate._
 
-_$21,083.46 total saved ($11,935.37 caching + $9,148.09 model routing vs all-Opus)._
+_$21,043.26 total saved ($11,911.24 caching + $9,132.02 model routing vs all-Opus)._
 
 _Model savings are modest because ~94.2% of tokens are cache reads, where price differences between models are small._
 
@@ -96,5 +96,5 @@ _Model savings are modest because ~93.1% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-07-17 09:59 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-07-17 10:59 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
