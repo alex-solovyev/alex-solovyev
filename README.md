@@ -15,13 +15,13 @@
 | Metric | Yesterday | Prior 7 Days | Prior 28 Days | Prior 365 Days |
 | --- | ---: | ---: | ---: | ---: |
 | Screen time (Linux) | 24h | 168h | 672h | ~8709h* |
-| Interactive human attention | 5.5h | 6.6h | 11.1h | 11.1h |
-| Interactive AI generation | 10.2h | 10.6h | 14.3h | 14.3h |
-| Worker-classified human attention | 0.7h | 0.7h | 0.7h | 0.7h |
-| Worker/headless AI generation | 1.0h | 7.0h | 180.3h | 1602.7h |
-| Additive observed work | 16.9h | 24.5h | 205.9h | 1,628.3h |
-| Interactive sessions | 14 | 14 | 17 | 17 |
-| Worker sessions | 5 | 63 | 1,109 | 9,226 |
+| Interactive human attention | 7.4h | 14.1h | 18.5h | 18.5h |
+| Interactive AI generation | 22.1h | 32.7h | 36.4h | 36.4h |
+| Worker-classified human attention | 0.3h | 0.9h | 1.0h | 1.0h |
+| Worker/headless AI generation | 0.5h | 7.3h | 157.3h | 1603.2h |
+| Additive observed work | 30.2h | 54.3h | 212.4h | 1,658.3h |
+| Interactive sessions | 8 | 14 | 17 | 17 |
+| Worker sessions | 2 | 56 | 965 | 9,226 |
 
 _Screen time from linux-wtmp:login-session-proxy; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -29,20 +29,20 @@ _Periods are completed local calendar days ending at midnight; today is excluded
 
 _Human attention is unioned wall-clock time, so overlapping sessions are not double-counted. AI generation is additive machine work across sessions; it is not wall-clock concurrency._
 
-_AI session 365-day totals cover 128 days of local assistant session history (not extrapolated)._
+_AI session 365-day totals cover 129 days of local assistant session history (not extrapolated)._
 
 ## AI Model Usage (last 30 days)
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | gpt-5.6-sol | 12,611 | 51.9M | 2.8M | 995.4M | $896.49 | $2,687.74 | $1,986.78 |
-| gpt-5.5 | 24,186 | 99.2M | 4.6M | 2,065.9M | $854.61 | $5,577.94 | $3,951.06 |
+| gpt-5.5 | 24,010 | 98.3M | 4.6M | 2,050.7M | $848.07 | $5,536.99 | $3,920.71 |
 | gpt-5.6-terra | 67 | 219K | 11K | 3.9M | $1.78 | $10.57 | $8.02 |
-| **Total** | **36,864** | **151.3M** | **7.5M** | **3,065.2M** | **$1,752.88** | **$8,276.25** | **$5,945.86** |
+| **Total** | **36,688** | **150.4M** | **7.4M** | **3,050.1M** | **$1,746.34** | **$8,235.30** | **$5,915.51** |
 
-_3,224.1M total tokens processed. 95.1% cache hit rate._
+_3,208.1M total tokens processed. 95.1% cache hit rate._
 
-_$14,222.11 total saved ($8,276.25 caching + $5,945.86 model routing vs all-Opus)._
+_$14,150.81 total saved ($8,235.30 caching + $5,915.51 model routing vs all-Opus)._
 
 _Model savings are modest because ~95.1% of tokens are cache reads, where price differences between models are small._
 
@@ -95,5 +95,5 @@ _Model savings are modest because ~93.2% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-07-30 21:06 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-07-30 22:06 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
