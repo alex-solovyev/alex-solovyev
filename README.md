@@ -21,7 +21,7 @@
 | Worker/headless AI generation | 5.6h | 8.0h | 125.6h | 1609.6h |
 | Additive observed work | 32.3h | 163.1h | 288.8h | 1,772.8h |
 | Interactive sessions | 11 | 22 | 25 | 25 |
-| Worker sessions | 136 | 171 | 851 | 9,383 |
+| Worker sessions | 140 | 175 | 855 | 9,387 |
 
 _Screen time from linux-wtmp:login-session-proxy; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -35,15 +35,15 @@ _AI session 365-day totals cover 133 days of local assistant session history (no
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.6-sol | 14,547 | 59.9M | 3.2M | 1,177.1M | $1,049.13 | $3,178.17 | $2,324.83 |
-| gpt-5.5 | 14,322 | 59.8M | 2.6M | 1,528.9M | $581.64 | $4,128.14 | $2,710.66 |
+| gpt-5.6-sol | 14,586 | 60.0M | 3.2M | 1,179.1M | $1,050.97 | $3,183.59 | $2,328.86 |
+| gpt-5.5 | 14,219 | 59.4M | 2.6M | 1,525.4M | $579.61 | $4,118.75 | $2,701.46 |
 | gpt-5.6-terra | 67 | 219K | 11K | 3.9M | $1.78 | $10.57 | $8.02 |
-| gpt-5.6-luna | 79 | 937K | 3K | 84K | $1.02 | $0.23 | $11.54 |
-| **Total** | **29,015** | **120.9M** | **5.8M** | **2,710.0M** | **$1,633.57** | **$7,317.11** | **$5,055.05** |
+| gpt-5.6-luna | 81 | 963K | 3K | 84K | $1.05 | $0.23 | $11.86 |
+| **Total** | **28,953** | **120.7M** | **5.8M** | **2,708.5M** | **$1,633.41** | **$7,313.15** | **$5,050.20** |
 
-_2,836.8M total tokens processed. 95.5% cache hit rate._
+_2,835.1M total tokens processed. 95.5% cache hit rate._
 
-_$12,372.16 total saved ($7,317.11 caching + $5,055.05 model routing vs all-Opus)._
+_$12,363.35 total saved ($7,313.15 caching + $5,050.20 model routing vs all-Opus)._
 
 _Model savings are modest because ~95.5% of tokens are cache reads, where price differences between models are small._
 
@@ -55,7 +55,7 @@ _Model savings are modest because ~95.5% of tokens are cache reads, where price 
 | gpt-5.5 | 139,450 | 654.8M | 25.4M | 10,538.3M | $4,782.46 | $28,453.46 | $22,030.47 |
 | claude-sonnet-4-6 | 71,313 | 148.9M | 22.0M | 6,176.0M | $3,143.34 | $16,675.28 | $10,519.66 |
 | claude-opus-4-7 | 3,029 | 4K | 1.4M | 435.5M | $1,252.30 | $5,880.05 | $0.00 |
-| gpt-5.6-sol | 14,547 | 59.9M | 3.2M | 1,177.1M | $1,049.13 | $3,178.17 | $2,324.83 |
+| gpt-5.6-sol | 14,586 | 60.0M | 3.2M | 1,179.1M | $1,050.97 | $3,183.59 | $2,328.86 |
 | gemini-3-flash | 4,744 | 74.7M | 1.6M | 481.6M | $20.68 | $54.19 | $1,939.33 |
 | claude-haiku-4-5 | 928 | 1K | 204K | 78.4M | $9.30 | $56.46 | $125.90 |
 | gpt-5.4-mini | 1,451 | 6.0M | 181K | 77.4M | $4.50 | $145.18 | $155.32 |
@@ -63,12 +63,12 @@ _Model savings are modest because ~95.5% of tokens are cache reads, where price 
 | claude-sonnet-4 | 87 | 158 | 26K | 6.7M | $3.07 | $18.10 | $9.62 |
 | claude-sonnet-4-5 | 16 | 67 | 4K | 1.7M | $2.00 | $4.65 | $2.34 |
 | gpt-5.6-terra | 67 | 219K | 11K | 3.9M | $1.78 | $10.57 | $8.02 |
-| gpt-5.6-luna | 79 | 937K | 3K | 84K | $1.02 | $0.23 | $11.54 |
-| **Total** | **317,687** | **1,205.0M** | **80.7M** | **26,465.5M** | **$36,355.27** | **$155,511.38** | **$37,137.38** |
+| gpt-5.6-luna | 81 | 963K | 3K | 84K | $1.05 | $0.23 | $11.86 |
+| **Total** | **317,728** | **1,205.1M** | **80.7M** | **26,467.6M** | **$36,357.14** | **$155,516.80** | **$37,141.73** |
 
-_28,396.4M total tokens processed. 93.2% cache hit rate._
+_28,398.6M total tokens processed. 93.2% cache hit rate._
 
-_$192,648.77 total saved ($155,511.38 caching + $37,137.38 model routing vs all-Opus)._
+_$192,658.54 total saved ($155,516.80 caching + $37,141.73 model routing vs all-Opus)._
 
 _Model savings are modest because ~93.2% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
@@ -97,7 +97,7 @@ _Model savings are modest because ~93.2% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-08-04 20:06 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-08-04 21:04 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <div align="center">
