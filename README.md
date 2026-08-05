@@ -20,8 +20,8 @@
 | Worker-classified human attention | 0.0h | 1.2h | 1.3h | 1.3h |
 | Worker/headless AI generation | 4.0h | 12.0h | 109.9h | 1613.6h |
 | Additive observed work | 17.6h | 179.1h | 286.7h | 1,790.4h |
-| Interactive sessions | 11 | 25 | 28 | 28 |
-| Worker sessions | 135 | 230 | 836 | 9,451 |
+| Interactive sessions | 12 | 25 | 28 | 28 |
+| Worker sessions | 137 | 232 | 838 | 9,453 |
 
 _Screen time from linux-wtmp:login-session-proxy; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -36,14 +36,14 @@ _AI session 365-day totals cover 134 days of local assistant session history (no
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | gpt-5.6-sol | 15,188 | 62.4M | 3.3M | 1,222.1M | $1,089.72 | $3,299.74 | $2,414.35 |
-| gpt-5.5 | 14,305 | 60.3M | 2.6M | 1,595.5M | $599.16 | $4,308.00 | $2,796.16 |
+| gpt-5.5 | 14,369 | 60.7M | 2.6M | 1,601.5M | $601.90 | $4,324.18 | $2,808.81 |
 | gpt-5.6-terra | 67 | 219K | 11K | 3.9M | $1.78 | $10.57 | $8.02 |
-| gpt-5.6-luna | 110 | 1.3M | 4K | 96K | $1.44 | $0.26 | $16.31 |
-| **Total** | **29,670** | **124.3M** | **5.9M** | **2,821.6M** | **$1,692.10** | **$7,618.57** | **$5,234.84** |
+| gpt-5.6-luna | 112 | 1.3M | 4K | 96K | $1.47 | $0.26 | $16.63 |
+| **Total** | **29,736** | **124.7M** | **5.9M** | **2,827.6M** | **$1,694.87** | **$7,634.75** | **$5,247.81** |
 
-_2,951.9M total tokens processed. 95.6% cache hit rate._
+_2,958.3M total tokens processed. 95.6% cache hit rate._
 
-_$12,853.41 total saved ($7,618.57 caching + $5,234.84 model routing vs all-Opus)._
+_$12,882.56 total saved ($7,634.75 caching + $5,247.81 model routing vs all-Opus)._
 
 _Model savings are modest because ~95.6% of tokens are cache reads, where price differences between models are small._
 
@@ -52,7 +52,7 @@ _Model savings are modest because ~95.6% of tokens are cache reads, where price 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | claude-opus-4-6 | 81,888 | 259.0M | 26.4M | 7,484.0M | $26,082.33 | $101,035.04 | $0.00 |
-| gpt-5.5 | 140,126 | 658.0M | 25.5M | 10,632.8M | $4,816.22 | $28,708.77 | $22,189.33 |
+| gpt-5.5 | 140,190 | 658.4M | 25.5M | 10,638.8M | $4,818.96 | $28,724.95 | $22,201.98 |
 | claude-sonnet-4-6 | 71,313 | 148.9M | 22.0M | 6,176.0M | $3,143.34 | $16,675.28 | $10,519.66 |
 | claude-opus-4-7 | 3,029 | 4K | 1.4M | 435.5M | $1,252.30 | $5,880.05 | $0.00 |
 | gpt-5.6-sol | 15,188 | 62.4M | 3.3M | 1,222.1M | $1,089.72 | $3,299.74 | $2,414.35 |
@@ -63,12 +63,12 @@ _Model savings are modest because ~95.6% of tokens are cache reads, where price 
 | claude-sonnet-4 | 87 | 158 | 26K | 6.7M | $3.07 | $18.10 | $9.62 |
 | claude-sonnet-4-5 | 16 | 67 | 4K | 1.7M | $2.00 | $4.65 | $2.34 |
 | gpt-5.6-terra | 67 | 219K | 11K | 3.9M | $1.78 | $10.57 | $8.02 |
-| gpt-5.6-luna | 110 | 1.3M | 4K | 96K | $1.44 | $0.26 | $16.31 |
-| **Total** | **319,035** | **1,211.0M** | **80.9M** | **26,605.1M** | **$36,430.04** | **$155,888.29** | **$37,390.52** |
+| gpt-5.6-luna | 112 | 1.3M | 4K | 96K | $1.47 | $0.26 | $16.63 |
+| **Total** | **319,101** | **1,211.5M** | **80.9M** | **26,611.1M** | **$36,432.81** | **$155,904.47** | **$37,403.49** |
 
-_28,542.3M total tokens processed. 93.2% cache hit rate._
+_28,548.7M total tokens processed. 93.2% cache hit rate._
 
-_$193,278.81 total saved ($155,888.29 caching + $37,390.52 model routing vs all-Opus)._
+_$193,307.96 total saved ($155,904.47 caching + $37,403.49 model routing vs all-Opus)._
 
 _Model savings are modest because ~93.2% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
@@ -97,7 +97,7 @@ _Model savings are modest because ~93.2% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-08-05 16:06 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-08-05 16:27 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <div align="center">
