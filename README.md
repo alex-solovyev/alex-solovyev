@@ -21,7 +21,7 @@
 | Worker/headless AI generation | 4.0h | 12.0h | 109.9h | 1613.6h |
 | Additive observed work | 17.6h | 179.1h | 286.7h | 1,790.4h |
 | Interactive sessions | 8 | 22 | 25 | 25 |
-| Worker sessions | 89 | 184 | 790 | 9,405 |
+| Worker sessions | 91 | 186 | 792 | 9,407 |
 
 _Screen time from linux-wtmp:login-session-proxy; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -35,15 +35,15 @@ _AI session 365-day totals cover 134 days of local assistant session history (no
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.6-sol | 14,775 | 60.9M | 3.2M | 1,193.4M | $1,064.92 | $3,222.23 | $2,359.44 |
-| gpt-5.5 | 13,835 | 58.0M | 2.5M | 1,507.4M | $569.91 | $4,070.12 | $2,657.84 |
+| gpt-5.6-sol | 14,801 | 61.0M | 3.2M | 1,194.4M | $1,066.02 | $3,225.11 | $2,361.82 |
+| gpt-5.5 | 13,756 | 57.7M | 2.5M | 1,504.6M | $568.23 | $4,062.65 | $2,650.24 |
 | gpt-5.6-terra | 67 | 219K | 11K | 3.9M | $1.78 | $10.57 | $8.02 |
-| gpt-5.6-luna | 87 | 1.0M | 3K | 84K | $1.13 | $0.23 | $12.82 |
-| **Total** | **28,764** | **120.3M** | **5.8M** | **2,704.8M** | **$1,637.74** | **$7,303.14** | **$5,038.13** |
+| gpt-5.6-luna | 88 | 1.0M | 3K | 84K | $1.14 | $0.23 | $12.93 |
+| **Total** | **28,712** | **120.1M** | **5.7M** | **2,703.1M** | **$1,637.17** | **$7,298.57** | **$5,033.01** |
 
-_2,831.0M total tokens processed. 95.5% cache hit rate._
+_2,829.0M total tokens processed. 95.5% cache hit rate._
 
-_$12,341.27 total saved ($7,303.14 caching + $5,038.13 model routing vs all-Opus)._
+_$12,331.57 total saved ($7,298.57 caching + $5,033.01 model routing vs all-Opus)._
 
 _Model savings are modest because ~95.5% of tokens are cache reads, where price differences between models are small._
 
@@ -55,7 +55,7 @@ _Model savings are modest because ~95.5% of tokens are cache reads, where price 
 | gpt-5.5 | 139,450 | 654.8M | 25.4M | 10,538.3M | $4,782.46 | $28,453.46 | $22,030.47 |
 | claude-sonnet-4-6 | 71,313 | 148.9M | 22.0M | 6,176.0M | $3,143.34 | $16,675.28 | $10,519.66 |
 | claude-opus-4-7 | 3,029 | 4K | 1.4M | 435.5M | $1,252.30 | $5,880.05 | $0.00 |
-| gpt-5.6-sol | 14,775 | 60.9M | 3.2M | 1,193.4M | $1,064.92 | $3,222.23 | $2,359.44 |
+| gpt-5.6-sol | 14,801 | 61.0M | 3.2M | 1,194.4M | $1,066.02 | $3,225.11 | $2,361.82 |
 | gemini-3-flash | 4,744 | 74.7M | 1.6M | 481.6M | $20.68 | $54.19 | $1,939.33 |
 | claude-haiku-4-5 | 928 | 1K | 204K | 78.4M | $9.30 | $56.46 | $125.90 |
 | gpt-5.4-mini | 1,451 | 6.0M | 181K | 77.4M | $4.50 | $145.18 | $155.32 |
@@ -63,12 +63,12 @@ _Model savings are modest because ~95.5% of tokens are cache reads, where price 
 | claude-sonnet-4 | 87 | 158 | 26K | 6.7M | $3.07 | $18.10 | $9.62 |
 | claude-sonnet-4-5 | 16 | 67 | 4K | 1.7M | $2.00 | $4.65 | $2.34 |
 | gpt-5.6-terra | 67 | 219K | 11K | 3.9M | $1.78 | $10.57 | $8.02 |
-| gpt-5.6-luna | 87 | 1.0M | 3K | 84K | $1.13 | $0.23 | $12.82 |
-| **Total** | **317,923** | **1,206.1M** | **80.8M** | **26,481.9M** | **$36,371.17** | **$155,555.44** | **$37,173.27** |
+| gpt-5.6-luna | 88 | 1.0M | 3K | 84K | $1.14 | $0.23 | $12.93 |
+| **Total** | **317,950** | **1,206.2M** | **80.8M** | **26,482.9M** | **$36,372.28** | **$155,558.32** | **$37,175.76** |
 
-_28,413.9M total tokens processed. 93.2% cache hit rate._
+_28,415.1M total tokens processed. 93.2% cache hit rate._
 
-_$192,728.71 total saved ($155,555.44 caching + $37,173.27 model routing vs all-Opus)._
+_$192,734.08 total saved ($155,558.32 caching + $37,175.76 model routing vs all-Opus)._
 
 _Model savings are modest because ~93.2% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
@@ -97,7 +97,7 @@ _Model savings are modest because ~93.2% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-08-05 02:01 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-08-05 03:06 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <div align="center">
