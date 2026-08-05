@@ -14,7 +14,7 @@
 
 | Metric | Yesterday | Prior 7 Days | Prior 28 Days | Prior 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Linux) | 24h | 168h | 672h | ~8710h* |
+| Screen time (Linux) | 24h | 168h | 672h | ~8711h* |
 | Interactive human attention | 8.3h | 36.3h | 47.4h | 47.4h |
 | Interactive AI generation | 4.3h | 127.3h | 141.6h | 141.6h |
 | Worker-classified human attention | 0.0h | 0.6h | 1.3h | 1.3h |
@@ -36,14 +36,14 @@ _AI session 365-day totals cover 135 days of local assistant session history (no
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | gpt-5.6-sol | 15,433 | 63.3M | 3.3M | 1,236.9M | $1,104.68 | $3,339.77 | $2,446.72 |
-| gpt-5.5 | 14,305 | 60.6M | 2.6M | 1,610.4M | $603.65 | $4,348.34 | $2,817.95 |
+| gpt-5.5 | 14,292 | 60.6M | 2.6M | 1,609.7M | $603.36 | $4,346.25 | $2,816.62 |
 | gpt-5.6-terra | 67 | 219K | 11K | 3.9M | $1.78 | $10.57 | $8.02 |
 | gpt-5.6-luna | 122 | 1.4M | 5K | 123K | $1.58 | $0.33 | $17.90 |
-| **Total** | **29,927** | **125.7M** | **6.0M** | **2,851.4M** | **$1,711.69** | **$7,699.02** | **$5,290.59** |
+| **Total** | **29,914** | **125.6M** | **6.0M** | **2,850.7M** | **$1,711.40** | **$7,696.93** | **$5,289.27** |
 
-_2,983.2M total tokens processed. 95.6% cache hit rate._
+_2,982.4M total tokens processed. 95.6% cache hit rate._
 
-_$12,989.61 total saved ($7,699.02 caching + $5,290.59 model routing vs all-Opus)._
+_$12,986.19 total saved ($7,696.93 caching + $5,289.27 model routing vs all-Opus)._
 
 _Model savings are modest because ~95.6% of tokens are cache reads, where price differences between models are small._
 
@@ -97,7 +97,7 @@ _Model savings are modest because ~93.2% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-08-05 22:06 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-08-05 22:12 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <div align="center">
