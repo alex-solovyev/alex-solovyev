@@ -21,7 +21,7 @@
 | Worker/headless AI generation | 0.9h | 23.4h | 84.0h | 1627.4h |
 | Additive observed work | 0.9h | 95.0h | 292.1h | 1,835.6h |
 | Interactive sessions | 5 | 23 | 37 | 37 |
-| Worker sessions | 109 | 628 | 957 | 9,875 |
+| Worker sessions | 111 | 630 | 959 | 9,877 |
 
 _Screen time from linux-wtmp:login-session-proxy; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -35,15 +35,15 @@ _AI session 365-day totals cover 139 days of local assistant session history (no
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.6-sol | 13,948 | 54.8M | 2.8M | 1,125.4M | $982.79 | $3,038.84 | $2,180.57 |
+| gpt-5.6-sol | 13,911 | 54.7M | 2.8M | 1,124.4M | $981.41 | $3,036.14 | $2,177.42 |
 | gpt-5.5 | 8,302 | 40.4M | 1.5M | 977.1M | $375.30 | $2,638.36 | $1,749.81 |
 | gpt-5.6-terra | 916 | 3.5M | 167K | 39.9M | $23.36 | $107.94 | $100.22 |
 | gpt-5.6-luna | 393 | 3.8M | 26K | 4.4M | $4.80 | $11.94 | $53.30 |
-| **Total** | **23,559** | **102.7M** | **4.5M** | **2,147.0M** | **$1,386.25** | **$5,797.09** | **$4,083.90** |
+| **Total** | **23,522** | **102.5M** | **4.5M** | **2,146.0M** | **$1,384.87** | **$5,794.38** | **$4,080.75** |
 
-_2,254.3M total tokens processed. 95.2% cache hit rate._
+_2,253.2M total tokens processed. 95.2% cache hit rate._
 
-_$9,880.98 total saved ($5,797.09 caching + $4,083.90 model routing vs all-Opus)._
+_$9,875.13 total saved ($5,794.38 caching + $4,080.75 model routing vs all-Opus)._
 
 _Model savings are modest because ~95.2% of tokens are cache reads, where price differences between models are small._
 
@@ -97,7 +97,7 @@ _Model savings are modest because ~93.2% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-08-10 20:07 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-08-10 21:07 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <div align="center">
