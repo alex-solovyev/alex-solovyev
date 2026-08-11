@@ -21,7 +21,7 @@
 | Worker/headless AI generation | 1.2h | 19.0h | 78.8h | 1628.7h |
 | Additive observed work | 14.4h | 77.1h | 300.1h | 1,849.9h |
 | Interactive sessions | 5 | 21 | 37 | 37 |
-| Worker sessions | 64 | 572 | 942 | 9,888 |
+| Worker sessions | 66 | 574 | 944 | 9,890 |
 
 _Screen time from linux-wtmp:login-session-proxy; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -97,7 +97,7 @@ _Model savings are modest because ~93.2% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-08-11 04:07 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-08-11 05:07 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <div align="center">
