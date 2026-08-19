@@ -21,7 +21,7 @@
 | Worker/headless AI generation | 6.3h | 15.3h | 50.5h | 1646.0h |
 | Additive observed work | 24.2h | 89.0h | 347.7h | 1,951.3h |
 | Interactive sessions | 9 | 25 | 59 | 62 |
-| Worker sessions | 118 | 447 | 1,211 | 10,363 |
+| Worker sessions | 121 | 450 | 1,214 | 10,366 |
 
 _Screen time from linux-wtmp:login-session-proxy; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -36,14 +36,14 @@ _AI session 365-day totals cover 148 days of local assistant session history (no
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | gpt-5.6-sol | 6,715 | 27.8M | 1.4M | 592.0M | $511.28 | $1,598.58 | $1,129.33 |
-| gpt-5.5 | 9,936 | 53.6M | 2.0M | 1,171.8M | $466.34 | $3,164.11 | $2,171.88 |
-| gpt-5.6-terra | 3,109 | 13.0M | 615K | 192.3M | $97.71 | $519.32 | $424.66 |
+| gpt-5.5 | 9,957 | 53.6M | 2.0M | 1,174.2M | $467.38 | $3,170.37 | $2,176.50 |
+| gpt-5.6-terra | 3,134 | 13.2M | 621K | 193.2M | $98.41 | $521.66 | $427.58 |
 | gpt-5.6-luna | 747 | 7.6M | 54K | 9.2M | $9.51 | $25.04 | $106.10 |
-| **Total** | **20,507** | **102.2M** | **4.1M** | **1,965.5M** | **$1,084.84** | **$5,307.04** | **$3,831.96** |
+| **Total** | **20,553** | **102.3M** | **4.1M** | **1,968.7M** | **$1,086.58** | **$5,315.64** | **$3,839.52** |
 
-_2,071.9M total tokens processed. 94.9% cache hit rate._
+_2,075.2M total tokens processed. 94.9% cache hit rate._
 
-_$9,139.01 total saved ($5,307.04 caching + $3,831.96 model routing vs all-Opus)._
+_$9,155.16 total saved ($5,315.64 caching + $3,839.52 model routing vs all-Opus)._
 
 _Model savings are modest because ~94.9% of tokens are cache reads, where price differences between models are small._
 
@@ -52,11 +52,11 @@ _Model savings are modest because ~94.9% of tokens are cache reads, where price 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | claude-opus-4-6 | 81,888 | 259.0M | 26.4M | 7,484.0M | $26,082.33 | $101,035.04 | $0.00 |
-| gpt-5.5 | 144,808 | 686.1M | 26.6M | 11,183.5M | $5,044.38 | $30,195.56 | $23,251.36 |
+| gpt-5.5 | 144,842 | 686.2M | 26.6M | 11,186.3M | $5,045.66 | $30,203.04 | $23,257.05 |
 | claude-sonnet-4-6 | 71,313 | 148.9M | 22.0M | 6,176.0M | $3,143.34 | $16,675.28 | $10,519.66 |
 | claude-opus-4-7 | 3,029 | 4K | 1.4M | 435.5M | $1,252.30 | $5,880.05 | $0.00 |
 | gpt-5.6-sol | 17,071 | 69.7M | 3.6M | 1,358.0M | $1,213.85 | $3,666.62 | $2,687.50 |
-| gpt-5.6-terra | 3,175 | 13.2M | 626K | 196.2M | $99.47 | $529.89 | $432.57 |
+| gpt-5.6-terra | 3,200 | 13.4M | 632K | 197.1M | $100.17 | $532.23 | $435.50 |
 | gemini-3-flash | 4,744 | 74.7M | 1.6M | 481.6M | $20.68 | $54.19 | $1,939.33 |
 | gpt-5.6-luna | 747 | 7.6M | 54K | 9.2M | $9.51 | $25.04 | $106.10 |
 | claude-haiku-4-5 | 928 | 1K | 204K | 78.4M | $9.30 | $56.46 | $125.90 |
@@ -64,11 +64,11 @@ _Model savings are modest because ~94.9% of tokens are cache reads, where price 
 | big-pickle | 88 | 157K | 15K | 4.5M | $3.36 | $0.00 | $10.34 |
 | claude-sonnet-4 | 87 | 158 | 26K | 6.7M | $3.07 | $18.10 | $9.62 |
 | claude-sonnet-4-5 | 16 | 67 | 4K | 1.7M | $2.00 | $4.65 | $2.34 |
-| **Total** | **329,345** | **1,265.8M** | **83.0M** | **27,493.2M** | **$36,888.09** | **$158,286.06** | **$39,240.06** |
+| **Total** | **329,404** | **1,266.0M** | **83.1M** | **27,496.8M** | **$36,890.07** | **$158,295.88** | **$39,248.67** |
 
-_29,487.2M total tokens processed. 93.2% cache hit rate._
+_29,491.1M total tokens processed. 93.2% cache hit rate._
 
-_$197,526.11 total saved ($158,286.06 caching + $39,240.06 model routing vs all-Opus)._
+_$197,544.55 total saved ($158,295.88 caching + $39,248.67 model routing vs all-Opus)._
 
 _Model savings are modest because ~93.2% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
@@ -97,7 +97,7 @@ _Model savings are modest because ~93.2% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-08-19 08:39 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-08-19 09:08 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <div align="center">
