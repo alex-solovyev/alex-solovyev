@@ -14,7 +14,7 @@
 
 | Metric | Yesterday | Prior 7 Days | Prior 28 Days | Prior 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Linux) | 24h | 168h | 672h | ~8717h* |
+| Screen time (Linux) | 24h | 168h | 672h | ~8718h* |
 | Interactive human attention | 0.9h | 29.3h | 130.6h | 184.9h |
 | Interactive AI generation | 2.3h | 17.8h | 109.4h | 254.3h |
 | Worker-classified human attention | 0.0h | 3.1h | 21.1h | 22.4h |
@@ -37,13 +37,13 @@ _AI session 365-day totals cover 164 days of local assistant session history (no
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | gpt-5.5 | 8,847 | 51.7M | 2.3M | 1,114.1M | $450.51 | $3,008.29 | $2,096.70 |
 | gpt-5.6-terra | 11,328 | 52.9M | 2.3M | 652.2M | $288.88 | $1,760.95 | $1,557.74 |
-| gpt-5.6-sol | 3,047 | 12.7M | 618K | 219.7M | $204.89 | $593.35 | $453.65 |
-| gpt-5.6-luna | 1,923 | 16.8M | 281K | 103.1M | $6.32 | $278.38 | $342.57 |
-| **Total** | **25,145** | **134.3M** | **5.5M** | **2,089.2M** | **$950.60** | **$5,640.97** | **$4,450.67** |
+| gpt-5.6-sol | 2,977 | 12.4M | 606K | 214.5M | $200.22 | $579.32 | $443.36 |
+| gpt-5.6-luna | 1,921 | 16.8M | 281K | 103.1M | $6.31 | $278.38 | $342.25 |
+| **Total** | **25,073** | **134.0M** | **5.5M** | **2,084.0M** | **$945.92** | **$5,626.94** | **$4,440.05** |
 
-_2,229.0M total tokens processed. 93.7% cache hit rate._
+_2,223.5M total tokens processed. 93.7% cache hit rate._
 
-_$10,091.65 total saved ($5,640.97 caching + $4,450.67 model routing vs all-Opus)._
+_$10,067.00 total saved ($5,626.94 caching + $4,440.05 model routing vs all-Opus)._
 
 _Model savings are modest because ~93.7% of tokens are cache reads, where price differences between models are small._
 
@@ -97,7 +97,7 @@ _Model savings are modest because ~93.2% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-09-03 22:18 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-09-03 23:10 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <div align="center">
