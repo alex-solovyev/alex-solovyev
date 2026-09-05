@@ -21,7 +21,7 @@
 | Worker/headless AI generation | 7.8h | 25.6h | 78.1h | 1702.9h |
 | Additive observed work | 21.2h | 75.8h | 340.9h | 2,172.8h |
 | Interactive sessions | 4 | 12 | 46 | 78 |
-| Worker sessions | 110 | 631 | 2,039 | 11,679 |
+| Worker sessions | 116 | 637 | 2,045 | 11,685 |
 
 _Screen time from linux-wtmp:login-session-proxy; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -37,11 +37,12 @@ _AI session 365-day totals cover 165 days of local assistant session history (no
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | gpt-5.6-terra | 12,427 | 56.7M | 2.6M | 701.9M | 92.5% | 955 | 64.3h |
 | gpt-5.5 | 8,138 | 48.4M | 2.1M | 1,009.3M | 95.4% | 46 | 81.3h |
-| gpt-5.6-sol | 2,112 | 9.0M | 486K | 158.1M | 94.6% | 136 | 10.8h |
-| gpt-5.6-luna | 1,960 | 17.0M | 289K | 104.5M | 86.0% | 1,046 | 6.7h |
-| **Total** | **24,637** | **131.1M** | **5.6M** | **1,973.9M** | **93.8%** | **2,182** | **163.0h** |
+| gpt-5.6-sol | 2,075 | 8.8M | 481K | 157.2M | 94.7% | 131 | 10.7h |
+| gpt-5.6-luna | 1,962 | 17.0M | 289K | 104.5M | 86.0% | 1,048 | 6.7h |
+| gpt-6-astra | 12 | 99K | 1K | 278K | 73.8% | 2 | 0.0h |
+| **Total** | **24,614** | **131.1M** | **5.6M** | **1,973.3M** | **93.8%** | **2,181** | **163.0h** |
 
-_2,110.7M total tokens processed. 93.8% cache hit rate._
+_2,110.1M total tokens processed. 93.8% cache hit rate._
 
 ## AI Model Usage (all time)
 
@@ -54,16 +55,17 @@ _2,110.7M total tokens processed. 93.8% cache hit rate._
 | gpt-5.6-terra | 12,494 | 56.9M | 2.6M | 705.8M | 92.5% | 958 | 64.7h |
 | gemini-3-flash | 4,744 | 74.7M | 1.6M | 481.6M | 86.6% | 96 | 19.1h |
 | claude-opus-4-7 | 3,029 | 4K | 1.4M | 435.5M | 100.0% | 24 | 16.5h |
-| gpt-5.6-luna | 2,084 | 18.5M | 294K | 104.6M | 85.0% | 1,170 | 6.8h |
+| gpt-5.6-luna | 2,086 | 18.5M | 294K | 104.6M | 85.0% | 1,172 | 6.8h |
 | gpt-5.4-mini | 1,451 | 6.0M | 181K | 77.4M | 92.7% | 276 | 5.3h |
 | claude-haiku-4-5 | 928 | 1K | 204K | 78.4M | 100.0% | 20 | 3.2h |
 | big-pickle | 88 | 157K | 15K | 4.5M | 96.6% | 4 | 0.1h |
 | claude-sonnet-4 | 87 | 158 | 26K | 6.7M | 100.0% | 2 | 0.2h |
 | gemini-3.1-pro | 27 | 0 | 0 | 0 | 0.0% | 27 | 0.0h |
 | claude-sonnet-4-5 | 16 | 67 | 4K | 1.7M | 100.0% | 2 | 0.0h |
-| **Total** | **344,520** | **1,345.7M** | **86.7M** | **28,642.2M** | **95.5%** | **11,696** | **1,926.7h** |
+| gpt-6-astra | 12 | 99K | 1K | 278K | 73.8% | 2 | 0.0h |
+| **Total** | **344,534** | **1,345.8M** | **86.7M** | **28,642.5M** | **95.5%** | **11,700** | **1,926.7h** |
 
-_30,719.7M total tokens processed. 95.5% cache hit rate._
+_30,720.2M total tokens processed. 95.5% cache hit rate._
 <!-- STATS-END -->
 
 ## Projects
@@ -90,14 +92,20 @@ _30,719.7M total tokens processed. 95.5% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-09-05 03:11 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-09-05 04:11 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
+<!-- TOTAL-CONTRIBUTIONS-START -->
 <div align="center">
-  <a href="https://commit-history.com/alex-solovyev?metric=total">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://commit-history.com/embed/alex-solovyev?theme=dark" />
-    <img alt="alex-solovyev's commit history" src="https://commit-history.com/embed/alex-solovyev" />
-  </picture>
+  <a href="https://commit-history.com/alex-solovyev?metric=total" target="_blank" rel="noopener noreferrer">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/contributions/total-dark.svg" />
+      <img alt="alex-solovyev's cumulative total GitHub contributions" src="assets/contributions/total-light.svg" width="960" />
+    </picture>
   </a>
 </div>
+
+[Verify on commit-history.com](https://commit-history.com/alex-solovyev?metric=total) · [Chart data](assets/contributions/total.json)
+
+Includes commits, issues, pull requests, reviews, repositories, and restricted contributions. Refreshed daily through the prior UTC day; commit-history.com may use a different refresh cutoff. GitHub controls link navigation—Ctrl/Cmd-click opens verification in a new tab.
+<!-- TOTAL-CONTRIBUTIONS-END -->
