@@ -37,11 +37,11 @@ _AI session 365-day totals cover 165 days of local assistant session history (no
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | gpt-5.6-terra | 12,427 | 56.7M | 2.6M | 701.9M | 92.5% | 955 | 64.3h |
 | gpt-5.5 | 8,138 | 48.4M | 2.1M | 1,009.3M | 95.4% | 46 | 81.3h |
-| gpt-5.6-sol | 2,262 | 9.5M | 514K | 167.8M | 94.6% | 143 | 11.3h |
+| gpt-5.6-sol | 2,157 | 9.1M | 494K | 161.1M | 94.6% | 138 | 10.9h |
 | gpt-5.6-luna | 1,958 | 16.9M | 289K | 104.5M | 86.0% | 1,044 | 6.7h |
-| **Total** | **24,785** | **131.7M** | **5.6M** | **1,983.7M** | **93.8%** | **2,187** | **163.6h** |
+| **Total** | **24,680** | **131.3M** | **5.6M** | **1,977.0M** | **93.8%** | **2,182** | **163.2h** |
 
-_2,121.1M total tokens processed. 93.8% cache hit rate._
+_2,113.9M total tokens processed. 93.8% cache hit rate._
 
 ## AI Model Usage (all time)
 
@@ -90,11 +90,11 @@ _30,719.7M total tokens processed. 95.5% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-09-05 01:11 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-09-05 02:05 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <div align="center">
-  <a href="https://commit-history.com/alex-solovyev">
+  <a href="https://commit-history.com/alex-solovyev?metric=total">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://commit-history.com/embed/alex-solovyev?theme=dark" />
     <img alt="alex-solovyev's commit history" src="https://commit-history.com/embed/alex-solovyev" />
