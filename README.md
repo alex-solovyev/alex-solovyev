@@ -39,8 +39,8 @@ _AI session 365-day totals cover 174 days of local assistant session history (no
 | gpt-5.5 | 5,579 | 31.8M | 1.6M | 679.3M | 95.5% | 30 | 69.8h |
 | gpt-5.6-sol | 3,225 | 11.1M | 538K | 214.8M | 95.1% | 166 | 14.4h |
 | gpt-6-astra | 2,371 | 11.3M | 427K | 388.8M | 97.2% | 44 | 13.1h |
-| gpt-5.6-luna | 1,789 | 17.8M | 270K | 99.7M | 84.8% | 966 | 6.1h |
-| **Total** | **27,153** | **139.0M** | **6.1M** | **2,190.7M** | **94%** | **2,197** | **185.6h** |
+| gpt-5.6-luna | 1,787 | 17.8M | 269K | 99.7M | 84.8% | 964 | 6.1h |
+| **Total** | **27,151** | **138.9M** | **6.1M** | **2,190.7M** | **94%** | **2,195** | **185.6h** |
 
 _2,335.9M total tokens processed. 94% cache hit rate._
 
@@ -92,7 +92,7 @@ _31,541.5M total tokens processed. 95.5% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-09-14 01:28 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-09-14 02:06 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
