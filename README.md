@@ -20,8 +20,8 @@
 | Worker-classified human attention | 0.0h | 1.1h | 23.1h | 30.0h |
 | Worker/headless AI generation | 0.5h | 9.1h | 100.6h | 1746.6h |
 | Additive observed work | 23.9h | 155.1h | 447.8h | 2,399.2h |
-| Interactive sessions | 3 | 11 | 28 | 87 |
-| Worker sessions | 63 | 347 | 2,023 | 12,365 |
+| Interactive sessions | 4 | 11 | 28 | 87 |
+| Worker sessions | 66 | 350 | 2,026 | 12,368 |
 
 _Screen time from linux-wtmp:login-session-proxy; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -36,36 +36,36 @@ _AI session 365-day totals cover 176 days of local assistant session history (no
 | Model | Requests | Input | Output | Cache read | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | gpt-5.6-terra | 13,796 | 65.3M | 3.2M | 794.0M | 92.4% | 943 | 80.9h |
-| gpt-5.5 | 5,482 | 30.1M | 1.6M | 695.1M | 95.8% | 27 | 158.2h |
-| gpt-5.6-sol | 3,776 | 12.9M | 546K | 228.0M | 94.6% | 213 | 15.3h |
+| gpt-5.5 | 5,434 | 30.0M | 1.6M | 694.8M | 95.9% | 26 | 156.9h |
+| gpt-5.6-sol | 3,803 | 13.2M | 549K | 229.6M | 94.6% | 216 | 15.4h |
 | gpt-6-astra | 2,673 | 13.4M | 485K | 432.4M | 97.0% | 45 | 19.9h |
-| gpt-5.6-luna | 1,714 | 17.6M | 262K | 98.0M | 84.7% | 920 | 5.9h |
-| **Total** | **27,441** | **139.6M** | **6.1M** | **2,247.6M** | **94.1%** | **2,145** | **280.2h** |
+| gpt-5.6-luna | 1,715 | 17.7M | 262K | 98.0M | 84.7% | 921 | 5.9h |
+| **Total** | **27,421** | **139.8M** | **6.1M** | **2,249.0M** | **94.1%** | **2,147** | **279.0h** |
 
-_2,393.5M total tokens processed. 94.1% cache hit rate._
+_2,395.0M total tokens processed. 94.1% cache hit rate._
 
 ## AI Model Usage (all time)
 
 | Model | Requests | Input | Output | Cache read | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.5 | 149,492 | 712.6M | 28.0M | 11,801.8M | 94.3% | 4,715 | 1,149.1h |
+| gpt-5.5 | 149,524 | 712.6M | 28.0M | 11,806.3M | 94.3% | 4,715 | 1,149.6h |
 | claude-opus-4-6 | 81,888 | 259.0M | 26.4M | 7,484.0M | 96.7% | 2,397 | 384.7h |
 | claude-sonnet-4-6 | 71,313 | 148.9M | 22.0M | 6,176.0M | 97.6% | 1,285 | 276.6h |
-| gpt-5.6-sol | 20,847 | 82.7M | 4.2M | 1,586.0M | 95.0% | 931 | 114.7h |
+| gpt-5.6-sol | 20,874 | 82.9M | 4.2M | 1,587.6M | 95.0% | 934 | 114.8h |
 | gpt-5.6-terra | 15,949 | 74.2M | 3.6M | 921.0M | 92.5% | 1,158 | 92.2h |
 | gemini-3-flash | 4,744 | 74.7M | 1.6M | 481.6M | 86.6% | 96 | 19.1h |
 | claude-opus-4-7 | 3,029 | 4K | 1.4M | 435.5M | 100.0% | 24 | 16.5h |
 | gpt-6-astra | 2,673 | 13.4M | 485K | 432.4M | 97.0% | 45 | 19.9h |
-| gpt-5.6-luna | 2,347 | 24.3M | 306K | 105.0M | 81.2% | 1,427 | 7.2h |
+| gpt-5.6-luna | 2,348 | 24.3M | 306K | 105.0M | 81.2% | 1,428 | 7.2h |
 | gpt-5.4-mini | 1,451 | 6.0M | 181K | 77.4M | 92.7% | 276 | 5.3h |
 | claude-haiku-4-5 | 928 | 1K | 204K | 78.4M | 100.0% | 20 | 3.2h |
 | big-pickle | 88 | 157K | 15K | 4.5M | 96.6% | 4 | 0.1h |
 | claude-sonnet-4 | 87 | 158 | 26K | 6.7M | 100.0% | 2 | 0.2h |
 | gemini-3.1-pro | 27 | 0 | 0 | 0 | 0.0% | 27 | 0.0h |
 | claude-sonnet-4-5 | 16 | 67 | 4K | 1.7M | 100.0% | 2 | 0.0h |
-| **Total** | **354,879** | **1,396.4M** | **88.8M** | **29,592.6M** | **95.5%** | **12,383** | **2,088.8h** |
+| **Total** | **354,939** | **1,396.7M** | **88.8M** | **29,598.7M** | **95.5%** | **12,386** | **2,089.3h** |
 
-_31,723.0M total tokens processed. 95.5% cache hit rate._
+_31,729.4M total tokens processed. 95.5% cache hit rate._
 <!-- STATS-END -->
 
 ## Projects
@@ -92,7 +92,7 @@ _31,723.0M total tokens processed. 95.5% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-09-16 14:17 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-09-16 15:13 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
