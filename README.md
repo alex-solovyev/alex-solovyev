@@ -35,14 +35,14 @@ _AI session 365-day totals cover 180 days of local assistant session history (no
 
 | Model | Requests | Input | Output | Cache read | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.6-terra | 11,985 | 57.5M | 2.8M | 665.3M | 92.0% | 831 | 70.1h |
-| gpt-5.6-sol | 5,300 | 17.5M | 708K | 319.0M | 94.8% | 317 | 21.4h |
-| gpt-5.5 | 4,438 | 23.3M | 1.2M | 602.1M | 96.3% | 13 | 156.4h |
+| gpt-5.6-terra | 11,978 | 57.5M | 2.8M | 664.9M | 92.0% | 831 | 70.0h |
+| gpt-5.6-sol | 5,313 | 17.6M | 710K | 321.5M | 94.8% | 317 | 21.5h |
+| gpt-5.5 | 4,424 | 23.3M | 1.2M | 599.9M | 96.3% | 13 | 156.3h |
 | gpt-6-astra | 3,097 | 15.2M | 541K | 503.3M | 97.1% | 46 | 58.1h |
 | gpt-5.6-luna | 1,056 | 13.4M | 98K | 22.9M | 63.1% | 859 | 2.8h |
-| **Total** | **25,876** | **127.1M** | **5.4M** | **2,112.8M** | **94.3%** | **2,062** | **308.8h** |
+| **Total** | **25,868** | **127.1M** | **5.4M** | **2,112.7M** | **94.3%** | **2,062** | **308.7h** |
 
-_2,245.4M total tokens processed. 94.3% cache hit rate._
+_2,245.2M total tokens processed. 94.3% cache hit rate._
 
 ## AI Model Usage (all time)
 
@@ -51,7 +51,7 @@ _2,245.4M total tokens processed. 94.3% cache hit rate._
 | gpt-5.5 | 150,250 | 714.9M | 28.2M | 11,912.6M | 94.3% | 4,715 | 1,173.2h |
 | claude-opus-4-6 | 81,888 | 259.0M | 26.4M | 7,484.0M | 96.7% | 2,397 | 384.7h |
 | claude-sonnet-4-6 | 71,313 | 148.9M | 22.0M | 6,176.0M | 97.6% | 1,285 | 276.6h |
-| gpt-5.6-sol | 22,506 | 88.1M | 4.4M | 1,687.9M | 95.0% | 1,040 | 121.4h |
+| gpt-5.6-sol | 22,519 | 88.2M | 4.4M | 1,690.5M | 95.0% | 1,040 | 121.5h |
 | gpt-5.6-terra | 16,296 | 77.0M | 3.7M | 941.7M | 92.4% | 1,193 | 93.9h |
 | gemini-3-flash | 4,744 | 74.7M | 1.6M | 481.6M | 86.6% | 96 | 19.1h |
 | gpt-6-astra | 3,097 | 15.2M | 541K | 503.3M | 97.1% | 46 | 58.1h |
@@ -63,9 +63,9 @@ _2,245.4M total tokens processed. 94.3% cache hit rate._
 | claude-sonnet-4 | 87 | 158 | 26K | 6.7M | 100.0% | 2 | 0.2h |
 | gemini-3.1-pro | 27 | 0 | 0 | 0 | 0.0% | 27 | 0.0h |
 | claude-sonnet-4-5 | 16 | 67 | 4K | 1.7M | 100.0% | 2 | 0.0h |
-| **Total** | **358,156** | **1,410.5M** | **89.3M** | **29,897.2M** | **95.5%** | **12,616** | **2,159.6h** |
+| **Total** | **358,169** | **1,410.5M** | **89.3M** | **29,899.8M** | **95.5%** | **12,616** | **2,159.7h** |
 
-_32,042.1M total tokens processed. 95.5% cache hit rate._
+_32,044.7M total tokens processed. 95.5% cache hit rate._
 <!-- STATS-END -->
 
 ## Projects
@@ -92,7 +92,7 @@ _32,042.1M total tokens processed. 95.5% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-09-20 18:10 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-09-20 18:15 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
