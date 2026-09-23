@@ -16,12 +16,12 @@
 | --- | ---: | ---: | ---: | ---: |
 | Screen time (Linux) | 24h | 168h | 672h | ~8721h* |
 | Interactive human attention | 6.7h | 33.0h | 146.7h | 278.2h |
-| Interactive AI generation | 18.2h | 100.6h | 253.0h | 483.4h |
+| Interactive AI generation | 20.6h | 103.0h | 255.4h | 485.8h |
 | Worker-classified human attention | 0.0h | 1.8h | 14.3h | 31.8h |
 | Worker/headless AI generation | 2.6h | 17.6h | 92.9h | 1764.2h |
-| Additive observed work | 27.5h | 152.9h | 505.7h | 2,552.0h |
+| Additive observed work | 29.9h | 155.3h | 508.1h | 2,554.4h |
 | Interactive sessions | 6 | 15 | 34 | 98 |
-| Worker sessions | 38 | 353 | 1,870 | 12,688 |
+| Worker sessions | 39 | 354 | 1,871 | 12,689 |
 
 _Screen time from linux-wtmp:login-session-proxy; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -35,25 +35,25 @@ _AI session 365-day totals cover 183 days of local assistant session history (no
 
 | Model | Requests | Input | Output | Cache read | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.6-terra | 11,706 | 56.6M | 2.7M | 657.7M | 92.1% | 813 | 67.8h |
-| gpt-5.6-sol | 6,811 | 23.5M | 991K | 521.2M | 95.7% | 346 | 30.7h |
-| gpt-5.5 | 4,903 | 24.1M | 1.2M | 674.9M | 96.6% | 13 | 176.4h |
+| gpt-5.6-terra | 11,636 | 56.4M | 2.7M | 651.5M | 92.0% | 810 | 67.3h |
+| gpt-5.6-sol | 6,860 | 23.6M | 1.0M | 527.3M | 95.7% | 346 | 30.9h |
+| gpt-5.5 | 4,917 | 24.2M | 1.2M | 676.7M | 96.5% | 13 | 192.7h |
 | gpt-6-astra | 3,704 | 18.2M | 632K | 650.8M | 97.3% | 46 | 61.7h |
-| gpt-5.6-luna | 833 | 11.6M | 40K | 4.9M | 29.9% | 777 | 1.3h |
+| gpt-5.6-luna | 831 | 11.6M | 40K | 4.9M | 29.9% | 775 | 1.3h |
 | gpt-6-sol | 61 | 366K | 6K | 2.0M | 84.9% | 11 | 0.3h |
-| **Total** | **28,018** | **134.6M** | **5.7M** | **2,511.8M** | **94.9%** | **2,000** | **338.1h** |
+| **Total** | **28,009** | **134.7M** | **5.7M** | **2,513.5M** | **94.9%** | **1,995** | **354.3h** |
 
-_2,652.1M total tokens processed. 94.9% cache hit rate._
+_2,654.0M total tokens processed. 94.9% cache hit rate._
 
 ## AI Model Usage (all time)
 
 | Model | Requests | Input | Output | Cache read | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.5 | 151,037 | 716.8M | 28.3M | 12,029.3M | 94.4% | 4,715 | 1,196.7h |
+| gpt-5.5 | 151,051 | 717.0M | 28.3M | 12,031.2M | 94.4% | 4,715 | 1,213.1h |
 | claude-opus-4-6 | 81,888 | 259.0M | 26.4M | 7,484.0M | 96.7% | 2,397 | 384.7h |
 | claude-sonnet-4-6 | 71,313 | 148.9M | 22.0M | 6,176.0M | 97.6% | 1,285 | 276.6h |
-| gpt-5.6-sol | 24,128 | 94.4M | 4.7M | 1,895.4M | 95.3% | 1,075 | 131.4h |
-| gpt-5.6-terra | 17,032 | 80.7M | 3.8M | 1,001.3M | 92.5% | 1,238 | 98.0h |
+| gpt-5.6-sol | 24,177 | 94.6M | 4.7M | 1,901.5M | 95.3% | 1,075 | 131.7h |
+| gpt-5.6-terra | 17,042 | 80.7M | 3.8M | 1,001.7M | 92.5% | 1,239 | 98.0h |
 | gemini-3-flash | 4,744 | 74.7M | 1.6M | 481.6M | 86.6% | 96 | 19.1h |
 | gpt-6-astra | 3,704 | 18.2M | 632K | 650.8M | 97.3% | 46 | 61.7h |
 | claude-opus-4-7 | 3,029 | 4K | 1.4M | 435.5M | 100.0% | 24 | 16.5h |
@@ -65,9 +65,9 @@ _2,652.1M total tokens processed. 94.9% cache hit rate._
 | gpt-6-sol | 61 | 366K | 6K | 2.0M | 84.9% | 11 | 0.3h |
 | gemini-3.1-pro | 27 | 0 | 0 | 0 | 0.0% | 27 | 0.0h |
 | claude-sonnet-4-5 | 16 | 67 | 4K | 1.7M | 100.0% | 2 | 0.0h |
-| **Total** | **361,997** | **1,426.2M** | **90.0M** | **30,431.4M** | **95.5%** | **12,714** | **2,201.2h** |
+| **Total** | **362,070** | **1,426.6M** | **90.0M** | **30,439.8M** | **95.5%** | **12,715** | **2,217.8h** |
 
-_32,592.8M total tokens processed. 95.5% cache hit rate._
+_32,601.5M total tokens processed. 95.5% cache hit rate._
 <!-- STATS-END -->
 
 ## Projects
@@ -94,7 +94,7 @@ _32,592.8M total tokens processed. 95.5% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-09-23 11:33 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-09-23 12:16 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
