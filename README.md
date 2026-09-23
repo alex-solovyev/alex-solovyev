@@ -36,14 +36,14 @@ _AI session 365-day totals cover 183 days of local assistant session history (no
 | Model | Requests | Input | Output | Cache read | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | gpt-5.6-terra | 11,378 | 54.8M | 2.6M | 629.0M | 92.0% | 802 | 65.7h |
-| gpt-5.6-sol | 7,349 | 25.0M | 1.0M | 599.8M | 96.0% | 346 | 34.4h |
-| gpt-5.5 | 4,721 | 23.0M | 1.2M | 651.3M | 96.6% | 13 | 193.0h |
+| gpt-5.6-sol | 7,358 | 25.0M | 1.0M | 601.8M | 96.0% | 346 | 34.4h |
+| gpt-5.5 | 4,712 | 23.0M | 1.2M | 650.0M | 96.6% | 13 | 193.0h |
 | gpt-6-astra | 3,756 | 18.9M | 640K | 658.0M | 97.2% | 47 | 62.0h |
 | gpt-5.6-luna | 823 | 11.5M | 40K | 4.9M | 30.1% | 767 | 1.3h |
 | gpt-6-sol | 79 | 523K | 8K | 2.5M | 83.2% | 15 | 0.4h |
-| **Total** | **28,106** | **133.8M** | **5.6M** | **2,545.9M** | **95%** | **1,984** | **356.7h** |
+| **Total** | **28,106** | **133.8M** | **5.6M** | **2,546.6M** | **95%** | **1,984** | **356.7h** |
 
-_2,685.5M total tokens processed. 95% cache hit rate._
+_2,686.1M total tokens processed. 95% cache hit rate._
 
 ## AI Model Usage (all time)
 
@@ -52,7 +52,7 @@ _2,685.5M total tokens processed. 95% cache hit rate._
 | gpt-5.5 | 151,181 | 717.2M | 28.4M | 12,054.1M | 94.4% | 4,715 | 1,215.7h |
 | claude-opus-4-6 | 81,888 | 259.0M | 26.4M | 7,484.0M | 96.7% | 2,397 | 384.7h |
 | claude-sonnet-4-6 | 71,313 | 148.9M | 22.0M | 6,176.0M | 97.6% | 1,285 | 276.6h |
-| gpt-5.6-sol | 24,666 | 95.9M | 4.8M | 1,974.1M | 95.4% | 1,075 | 135.1h |
+| gpt-5.6-sol | 24,675 | 95.9M | 4.8M | 1,976.1M | 95.4% | 1,075 | 135.2h |
 | gpt-5.6-terra | 17,064 | 80.9M | 3.8M | 1,002.7M | 92.5% | 1,242 | 98.2h |
 | gemini-3-flash | 4,744 | 74.7M | 1.6M | 481.6M | 86.6% | 96 | 19.1h |
 | gpt-6-astra | 3,756 | 18.9M | 640K | 658.0M | 97.2% | 47 | 62.0h |
@@ -65,9 +65,9 @@ _2,685.5M total tokens processed. 95% cache hit rate._
 | gpt-6-sol | 79 | 523K | 8K | 2.5M | 83.2% | 15 | 0.4h |
 | gemini-3.1-pro | 27 | 0 | 0 | 0 | 0.0% | 27 | 0.0h |
 | claude-sonnet-4-5 | 16 | 67 | 4K | 1.7M | 100.0% | 2 | 0.0h |
-| **Total** | **362,781** | **1,429.0M** | **90.1M** | **30,544.0M** | **95.5%** | **12,723** | **2,224.4h** |
+| **Total** | **362,790** | **1,429.0M** | **90.1M** | **30,546.0M** | **95.5%** | **12,723** | **2,224.5h** |
 
-_32,708.3M total tokens processed. 95.5% cache hit rate._
+_32,710.3M total tokens processed. 95.5% cache hit rate._
 <!-- STATS-END -->
 
 ## Projects
@@ -94,7 +94,7 @@ _32,708.3M total tokens processed. 95.5% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-09-23 18:12 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-09-23 18:16 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
