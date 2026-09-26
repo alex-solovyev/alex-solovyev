@@ -35,15 +35,15 @@ _AI session 365-day totals cover 186 days of local assistant session history (no
 
 | Model | Requests | Input | Output | Cache read | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.6-terra | 10,252 | 48.0M | 2.4M | 565.4M | 92.2% | 699 | 60.2h |
+| gpt-5.6-terra | 10,236 | 47.9M | 2.4M | 564.8M | 92.2% | 697 | 60.1h |
 | gpt-5.6-sol | 7,595 | 25.3M | 1.0M | 639.0M | 96.2% | 339 | 36.1h |
 | gpt-5.5 | 4,955 | 21.5M | 1.1M | 694.2M | 97.0% | 13 | 215.5h |
 | gpt-6-astra | 4,262 | 20.3M | 718K | 751.4M | 97.4% | 49 | 64.4h |
 | gpt-6-sol | 768 | 4.0M | 93K | 55.2M | 93.2% | 76 | 4.2h |
 | gpt-5.6-luna | 752 | 10.6M | 37K | 5.5M | 34.4% | 673 | 1.1h |
-| **Total** | **28,584** | **130.0M** | **5.5M** | **2,710.9M** | **95.4%** | **1,844** | **381.6h** |
+| **Total** | **28,568** | **129.9M** | **5.5M** | **2,710.3M** | **95.4%** | **1,842** | **381.5h** |
 
-_2,846.5M total tokens processed. 95.4% cache hit rate._
+_2,845.9M total tokens processed. 95.4% cache hit rate._
 
 ## AI Model Usage (all time)
 
@@ -94,7 +94,7 @@ _33,058.6M total tokens processed. 95.5% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-09-26 10:09 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-09-26 10:16 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
