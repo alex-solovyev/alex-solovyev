@@ -35,21 +35,21 @@ _AI session 365-day totals cover 190 days of local assistant session history (no
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.6-terra | 8,641 | 40.2M | 2.1M | 498.7M | 0 | 92.5% | 541 | 54.1h |
-| gpt-5.6-sol | 7,575 | 25.2M | 1.0M | 638.3M | 0 | 96.2% | 339 | 36.0h |
+| gpt-5.6-terra | 8,626 | 40.1M | 2.1M | 498.3M | 0 | 92.5% | 539 | 54.1h |
+| gpt-5.6-sol | 7,531 | 25.1M | 1.0M | 635.1M | 0 | 96.2% | 338 | 35.7h |
 | gpt-5.5 | 5,559 | 21.1M | 1.1M | 761.0M | 0 | 97.3% | 16 | 221.1h |
 | gpt-6-sol | 5,076 | 17.8M | 654K | 337.9M | 0 | 95.0% | 277 | 27.0h |
 | gpt-6-astra | 4,262 | 20.3M | 718K | 751.4M | 0 | 97.4% | 49 | 64.4h |
 | claude-opus-5-5 | 1,507 | 3K | 543K | 201.3M | 6.7M | 96.7% | 33 | 7.1h |
 | claude-sonnet-5-5 | 1,249 | 2K | 419K | 115.2M | 10.1M | 91.9% | 42 | 21.8h |
-| gpt-5.6-luna | 596 | 9.7M | 31K | 4.4M | 0 | 31.1% | 517 | 0.9h |
+| gpt-5.6-luna | 594 | 9.7M | 31K | 4.3M | 0 | 31.0% | 515 | 0.9h |
 | claude-haiku-4-5 | 158 | 839 | 42K | 14.6M | 1.7M | 89.4% | 1 | 1.8h |
 | claude-sonnet-4-6 | 50 | 52 | 8K | 4.0M | 125K | 97.0% | 1 | 0.1h |
 | gpt-6-luna | 23 | 374K | 5K | 0 | 0 | 0.0% | 11 | 0.0h |
 | claude-sonnet-4-5 | 1 | 3 | 9 | 0 | 35K | 0.0% | 1 | 0.0h |
-| **Total** | **34,697** | **134.9M** | **6.8M** | **3,327.2M** | **18.8M** | **95.6%** | **1,809** | **434.4h** |
+| **Total** | **34,636** | **134.8M** | **6.8M** | **3,323.5M** | **18.8M** | **95.6%** | **1,804** | **434.1h** |
 
-_3,487.8M total tokens processed. 95.6% cache hit rate._
+_3,484.1M total tokens processed. 95.6% cache hit rate._
 
 ## AI Model Usage (all time)
 
@@ -103,7 +103,7 @@ _33,846.7M total tokens processed. 93.7% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-09-30 15:32 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-09-30 16:32 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
