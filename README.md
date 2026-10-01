@@ -42,12 +42,12 @@ _AI session 365-day totals cover 191 days of local assistant session history (no
 | gpt-6-astra | 4,262 | 20.3M | 718K | 751.4M | 0 | 97.4% | 49 | 64.4h |
 | claude-opus-5-5 | 1,667 | 3K | 589K | 224.0M | 7.6M | 96.7% | 34 | 7.7h |
 | claude-sonnet-5-5 | 1,419 | 3K | 464K | 136.1M | 10.8M | 92.6% | 46 | 23.6h |
-| gpt-5.6-luna | 580 | 9.7M | 31K | 4.2M | 0 | 30.6% | 501 | 0.9h |
+| gpt-5.6-luna | 578 | 9.6M | 31K | 4.2M | 0 | 30.6% | 499 | 0.9h |
 | claude-haiku-4-5 | 158 | 839 | 42K | 14.6M | 1.7M | 89.4% | 1 | 1.8h |
 | claude-sonnet-4-6 | 50 | 52 | 8K | 4.0M | 125K | 97.0% | 1 | 0.1h |
 | gpt-6-luna | 23 | 374K | 5K | 0 | 0 | 0.0% | 11 | 0.0h |
 | claude-sonnet-4-5 | 1 | 3 | 9 | 0 | 35K | 0.0% | 1 | 0.0h |
-| **Total** | **34,807** | **134.0M** | **6.9M** | **3,361.7M** | **20.4M** | **95.6%** | **1,781** | **435.9h** |
+| **Total** | **34,805** | **133.9M** | **6.9M** | **3,361.7M** | **20.4M** | **95.6%** | **1,779** | **435.9h** |
 
 _3,523.1M total tokens processed. 95.6% cache hit rate._
 
@@ -103,7 +103,7 @@ _33,892.1M total tokens processed. 93.7% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-10-01 01:32 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-10-01 02:32 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
