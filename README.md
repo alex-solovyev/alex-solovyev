@@ -15,13 +15,13 @@
 | Metric | Yesterday | Prior 7 Days | Prior 28 Days | Prior 365 Days |
 | --- | ---: | ---: | ---: | ---: |
 | Screen time (Linux) | 24h | 167.9h | 671.9h | ~8723h* |
-| Interactive human attention | 0.0h | 34.2h | 137.6h | 331.2h |
-| Interactive AI generation | 0.1h | 63.5h | 345.4h | 604.3h |
-| Worker-classified human attention | 0.2h | 9.4h | 19.5h | 41.9h |
-| Worker/headless AI generation | 1.7h | 48.4h | 114.6h | 1817.5h |
-| Additive observed work | 2.1h | 150.9h | 611.9h | 2,784.7h |
-| Interactive sessions | 2 | 40 | 66 | 141 |
-| Worker sessions | 34 | 333 | 1,431 | 13,093 |
+| Interactive human attention | 0.0h | 32.7h | 137.6h | 331.2h |
+| Interactive AI generation | 0.0h | 62.5h | 344.2h | 604.3h |
+| Worker-classified human attention | 0.1h | 9.4h | 16.5h | 42.0h |
+| Worker/headless AI generation | 0.7h | 47.9h | 106.9h | 1818.1h |
+| Additive observed work | 0.8h | 148.0h | 600.0h | 2,785.5h |
+| Interactive sessions | 0 | 33 | 66 | 141 |
+| Worker sessions | 15 | 311 | 1,313 | 13,093 |
 
 _Screen time from linux-wtmp:login-session-proxy; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -105,7 +105,7 @@ _34,140.4M total tokens processed. 93.7% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-10-03 21:32 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-10-03 22:32 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
