@@ -36,21 +36,21 @@ _AI session 365-day totals cover 193 days of local assistant session history (no
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | gpt-5.6-sol | 7,353 | 24.4M | 1.0M | 619.7M | 0 | 96.2% | 331 | 34.5h |
-| gpt-5.6-terra | 6,052 | 29.1M | 1.6M | 366.1M | 0 | 92.6% | 364 | 42.1h |
+| gpt-5.6-terra | 5,931 | 28.8M | 1.5M | 361.5M | 0 | 92.6% | 358 | 41.0h |
 | gpt-6-sol | 5,076 | 17.8M | 654K | 337.9M | 0 | 95.0% | 277 | 27.0h |
-| gpt-5.5 | 4,942 | 17.1M | 1.0M | 673.1M | 0 | 97.5% | 15 | 213.8h |
+| gpt-5.5 | 4,853 | 16.8M | 1.0M | 659.7M | 0 | 97.5% | 15 | 212.8h |
 | gpt-6-astra | 4,262 | 20.3M | 718K | 751.4M | 0 | 97.4% | 49 | 64.4h |
 | claude-sonnet-5-5 | 2,658 | 5K | 973K | 276.2M | 19.6M | 93.4% | 105 | 29.5h |
 | claude-opus-5-5 | 2,277 | 4K | 752K | 313.6M | 11.0M | 96.6% | 36 | 45.7h |
-| gpt-5.6-luna | 488 | 8.8M | 27K | 3.9M | 0 | 30.8% | 409 | 0.8h |
+| gpt-5.6-luna | 486 | 8.8M | 27K | 3.9M | 0 | 30.8% | 407 | 0.8h |
 | claude-haiku-4-5 | 158 | 839 | 42K | 14.6M | 1.7M | 89.4% | 1 | 1.8h |
 | claude-sonnet-4-6 | 131 | 139 | 25K | 9.5M | 335K | 96.6% | 4 | 0.3h |
 | gpt-6-luna | 27 | 374K | 5K | 0 | 0 | 0.0% | 13 | 0.0h |
 | claude-sonnet-4-5 | 1 | 3 | 9 | 0 | 35K | 0.0% | 1 | 0.0h |
 | gpt-6.1-sol | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **33,426** | **118.2M** | **6.8M** | **3,366.5M** | **32.8M** | **95.7%** | **1,583** | **460.0h** |
+| **Total** | **33,214** | **117.5M** | **6.8M** | **3,348.5M** | **32.8M** | **95.7%** | **1,575** | **457.9h** |
 
-_3,524.5M total tokens processed. 95.7% cache hit rate._
+_3,505.7M total tokens processed. 95.7% cache hit rate._
 
 ## AI Model Usage (all time)
 
@@ -105,7 +105,7 @@ _34,140.4M total tokens processed. 93.7% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-10-03 18:32 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-10-03 19:32 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
