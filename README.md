@@ -21,7 +21,7 @@
 | Worker/headless AI generation | 0.7h | 47.9h | 106.9h | 1818.1h |
 | Additive observed work | 0.8h | 148.0h | 600.0h | 2,785.5h |
 | Interactive sessions | 0 | 33 | 66 | 141 |
-| Worker sessions | 25 | 321 | 1,323 | 13,103 |
+| Worker sessions | 27 | 323 | 1,325 | 13,105 |
 
 _Screen time from linux-wtmp:login-session-proxy; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -35,22 +35,22 @@ _AI session 365-day totals cover 194 days of local assistant session history (no
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.6-sol | 7,255 | 24.2M | 981K | 613.5M | 0 | 96.2% | 329 | 33.8h |
-| gpt-5.6-terra | 5,888 | 28.6M | 1.5M | 359.5M | 0 | 92.6% | 354 | 40.8h |
+| gpt-5.6-sol | 7,180 | 24.0M | 966K | 610.1M | 0 | 96.2% | 327 | 33.4h |
+| gpt-5.6-terra | 5,877 | 28.5M | 1.5M | 359.3M | 0 | 92.6% | 353 | 40.7h |
 | gpt-6-sol | 5,076 | 17.8M | 654K | 337.9M | 0 | 95.0% | 277 | 27.0h |
-| gpt-5.5 | 4,806 | 16.3M | 1.0M | 656.9M | 0 | 97.6% | 15 | 212.6h |
+| gpt-5.5 | 4,738 | 16.2M | 1.0M | 651.4M | 0 | 97.6% | 14 | 212.2h |
 | gpt-6-astra | 4,262 | 20.3M | 718K | 751.4M | 0 | 97.4% | 49 | 64.4h |
-| claude-sonnet-5-5 | 2,755 | 5K | 997K | 281.2M | 20.0M | 93.3% | 114 | 30.0h |
+| claude-sonnet-5-5 | 2,777 | 6K | 1.0M | 282.4M | 20.1M | 93.3% | 116 | 30.1h |
 | claude-opus-5-5 | 2,277 | 4K | 752K | 313.6M | 11.0M | 96.6% | 36 | 45.7h |
-| gpt-5.6-luna | 436 | 8.5M | 19K | 2.4M | 0 | 22.6% | 388 | 0.6h |
+| gpt-5.6-luna | 434 | 8.5M | 19K | 2.4M | 0 | 22.6% | 386 | 0.6h |
 | claude-haiku-4-5 | 158 | 839 | 42K | 14.6M | 1.7M | 89.4% | 1 | 1.8h |
 | claude-sonnet-4-6 | 132 | 142 | 25K | 9.5M | 351K | 96.5% | 5 | 0.4h |
 | gpt-6-luna | 27 | 374K | 5K | 0 | 0 | 0.0% | 13 | 0.0h |
 | claude-sonnet-4-5 | 1 | 3 | 9 | 0 | 35K | 0.0% | 1 | 0.0h |
 | gpt-6.1-sol | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **33,074** | **116.3M** | **6.8M** | **3,341.0M** | **33.2M** | **95.7%** | **1,560** | **457.1h** |
+| **Total** | **32,940** | **115.9M** | **6.7M** | **3,333.1M** | **33.3M** | **95.7%** | **1,556** | **456.4h** |
 
-_3,497.4M total tokens processed. 95.7% cache hit rate._
+_3,489.2M total tokens processed. 95.7% cache hit rate._
 
 ## AI Model Usage (all time)
 
@@ -65,7 +65,7 @@ _3,497.4M total tokens processed. 95.7% cache hit rate._
 | gemini-3-flash | 4,744 | 74.7M | 1.6M | 481.6M | 0 | 86.6% | 96 | 19.1h |
 | gpt-6-astra | 4,262 | 20.3M | 718K | 751.4M | 0 | 97.4% | 49 | 64.4h |
 | claude-opus-4-7 | 3,029 | 4K | 1.4M | 435.5M | 25.9M | 94.4% | 24 | 16.5h |
-| claude-sonnet-5-5 | 2,755 | 5K | 997K | 281.2M | 20.0M | 93.3% | 114 | 30.0h |
+| claude-sonnet-5-5 | 2,777 | 6K | 1.0M | 282.4M | 20.1M | 93.3% | 116 | 30.1h |
 | gpt-5.6-luna | 2,488 | 26.6M | 312K | 107.1M | 0 | 80.1% | 1,526 | 7.4h |
 | claude-opus-5-5 | 2,277 | 4K | 752K | 313.6M | 11.0M | 96.6% | 36 | 45.7h |
 | gpt-5.4-mini | 1,451 | 6.0M | 181K | 77.4M | 0 | 92.7% | 276 | 5.3h |
@@ -76,9 +76,9 @@ _3,497.4M total tokens processed. 95.7% cache hit rate._
 | gpt-6-luna | 27 | 374K | 5K | 0 | 0 | 0.0% | 13 | 0.0h |
 | claude-sonnet-4-5 | 17 | 70 | 4K | 1.7M | 413K | 80.6% | 3 | 0.0h |
 | gpt-6.1-sol | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **376,271** | **1,457.3M** | **93.1M** | **31,917.0M** | **678.2M** | **93.7%** | **13,164** | **2,373.6h** |
+| **Total** | **376,293** | **1,457.3M** | **93.1M** | **31,918.2M** | **678.3M** | **93.7%** | **13,166** | **2,373.7h** |
 
-_34,145.8M total tokens processed. 93.7% cache hit rate._
+_34,147.1M total tokens processed. 93.7% cache hit rate._
 <!-- STATS-END -->
 
 ## Projects
@@ -105,7 +105,7 @@ _34,145.8M total tokens processed. 93.7% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-10-04 07:33 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-10-04 08:33 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
