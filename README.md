@@ -36,21 +36,21 @@ _AI session 365-day totals cover 196 days of local assistant session history (no
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | claude-sonnet-5-5 | 7,958 | 16K | 2.8M | 941.5M | 48.5M | 95.1% | 280 | 57.9h |
-| gpt-5.6-sol | 7,167 | 24.0M | 964K | 609.4M | 0 | 96.2% | 326 | 33.3h |
+| gpt-5.6-sol | 7,135 | 23.9M | 961K | 607.9M | 0 | 96.2% | 324 | 33.3h |
 | gpt-6-sol | 5,076 | 17.8M | 654K | 337.9M | 0 | 95.0% | 277 | 27.0h |
 | gpt-5.5 | 4,627 | 15.6M | 995K | 639.3M | 0 | 97.6% | 14 | 208.3h |
 | gpt-5.6-terra | 3,543 | 17.7M | 901K | 216.8M | 0 | 92.4% | 225 | 27.0h |
 | gpt-6-astra | 3,393 | 15.8M | 538K | 676.7M | 0 | 97.7% | 10 | 58.7h |
 | claude-opus-5-5 | 3,232 | 6K | 1.0M | 446.2M | 14.1M | 96.9% | 57 | 50.1h |
-| gpt-5.6-luna | 345 | 6.9M | 14K | 2.1M | 0 | 23.6% | 303 | 0.4h |
+| gpt-5.6-luna | 343 | 6.9M | 13K | 2.1M | 0 | 23.8% | 301 | 0.4h |
 | claude-haiku-4-5 | 158 | 839 | 42K | 14.6M | 1.7M | 89.4% | 1 | 1.8h |
 | claude-sonnet-4-6 | 132 | 142 | 25K | 9.5M | 351K | 96.5% | 5 | 0.4h |
 | gpt-6-luna | 27 | 374K | 5K | 0 | 0 | 0.0% | 13 | 0.0h |
 | claude-sonnet-4-5 | 1 | 3 | 9 | 0 | 35K | 0.0% | 1 | 0.0h |
 | gpt-6.1-sol | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **35,660** | **98.4M** | **8.0M** | **3,894.5M** | **64.8M** | **96%** | **1,486** | **464.9h** |
+| **Total** | **35,626** | **98.3M** | **8.0M** | **3,893.0M** | **64.8M** | **96%** | **1,482** | **464.9h** |
 
-_4,065.8M total tokens processed. 96% cache hit rate._
+_4,064.3M total tokens processed. 96% cache hit rate._
 
 ## AI Model Usage (all time)
 
@@ -105,7 +105,7 @@ _34,972.5M total tokens processed. 93.8% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-10-06 19:33 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-10-06 20:33 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
