@@ -20,8 +20,8 @@
 | Worker-classified human attention | 3.4h | 9.5h | 17.5h | 45.6h |
 | Worker/headless AI generation | 17.2h | 53.6h | 103.7h | 1837.0h |
 | Additive observed work | 21.5h | 134.7h | 581.0h | 2,808.8h |
-| Interactive sessions | 6 | 33 | 71 | 146 |
-| Worker sessions | 165 | 374 | 1,330 | 13,281 |
+| Interactive sessions | 7 | 34 | 72 | 147 |
+| Worker sessions | 172 | 381 | 1,337 | 13,288 |
 
 _Screen time from linux-wtmp:login-session-proxy; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -35,22 +35,22 @@ _AI session 365-day totals cover 196 days of local assistant session history (no
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-sonnet-5-5 | 7,958 | 16K | 2.8M | 941.5M | 48.5M | 95.1% | 280 | 57.9h |
+| claude-sonnet-5-5 | 8,071 | 17K | 2.8M | 955.4M | 49.0M | 95.1% | 284 | 58.5h |
 | gpt-5.6-sol | 7,135 | 23.9M | 961K | 607.9M | 0 | 96.2% | 324 | 33.3h |
 | gpt-6-sol | 5,076 | 17.8M | 654K | 337.9M | 0 | 95.0% | 277 | 27.0h |
 | gpt-5.5 | 4,627 | 15.6M | 995K | 639.3M | 0 | 97.6% | 14 | 208.3h |
 | gpt-5.6-terra | 3,543 | 17.7M | 901K | 216.8M | 0 | 92.4% | 225 | 27.0h |
 | gpt-6-astra | 3,393 | 15.8M | 538K | 676.7M | 0 | 97.7% | 10 | 58.7h |
-| claude-opus-5-5 | 3,232 | 6K | 1.0M | 446.2M | 14.1M | 96.9% | 57 | 50.1h |
-| gpt-5.6-luna | 343 | 6.9M | 13K | 2.1M | 0 | 23.8% | 301 | 0.4h |
+| claude-opus-5-5 | 3,391 | 7K | 1.1M | 464.1M | 14.6M | 96.9% | 61 | 50.8h |
+| gpt-5.6-luna | 341 | 6.8M | 13K | 2.1M | 0 | 23.9% | 299 | 0.4h |
 | claude-haiku-4-5 | 158 | 839 | 42K | 14.6M | 1.7M | 89.4% | 1 | 1.8h |
 | claude-sonnet-4-6 | 132 | 142 | 25K | 9.5M | 351K | 96.5% | 5 | 0.4h |
 | gpt-6-luna | 27 | 374K | 5K | 0 | 0 | 0.0% | 13 | 0.0h |
 | claude-sonnet-4-5 | 1 | 3 | 9 | 0 | 35K | 0.0% | 1 | 0.0h |
 | gpt-6.1-sol | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **35,626** | **98.3M** | **8.0M** | **3,893.0M** | **64.8M** | **96%** | **1,482** | **464.9h** |
+| **Total** | **35,896** | **98.3M** | **8.1M** | **3,924.8M** | **65.7M** | **96%** | **1,488** | **466.1h** |
 
-_4,064.3M total tokens processed. 96% cache hit rate._
+_4,097.0M total tokens processed. 96% cache hit rate._
 
 ## AI Model Usage (all time)
 
@@ -61,11 +61,11 @@ _4,064.3M total tokens processed. 96% cache hit rate._
 | claude-sonnet-4-6 | 71,445 | 148.9M | 22.0M | 6,185.6M | 137.2M | 95.6% | 1,290 | 277.0h |
 | gpt-5.6-sol | 25,047 | 97.6M | 4.8M | 2,025.2M | 0 | 95.4% | 1,075 | 137.5h |
 | gpt-5.6-terra | 17,326 | 82.0M | 3.9M | 1,017.7M | 0 | 92.5% | 1,258 | 99.0h |
-| claude-sonnet-5-5 | 7,958 | 16K | 2.8M | 941.5M | 48.5M | 95.1% | 280 | 57.9h |
+| claude-sonnet-5-5 | 8,071 | 17K | 2.8M | 955.4M | 49.0M | 95.1% | 284 | 58.5h |
 | gpt-6-sol | 5,076 | 17.8M | 654K | 337.9M | 0 | 95.0% | 277 | 27.0h |
 | gemini-3-flash | 4,744 | 74.7M | 1.6M | 481.6M | 0 | 86.6% | 96 | 19.1h |
 | gpt-6-astra | 4,262 | 20.3M | 718K | 751.4M | 0 | 97.4% | 49 | 64.4h |
-| claude-opus-5-5 | 3,232 | 6K | 1.0M | 446.2M | 14.1M | 96.9% | 57 | 50.1h |
+| claude-opus-5-5 | 3,391 | 7K | 1.1M | 464.1M | 14.6M | 96.9% | 61 | 50.8h |
 | claude-opus-4-7 | 3,029 | 4K | 1.4M | 435.5M | 25.9M | 94.4% | 24 | 16.5h |
 | gpt-5.6-luna | 2,488 | 26.6M | 312K | 107.1M | 0 | 80.1% | 1,526 | 7.4h |
 | gpt-5.4-mini | 1,451 | 6.0M | 181K | 77.4M | 0 | 92.7% | 276 | 5.3h |
@@ -76,9 +76,9 @@ _4,064.3M total tokens processed. 96% cache hit rate._
 | gpt-6-luna | 27 | 374K | 5K | 0 | 0 | 0.0% | 13 | 0.0h |
 | claude-sonnet-4-5 | 17 | 70 | 4K | 1.7M | 413K | 80.6% | 3 | 0.0h |
 | gpt-6.1-sol | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **382,429** | **1,457.3M** | **95.3M** | **32,709.8M** | **709.9M** | **93.8%** | **13,347** | **2,405.9h** |
+| **Total** | **382,701** | **1,457.3M** | **95.4M** | **32,741.6M** | **710.8M** | **93.8%** | **13,355** | **2,407.1h** |
 
-_34,972.5M total tokens processed. 93.8% cache hit rate._
+_35,005.3M total tokens processed. 93.8% cache hit rate._
 <!-- STATS-END -->
 
 ## Projects
@@ -105,7 +105,7 @@ _34,972.5M total tokens processed. 93.8% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-10-06 20:33 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-10-06 21:33 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
