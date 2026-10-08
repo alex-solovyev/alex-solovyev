@@ -35,21 +35,21 @@ _AI session 365-day totals cover 1 days of local assistant session history (not 
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-6.1-sol | 3,554 | 9.6M | 541K | 338.9M | 0 | 97.2% | 93 | 14.2h |
+| gpt-6.1-sol | 3,555 | 9.6M | 541K | 339.0M | 0 | 97.2% | 93 | 14.2h |
 | gpt-6-luna | 14 | 336K | 6K | 209K | 0 | 38.4% | 4 | 0.0h |
-| **Total** | **3,568** | **10.0M** | **548K** | **339.1M** | **0** | **97.1%** | **95** | **14.2h** |
+| **Total** | **3,569** | **10.0M** | **548K** | **339.2M** | **0** | **97.1%** | **95** | **14.2h** |
 
-_349.6M total tokens processed. 97.1% cache hit rate._
+_349.8M total tokens processed. 97.1% cache hit rate._
 
 ## AI Model Usage (all time)
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-6.1-sol | 3,554 | 9.6M | 541K | 338.9M | 0 | 97.2% | 93 | 14.2h |
+| gpt-6.1-sol | 3,555 | 9.6M | 541K | 339.0M | 0 | 97.2% | 93 | 14.2h |
 | gpt-6-luna | 14 | 336K | 6K | 209K | 0 | 38.4% | 4 | 0.0h |
-| **Total** | **3,568** | **10.0M** | **548K** | **339.1M** | **0** | **97.1%** | **95** | **14.2h** |
+| **Total** | **3,569** | **10.0M** | **548K** | **339.2M** | **0** | **97.1%** | **95** | **14.2h** |
 
-_349.6M total tokens processed. 97.1% cache hit rate._
+_349.8M total tokens processed. 97.1% cache hit rate._
 <!-- STATS-END -->
 
 ## Projects
