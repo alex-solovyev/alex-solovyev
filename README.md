@@ -21,7 +21,7 @@
 | Worker/headless AI generation | 14.5h | 78.3h | 217.2h | 1969.4h |
 | Additive observed work | 33.7h | 299.0h | 785.9h | 3,251.0h |
 | Interactive sessions | 13 | 36 | 108 | 197 |
-| Worker sessions | 181 | 601 | 1,704 | 14,197 |
+| Worker sessions | 183 | 603 | 1,706 | 14,199 |
 
 _Screen time from linux-wtmp:login-session-proxy; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -36,22 +36,22 @@ _AI session 365-day totals cover 207 days of local assistant session history (no
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | claude-sonnet-5-5 | 32,930 | 70K | 12.1M | 4,103.5M | 271.1M | 93.8% | 1,068 | 209.0h |
-| claude-opus-5-5 | 14,363 | 30K | 4.7M | 1,954.2M | 63.6M | 96.8% | 269 | 111.5h |
+| claude-opus-5-5 | 14,408 | 30K | 4.7M | 1,957.8M | 63.8M | 96.8% | 271 | 112.0h |
 | gpt-6-sol | 5,076 | 17.8M | 654K | 337.9M | 0 | 95.0% | 277 | 27.0h |
-| gpt-5.6-sol | 4,015 | 14.0M | 621K | 431.0M | 0 | 96.8% | 125 | 22.0h |
-| gpt-5.5 | 3,293 | 9.6M | 673K | 457.1M | 0 | 97.9% | 8 | 88.6h |
-| gpt-6-astra | 1,494 | 6.6M | 224K | 307.2M | 0 | 97.9% | 6 | 44.0h |
-| gpt-5.6-terra | 1,291 | 6.7M | 236K | 92.3M | 0 | 93.2% | 88 | 6.4h |
+| gpt-5.6-sol | 3,983 | 13.9M | 618K | 429.1M | 0 | 96.8% | 124 | 21.9h |
+| gpt-5.5 | 3,266 | 9.6M | 666K | 453.6M | 0 | 97.9% | 8 | 88.1h |
+| gpt-6-astra | 1,358 | 6.3M | 209K | 280.0M | 0 | 97.8% | 6 | 43.2h |
+| gpt-5.6-terra | 1,289 | 6.6M | 236K | 92.3M | 0 | 93.3% | 86 | 6.4h |
 | claude-haiku-4-5 | 158 | 839 | 42K | 14.6M | 1.7M | 89.4% | 1 | 1.8h |
 | claude-sonnet-4-6 | 132 | 142 | 25K | 9.5M | 351K | 96.5% | 5 | 0.4h |
-| gpt-5.6-luna | 112 | 1.6M | 5K | 1.9M | 0 | 53.4% | 70 | 0.2h |
+| gpt-5.6-luna | 110 | 1.6M | 5K | 1.9M | 0 | 54.1% | 68 | 0.2h |
 | gpt-6-luna | 27 | 374K | 5K | 0 | 0 | 0.0% | 13 | 0.0h |
 | gpt-6.1-sol | 7 | 0 | 0 | 0 | 0 | 0.0% | 7 | 0.0h |
 | claude-haiku-5-5 | 1 | 4 | 4 | 0 | 22K | 0.0% | 1 | 0.0h |
 | claude-sonnet-4-5 | 1 | 3 | 9 | 0 | 35K | 0.0% | 1 | 0.0h |
-| **Total** | **62,900** | **57.0M** | **19.3M** | **7,709.6M** | **336.9M** | **95.1%** | **1,867** | **510.9h** |
+| **Total** | **62,746** | **56.6M** | **19.3M** | **7,680.5M** | **337.0M** | **95.1%** | **1,864** | **510.1h** |
 
-_8,123.0M total tokens processed. 95.1% cache hit rate._
+_8,093.6M total tokens processed. 95.1% cache hit rate._
 
 ## AI Model Usage (all time)
 
@@ -63,7 +63,7 @@ _8,123.0M total tokens processed. 95.1% cache hit rate._
 | claude-sonnet-5-5 | 32,930 | 70K | 12.1M | 4,103.5M | 271.1M | 93.8% | 1,068 | 209.0h |
 | gpt-5.6-sol | 25,047 | 97.6M | 4.8M | 2,025.2M | 0 | 95.4% | 1,075 | 137.5h |
 | gpt-5.6-terra | 17,326 | 82.0M | 3.9M | 1,017.7M | 0 | 92.5% | 1,258 | 99.0h |
-| claude-opus-5-5 | 14,363 | 30K | 4.7M | 1,954.2M | 63.6M | 96.8% | 269 | 111.5h |
+| claude-opus-5-5 | 14,408 | 30K | 4.7M | 1,957.8M | 63.8M | 96.8% | 271 | 112.0h |
 | gpt-6-sol | 5,076 | 17.8M | 654K | 337.9M | 0 | 95.0% | 277 | 27.0h |
 | gemini-3-flash | 4,744 | 74.7M | 1.6M | 481.6M | 0 | 86.6% | 96 | 19.1h |
 | gpt-6-astra | 4,262 | 20.3M | 718K | 751.4M | 0 | 97.4% | 49 | 64.4h |
@@ -78,9 +78,9 @@ _8,123.0M total tokens processed. 95.1% cache hit rate._
 | claude-sonnet-4-5 | 17 | 70 | 4K | 1.7M | 413K | 80.6% | 3 | 0.0h |
 | gpt-6.1-sol | 7 | 0 | 0 | 0 | 0 | 0.0% | 7 | 0.0h |
 | claude-haiku-5-5 | 1 | 4 | 4 | 0 | 22K | 0.0% | 1 | 0.0h |
-| **Total** | **418,539** | **1,457.4M** | **108.3M** | **37,379.8M** | **982.0M** | **93.9%** | **14,306** | **2,618.4h** |
+| **Total** | **418,584** | **1,457.4M** | **108.3M** | **37,383.3M** | **982.1M** | **93.9%** | **14,308** | **2,618.9h** |
 
-_39,927.6M total tokens processed. 93.9% cache hit rate._
+_39,931.3M total tokens processed. 93.9% cache hit rate._
 <!-- STATS-END -->
 
 ## Projects
@@ -107,7 +107,7 @@ _39,927.6M total tokens processed. 93.9% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-10-17 13:44 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-10-17 14:36 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
