@@ -20,8 +20,8 @@
 | Worker-classified human attention | 5.5h | 32.5h | 87.5h | 128.7h |
 | Worker/headless AI generation | 39.5h | 178.3h | 395.5h | 2205.5h |
 | Additive observed work | 56.8h | 282.8h | 921.6h | 3,671.8h |
-| Interactive sessions | 10 | 73 | 157 | 292 |
-| Worker sessions | 283 | 1,152 | 2,740 | 15,768 |
+| Interactive sessions | 11 | 74 | 158 | 293 |
+| Worker sessions | 289 | 1,158 | 2,746 | 15,774 |
 
 _Screen time from screen-time-history:daily-observations; collection status: ok. *365-day estimate uses observed calendar coverage._
 
@@ -35,27 +35,27 @@ _AI session 365-day totals cover 219 days of local assistant session history (no
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-sonnet-5-5 | 82,704 | 175K | 30.8M | 10,591.0M | 601.4M | 94.6% | 2,465 | 419.3h |
-| claude-opus-5-5 | 26,068 | 54K | 8.5M | 3,563.3M | 116.5M | 96.8% | 518 | 200.3h |
-| claude-haiku-4-5 | 1,680 | 8K | 673K | 145.9M | 40.9M | 78.1% | 2 | 3.8h |
+| claude-sonnet-5-5 | 82,735 | 175K | 30.8M | 10,593.9M | 601.7M | 94.6% | 2,470 | 419.7h |
+| claude-opus-5-5 | 26,229 | 54K | 8.5M | 3,588.0M | 117.0M | 96.8% | 520 | 201.1h |
+| claude-haiku-4-5 | 1,626 | 8K | 660K | 141.2M | 40.2M | 77.8% | 2 | 3.0h |
 | claude-sonnet-4-6 | 132 | 142 | 25K | 9.5M | 351K | 96.5% | 5 | 0.4h |
-| gpt-6-luna | 34 | 0 | 0 | 0 | 0 | 0.0% | 21 | 0.0h |
+| gpt-6-luna | 33 | 0 | 0 | 0 | 0 | 0.0% | 20 | 0.0h |
 | gpt-6.1-sol | 31 | 0 | 0 | 0 | 0 | 0.0% | 31 | 0.0h |
 | claude-haiku-5-5 | 1 | 4 | 4 | 0 | 22K | 0.0% | 1 | 0.0h |
 | gpt-5.5 | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
-| **Total** | **110,651** | **238K** | **40.0M** | **14,309.9M** | **759.4M** | **95%** | **2,942** | **623.8h** |
+| **Total** | **110,788** | **238K** | **40.0M** | **14,332.7M** | **759.4M** | **95%** | **2,947** | **624.2h** |
 
-_15,109.6M total tokens processed. 95% cache hit rate._
+_15,132.5M total tokens processed. 95% cache hit rate._
 
 ## AI Model Usage (all time)
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | gpt-5.5 | 153,150 | 723.4M | 28.7M | 12,312.2M | 0 | 94.5% | 4,722 | 1,254.7h |
-| claude-sonnet-5-5 | 82,706 | 175K | 30.8M | 10,591.0M | 601.5M | 94.6% | 2,467 | 419.3h |
+| claude-sonnet-5-5 | 82,746 | 175K | 30.8M | 10,594.3M | 601.9M | 94.6% | 2,472 | 419.8h |
 | claude-opus-4-6 | 81,888 | 259.0M | 26.4M | 7,484.0M | 479.1M | 91.0% | 2,397 | 384.7h |
 | claude-sonnet-4-6 | 71,445 | 148.9M | 22.0M | 6,185.6M | 137.2M | 95.6% | 1,290 | 277.0h |
-| claude-opus-5-5 | 26,256 | 54K | 8.5M | 3,584.1M | 117.6M | 96.8% | 526 | 200.9h |
+| claude-opus-5-5 | 26,430 | 55K | 8.6M | 3,609.6M | 118.2M | 96.8% | 529 | 201.8h |
 | gpt-5.6-sol | 25,047 | 97.6M | 4.8M | 2,025.2M | 0 | 95.4% | 1,075 | 137.5h |
 | gpt-5.6-terra | 17,326 | 82.0M | 3.9M | 1,017.7M | 0 | 92.5% | 1,258 | 99.0h |
 | gpt-6-sol | 5,076 | 17.8M | 654K | 337.9M | 0 | 95.0% | 277 | 27.0h |
@@ -72,9 +72,9 @@ _15,109.6M total tokens processed. 95% cache hit rate._
 | gemini-3.1-pro | 27 | 0 | 0 | 0 | 0 | 0.0% | 27 | 0.0h |
 | claude-sonnet-4-5 | 17 | 70 | 4K | 1.7M | 413K | 80.6% | 3 | 0.0h |
 | claude-haiku-5-5 | 1 | 4 | 4 | 0 | 22K | 0.0% | 1 | 0.0h |
-| **Total** | **481,820** | **1,457.5M** | **131.4M** | **45,631.4M** | **1,406.1M** | **94.1%** | **15,964** | **2,920.7h** |
+| **Total** | **482,034** | **1,457.5M** | **131.5M** | **45,660.1M** | **1,407.1M** | **94.1%** | **15,971** | **2,922.0h** |
 
-_48,626.7M total tokens processed. 94.1% cache hit rate._
+_48,656.4M total tokens processed. 94.1% cache hit rate._
 <!-- STATS-END -->
 
 ## Projects
@@ -101,7 +101,7 @@ _48,626.7M total tokens processed. 94.1% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-10-29 17:48 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-10-29 18:47 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
