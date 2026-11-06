@@ -21,7 +21,7 @@
 | Worker/headless AI generation | 26.5h | 127.6h | 459.4h | 2342.7h |
 | Additive observed work | 36.6h | 225.7h | 1,004.7h | 3,919.4h |
 | Interactive sessions | 4 | 23 | 152 | 311 |
-| Worker sessions | 253 | 1,005 | 3,237 | 16,739 |
+| Worker sessions | 255 | 1,007 | 3,239 | 16,741 |
 
 _Screen time from linux-input-activity:idle-cutoff-300s; collection status: ok, unavailable (fewer-than-7-sampled-days). Input sampling began 2026-11-04 (1.3 of 28 days sampled); earlier days are not counted._
 
@@ -35,15 +35,15 @@ _AI session 365-day totals cover 227 days of local assistant session history (no
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-sonnet-5-5 | 95,345 | 202K | 35.6M | 12,154.9M | 701.8M | 94.5% | 2,924 | 458.7h |
+| claude-sonnet-5-5 | 95,129 | 201K | 35.5M | 12,120.1M | 700.4M | 94.5% | 2,921 | 457.3h |
 | claude-opus-5-5 | 31,834 | 66K | 10.6M | 4,461.7M | 142.1M | 96.9% | 580 | 206.6h |
 | claude-haiku-4-5 | 2,719 | 14K | 1.2M | 235.8M | 58.0M | 80.2% | 3 | 6.1h |
 | gpt-6.1-sol | 31 | 0 | 0 | 0 | 0 | 0.0% | 31 | 0.0h |
 | gpt-6-luna | 16 | 0 | 0 | 0 | 0 | 0.0% | 16 | 0.0h |
 | claude-haiku-5-5 | 4 | 16 | 787 | 0 | 188K | 0.0% | 4 | 0.0h |
-| **Total** | **129,949** | **282K** | **47.5M** | **16,852.6M** | **902.2M** | **94.9%** | **3,440** | **671.4h** |
+| **Total** | **129,733** | **282K** | **47.4M** | **16,817.8M** | **900.8M** | **94.9%** | **3,437** | **670.0h** |
 
-_17,802.6M total tokens processed. 94.9% cache hit rate._
+_17,766.4M total tokens processed. 94.9% cache hit rate._
 
 ## AI Model Usage (all time)
 
@@ -99,7 +99,7 @@ _53,010.1M total tokens processed. 94.2% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-11-06 06:51 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-11-06 07:49 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
