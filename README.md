@@ -14,46 +14,46 @@
 
 | Metric | Yesterday | Prior 7 Days | Prior 28 Days | Prior 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Input activity (Linux) | 5.1h | 36.6h | 41.7h | ~1637h* |
-| Interactive human attention | 4.3h | 26.6h | 149.0h | 527.9h |
-| Interactive AI generation | 2.9h | 36.7h | 142.1h | 979.8h |
-| Worker-classified human attention | 1.7h | 5.6h | 104.2h | 187.9h |
-| Worker/headless AI generation | 15.1h | 97.9h | 502.0h | 2471.4h |
-| Additive observed work | 24.0h | 166.6h | 876.0h | 4,126.9h |
-| Interactive sessions | 3 | 13 | 131 | 321 |
-| Worker sessions | 215 | 1,015 | 3,762 | 17,844 |
+| Input activity (Linux) | 0.7h | 33.2h | 42.4h | ~1503h* |
+| Interactive human attention | 1.2h | 25.2h | 150.2h | 529.2h |
+| Interactive AI generation | 0.1h | 29.3h | 141.6h | 979.9h |
+| Worker-classified human attention | 0.6h | 4.4h | 104.5h | 188.5h |
+| Worker/headless AI generation | 11.8h | 67.7h | 504.6h | 2483.2h |
+| Additive observed work | 13.7h | 126.4h | 879.8h | 4,140.7h |
+| Interactive sessions | 2 | 12 | 126 | 321 |
+| Worker sessions | 117 | 790 | 3,693 | 17,857 |
 
-_Input activity from linux-input-activity:idle-cutoff-300s; collection status: ok. Input sampling began 2026-11-04 (9.3 of 28 days sampled); earlier days are not counted. Latest sample measured: terminal input only; no desktop session on this host. *365-day estimate uses observed calendar coverage._
+_Input activity from linux-input-activity:idle-cutoff-300s; collection status: ok. Input sampling began 2026-11-04 (10.3 of 28 days sampled); earlier days are not counted. Latest sample measured: terminal input only; no desktop session on this host. *365-day estimate uses observed calendar coverage._
 
 _Periods are completed local calendar days ending at midnight; today is excluded._
 
 _Human attention is unioned wall-clock time, so overlapping sessions are not double-counted. AI generation is additive machine work across sessions; it is not wall-clock concurrency._
 
-_AI session 365-day totals cover 235 days of local assistant session history (not extrapolated)._
+_AI session 365-day totals cover 236 days of local assistant session history (not extrapolated)._
 
 ## AI Model Usage (last 30 days)
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-sonnet-5-5 | 99,453 | 210K | 37.3M | 12,881.8M | 650.2M | 95.2% | 3,052 | 440.4h |
-| claude-opus-5-5 | 29,495 | 61K | 9.7M | 4,163.2M | 129.2M | 97.0% | 509 | 203.6h |
+| claude-sonnet-5-5 | 99,466 | 210K | 37.3M | 12,889.0M | 648.4M | 95.2% | 3,053 | 440.1h |
+| claude-opus-5-5 | 29,713 | 61K | 9.7M | 4,201.1M | 130.0M | 97.0% | 510 | 204.2h |
 | claude-haiku-4-5 | 5,156 | 27K | 3.2M | 489.2M | 77.8M | 86.3% | 3 | 23.8h |
-| claude-haiku-5-5 | 203 | 802 | 21K | 4.1M | 2.7M | 60.1% | 198 | 0.2h |
+| claude-haiku-5-5 | 208 | 822 | 21K | 4.2M | 2.8M | 60.5% | 203 | 0.3h |
 | gpt-6.1-sol | 31 | 0 | 0 | 0 | 0 | 0.0% | 31 | 0.0h |
 | gpt-6-luna | 16 | 0 | 0 | 0 | 0 | 0.0% | 16 | 0.0h |
-| **Total** | **134,354** | **299K** | **50.3M** | **17,538.5M** | **860.1M** | **95.3%** | **3,711** | **668.1h** |
+| **Total** | **134,590** | **299K** | **50.3M** | **17,583.7M** | **859.1M** | **95.3%** | **3,717** | **668.4h** |
 
-_18,449.2M total tokens processed. 95.3% cache hit rate._
+_18,493.5M total tokens processed. 95.3% cache hit rate._
 
 ## AI Model Usage (all time)
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | gpt-5.5 | 153,150 | 723.4M | 28.7M | 12,312.2M | 0 | 94.5% | 4,722 | 1,254.7h |
-| claude-sonnet-5-5 | 127,950 | 270K | 47.8M | 16,436.1M | 879.5M | 94.9% | 3,925 | 632.8h |
+| claude-sonnet-5-5 | 128,294 | 271K | 47.9M | 16,487.2M | 880.7M | 94.9% | 3,932 | 634.0h |
 | claude-opus-4-6 | 81,888 | 259.0M | 26.4M | 7,484.0M | 479.1M | 91.0% | 2,397 | 384.7h |
 | claude-sonnet-4-6 | 71,445 | 148.9M | 22.0M | 6,185.6M | 137.2M | 95.6% | 1,290 | 277.0h |
-| claude-opus-5-5 | 42,717 | 89K | 14.1M | 5,977.1M | 188.0M | 96.9% | 737 | 308.8h |
+| claude-opus-5-5 | 42,935 | 89K | 14.2M | 6,015.0M | 188.7M | 97.0% | 738 | 309.4h |
 | gpt-5.6-sol | 25,047 | 97.6M | 4.8M | 2,025.2M | 0 | 95.4% | 1,075 | 137.5h |
 | gpt-5.6-terra | 17,326 | 82.0M | 3.9M | 1,017.7M | 0 | 92.5% | 1,258 | 99.0h |
 | claude-haiku-4-5 | 6,242 | 28K | 3.4M | 582.3M | 81.7M | 87.7% | 24 | 28.8h |
@@ -63,16 +63,16 @@ _18,449.2M total tokens processed. 95.3% cache hit rate._
 | claude-opus-4-7 | 3,029 | 4K | 1.4M | 435.5M | 25.9M | 94.4% | 24 | 16.5h |
 | gpt-5.6-luna | 2,488 | 26.6M | 312K | 107.1M | 0 | 80.1% | 1,526 | 7.4h |
 | gpt-5.4-mini | 1,451 | 6.0M | 181K | 77.4M | 0 | 92.7% | 276 | 5.3h |
-| claude-haiku-5-5 | 203 | 802 | 21K | 4.1M | 2.7M | 60.1% | 198 | 0.2h |
+| claude-haiku-5-5 | 208 | 822 | 21K | 4.2M | 2.8M | 60.5% | 203 | 0.3h |
 | big-pickle | 88 | 157K | 15K | 4.5M | 344K | 90.1% | 4 | 0.1h |
 | claude-sonnet-4 | 87 | 158 | 26K | 6.7M | 177K | 97.4% | 2 | 0.2h |
 | gpt-6-luna | 43 | 374K | 5K | 0 | 0 | 0.0% | 29 | 0.1h |
 | gpt-6.1-sol | 38 | 0 | 0 | 0 | 0 | 0.0% | 38 | 0.0h |
 | gemini-3.1-pro | 27 | 0 | 0 | 0 | 0 | 0.0% | 27 | 0.0h |
 | claude-sonnet-4-5 | 17 | 70 | 4K | 1.7M | 413K | 80.6% | 3 | 0.0h |
-| **Total** | **547,318** | **1,457.7M** | **156.6M** | **54,228.8M** | **1,795.3M** | **94.3%** | **17,788** | **3,263.6h** |
+| **Total** | **547,885** | **1,457.7M** | **156.8M** | **54,318.0M** | **1,797.3M** | **94.3%** | **17,800** | **3,265.3h** |
 
-_57,638.6M total tokens processed. 94.3% cache hit rate._
+_57,730.0M total tokens processed. 94.3% cache hit rate._
 <!-- STATS-END -->
 
 <!-- PROJECTS-START -->
@@ -102,7 +102,7 @@ _57,638.6M total tokens processed. 94.3% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-11-14 21:53 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-11-14 23:55 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
