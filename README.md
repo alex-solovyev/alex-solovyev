@@ -20,8 +20,8 @@
 | Worker-classified human attention | 0.0h | 4.8h | 95.5h | 189.6h |
 | Worker/headless AI generation | 9.2h | 121.5h | 545.2h | 2554.0h |
 | Additive observed work | 11.8h | 201.7h | 896.6h | 4,252.8h |
-| Interactive sessions | 4 | 23 | 120 | 332 |
-| Worker sessions | 199 | 876 | 3,834 | 18,292 |
+| Interactive sessions | 5 | 24 | 121 | 333 |
+| Worker sessions | 201 | 878 | 3,836 | 18,294 |
 
 _Input activity from linux-input-activity:idle-cutoff-300s; collection status: ok. Input sampling began 2026-11-04 (13.3 of 28 days sampled); earlier days are not counted. Latest sample measured: terminal input only; no desktop session on this host. *365-day estimate uses observed calendar coverage._
 
@@ -35,25 +35,25 @@ _AI session 365-day totals cover 239 days of local assistant session history (no
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-sonnet-5-5 | 102,988 | 217K | 38.3M | 13,431.5M | 643.4M | 95.4% | 3,063 | 506.4h |
-| claude-opus-5-5 | 29,349 | 60K | 9.7M | 4,198.9M | 127.4M | 97.1% | 466 | 192.4h |
+| claude-sonnet-5-5 | 103,014 | 217K | 38.3M | 13,441.2M | 643.5M | 95.4% | 3,062 | 506.7h |
+| claude-opus-5-5 | 29,425 | 61K | 9.7M | 4,208.4M | 128.1M | 97.0% | 467 | 193.4h |
 | claude-haiku-4-5 | 5,156 | 27K | 3.2M | 489.2M | 77.8M | 86.3% | 3 | 23.8h |
 | claude-haiku-5-5 | 279 | 1K | 28K | 5.5M | 3.9M | 58.6% | 274 | 0.4h |
 | gpt-6.1-sol | 31 | 0 | 0 | 0 | 0 | 0.0% | 31 | 0.0h |
 | gpt-6-luna | 16 | 0 | 0 | 0 | 0 | 0.0% | 16 | 0.0h |
-| **Total** | **137,819** | **306K** | **51.3M** | **18,125.4M** | **852.6M** | **95.5%** | **3,758** | **723.1h** |
+| **Total** | **137,921** | **306K** | **51.3M** | **18,144.6M** | **853.4M** | **95.5%** | **3,758** | **724.3h** |
 
-_19,029.7M total tokens processed. 95.5% cache hit rate._
+_19,049.7M total tokens processed. 95.5% cache hit rate._
 
 ## AI Model Usage (all time)
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | gpt-5.5 | 153,150 | 723.4M | 28.7M | 12,312.2M | 0 | 94.5% | 4,722 | 1,254.7h |
-| claude-sonnet-5-5 | 141,270 | 298K | 52.5M | 18,209.6M | 957.4M | 95.0% | 4,255 | 733.5h |
+| claude-sonnet-5-5 | 141,461 | 299K | 52.5M | 18,238.9M | 959.0M | 95.0% | 4,257 | 734.2h |
 | claude-opus-4-6 | 81,888 | 259.0M | 26.4M | 7,484.0M | 479.1M | 91.0% | 2,397 | 384.7h |
 | claude-sonnet-4-6 | 71,445 | 148.9M | 22.0M | 6,185.6M | 137.2M | 95.6% | 1,290 | 277.0h |
-| claude-opus-5-5 | 45,409 | 94K | 14.9M | 6,361.0M | 199.8M | 97.0% | 770 | 338.2h |
+| claude-opus-5-5 | 45,485 | 94K | 15.0M | 6,370.5M | 200.6M | 96.9% | 771 | 339.1h |
 | gpt-5.6-sol | 25,047 | 97.6M | 4.8M | 2,025.2M | 0 | 95.4% | 1,075 | 137.5h |
 | gpt-5.6-terra | 17,326 | 82.0M | 3.9M | 1,017.7M | 0 | 92.5% | 1,258 | 99.0h |
 | claude-haiku-4-5 | 6,242 | 28K | 3.4M | 582.3M | 81.7M | 87.7% | 24 | 28.8h |
@@ -70,9 +70,9 @@ _19,029.7M total tokens processed. 95.5% cache hit rate._
 | gpt-6.1-sol | 38 | 0 | 0 | 0 | 0 | 0.0% | 38 | 0.0h |
 | gemini-3.1-pro | 27 | 0 | 0 | 0 | 0 | 0.0% | 27 | 0.0h |
 | claude-sonnet-4-5 | 17 | 70 | 4K | 1.7M | 413K | 80.6% | 3 | 0.0h |
-| **Total** | **563,407** | **1,457.7M** | **162.1M** | **56,387.6M** | **1,886.3M** | **94.4%** | **18,220** | **3,393.8h** |
+| **Total** | **563,674** | **1,457.7M** | **162.2M** | **56,426.3M** | **1,888.6M** | **94.4%** | **18,223** | **3,395.4h** |
 
-_59,893.9M total tokens processed. 94.4% cache hit rate._
+_59,935.1M total tokens processed. 94.4% cache hit rate._
 <!-- STATS-END -->
 
 <!-- PROJECTS-START -->
@@ -102,7 +102,7 @@ _59,893.9M total tokens processed. 94.4% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-11-18 13:01 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-11-18 14:02 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
