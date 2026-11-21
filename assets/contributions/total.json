@@ -1,10 +1,10 @@
 {
   "schema": "aidevops.total-contributions/v1",
   "user": "alex-solovyev",
-  "updated": "2026-11-20",
-  "through": "2026-11-19",
+  "updated": "2026-11-21",
+  "through": "2026-11-20",
   "metric": "GitHub contributionCalendar.totalContributions",
-  "total": 20684,
+  "total": 20842,
   "months": [
     {
       "month": "2012-03",
@@ -888,8 +888,8 @@
     },
     {
       "month": "2026-11",
-      "total": 2185,
-      "cumulative": 20684
+      "total": 2343,
+      "cumulative": 20842
     }
   ]
 }
