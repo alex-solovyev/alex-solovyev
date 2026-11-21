@@ -21,7 +21,7 @@
 | Worker/headless AI generation | 42.0h | 214.1h | 621.0h | 2685.5h |
 | Additive observed work | 43.0h | 279.3h | 949.8h | 4,406.2h |
 | Interactive sessions | 2 | 17 | 105 | 336 |
-| Worker sessions | 272 | 1,075 | 3,933 | 18,797 |
+| Worker sessions | 286 | 1,089 | 3,947 | 18,811 |
 
 _Input activity from linux-input-activity:idle-cutoff-300s; collection status: ok. Input sampling began 2026-11-04 (16.3 of 28 days sampled); earlier days are not counted. Latest sample measured: terminal input only; no desktop session on this host. *365-day estimate uses observed calendar coverage._
 
@@ -35,21 +35,21 @@ _AI session 365-day totals cover 242 days of local assistant session history (no
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-sonnet-5-5 | 111,066 | 233K | 40.4M | 14,663.4M | 663.0M | 95.7% | 3,220 | 601.3h |
+| claude-sonnet-5-5 | 111,199 | 233K | 40.4M | 14,679.3M | 663.8M | 95.7% | 3,224 | 602.2h |
 | claude-opus-5-5 | 27,388 | 56K | 9.2M | 3,926.8M | 128.1M | 96.8% | 419 | 194.2h |
 | claude-haiku-4-5 | 5,156 | 27K | 3.2M | 489.2M | 77.8M | 86.3% | 3 | 23.8h |
-| claude-haiku-5-5 | 351 | 1K | 36K | 6.7M | 5.2M | 56.0% | 346 | 0.5h |
+| claude-haiku-5-5 | 353 | 1K | 36K | 6.7M | 5.3M | 56.0% | 348 | 0.5h |
 | gpt-6.1-sol | 27 | 0 | 0 | 0 | 0 | 0.0% | 27 | 0.0h |
 | gpt-6-luna | 12 | 0 | 0 | 0 | 0 | 0.0% | 12 | 0.0h |
-| **Total** | **144,000** | **318K** | **52.8M** | **19,086.3M** | **874.2M** | **95.6%** | **3,939** | **819.9h** |
+| **Total** | **144,135** | **319K** | **52.9M** | **19,102.2M** | **875.1M** | **95.6%** | **3,945** | **820.8h** |
 
-_20,013.7M total tokens processed. 95.6% cache hit rate._
+_20,030.6M total tokens processed. 95.6% cache hit rate._
 
 ## AI Model Usage (all time)
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-sonnet-5-5 | 158,694 | 335K | 58.1M | 20,599.9M | 1,058.3M | 95.1% | 4,687 | 862.4h |
+| claude-sonnet-5-5 | 158,991 | 335K | 58.2M | 20,638.0M | 1,060.2M | 95.1% | 4,699 | 864.2h |
 | gpt-5.5 | 153,150 | 723.4M | 28.7M | 12,312.2M | 0 | 94.5% | 4,722 | 1,254.7h |
 | claude-opus-4-6 | 81,888 | 259.0M | 26.4M | 7,484.0M | 479.1M | 91.0% | 2,397 | 384.7h |
 | claude-sonnet-4-6 | 71,445 | 148.9M | 22.0M | 6,185.6M | 137.2M | 95.6% | 1,290 | 277.0h |
@@ -63,16 +63,16 @@ _20,013.7M total tokens processed. 95.6% cache hit rate._
 | claude-opus-4-7 | 3,029 | 4K | 1.4M | 435.5M | 25.9M | 94.4% | 24 | 16.5h |
 | gpt-5.6-luna | 2,488 | 26.6M | 312K | 107.1M | 0 | 80.1% | 1,526 | 7.4h |
 | gpt-5.4-mini | 1,451 | 6.0M | 181K | 77.4M | 0 | 92.7% | 276 | 5.3h |
-| claude-haiku-5-5 | 352 | 1K | 36K | 6.7M | 5.3M | 55.9% | 347 | 0.5h |
+| claude-haiku-5-5 | 354 | 1K | 36K | 6.7M | 5.3M | 55.9% | 349 | 0.5h |
 | big-pickle | 88 | 157K | 15K | 4.5M | 344K | 90.1% | 4 | 0.1h |
 | claude-sonnet-4 | 87 | 158 | 26K | 6.7M | 177K | 97.4% | 2 | 0.2h |
 | gpt-6-luna | 43 | 374K | 5K | 0 | 0 | 0.0% | 29 | 0.1h |
 | gpt-6.1-sol | 38 | 0 | 0 | 0 | 0 | 0.0% | 38 | 0.0h |
 | gemini-3.1-pro | 27 | 0 | 0 | 0 | 0 | 0.0% | 27 | 0.0h |
 | claude-sonnet-4-5 | 17 | 70 | 4K | 1.7M | 413K | 80.6% | 3 | 0.0h |
-| **Total** | **581,307** | **1,457.8M** | **167.9M** | **58,839.2M** | **1,998.0M** | **94.5%** | **18,725** | **3,536.2h** |
+| **Total** | **581,606** | **1,457.8M** | **168.0M** | **58,877.3M** | **1,999.9M** | **94.5%** | **18,739** | **3,538.0h** |
 
-_62,463.0M total tokens processed. 94.5% cache hit rate._
+_62,503.1M total tokens processed. 94.5% cache hit rate._
 <!-- STATS-END -->
 
 <!-- PROJECTS-START -->
@@ -102,7 +102,7 @@ _62,463.0M total tokens processed. 94.5% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-11-21 08:03 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-11-21 09:03 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
