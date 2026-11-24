@@ -20,8 +20,8 @@
 | Worker-classified human attention | 0.0h | 1.8h | 74.0h | 191.4h |
 | Worker/headless AI generation | 0.0h | 230.2h | 665.1h | 2775.0h |
 | Additive observed work | 0.0h | 257.9h | 966.5h | 4,498.9h |
-| Interactive sessions | 2 | 11 | 70 | 339 |
-| Worker sessions | 8 | 956 | 3,823 | 19,040 |
+| Interactive sessions | 3 | 12 | 71 | 340 |
+| Worker sessions | 29 | 977 | 3,844 | 19,061 |
 
 _Input activity from linux-input-activity:idle-cutoff-300s; collection status: ok. Input sampling began 2026-11-04 (19.3 of 28 days sampled); earlier days are not counted. Latest sample measured: terminal input only; no desktop session on this host. *365-day estimate uses observed calendar coverage._
 
@@ -35,25 +35,25 @@ _AI session 365-day totals cover 245 days of local assistant session history (no
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-sonnet-5-5 | 109,952 | 230K | 39.3M | 14,667.6M | 632.0M | 95.9% | 3,106 | 633.3h |
-| claude-opus-5-5 | 24,758 | 51K | 8.4M | 3,585.9M | 114.5M | 96.9% | 350 | 178.8h |
+| claude-sonnet-5-5 | 110,911 | 232K | 39.6M | 14,807.8M | 636.1M | 95.9% | 3,124 | 638.3h |
+| claude-opus-5-5 | 24,729 | 51K | 8.4M | 3,581.8M | 114.5M | 96.9% | 348 | 178.7h |
 | claude-haiku-4-5 | 4,685 | 24K | 3.0M | 447.2M | 67.8M | 86.8% | 3 | 23.1h |
 | claude-haiku-5-5 | 375 | 1K | 39K | 7.1M | 5.7M | 55.5% | 370 | 0.5h |
 | gpt-6.1-sol | 24 | 0 | 0 | 0 | 0 | 0.0% | 24 | 0.0h |
 | gpt-6-luna | 5 | 0 | 0 | 0 | 0 | 0.0% | 5 | 0.0h |
-| **Total** | **139,799** | **308K** | **50.8M** | **18,707.9M** | **820.2M** | **95.8%** | **3,776** | **835.7h** |
+| **Total** | **140,729** | **310K** | **51.2M** | **18,844.0M** | **824.2M** | **95.8%** | **3,792** | **840.6h** |
 
-_19,579.3M total tokens processed. 95.8% cache hit rate._
+_19,719.8M total tokens processed. 95.8% cache hit rate._
 
 ## AI Model Usage (all time)
 
 | Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-sonnet-5-5 | 167,857 | 354K | 61.0M | 21,876.9M | 1,103.9M | 95.2% | 4,907 | 935.2h |
+| claude-sonnet-5-5 | 168,851 | 356K | 61.3M | 22,022.6M | 1,108.2M | 95.2% | 4,929 | 940.3h |
 | gpt-5.5 | 153,150 | 723.4M | 28.7M | 12,312.2M | 0 | 94.5% | 4,722 | 1,254.7h |
 | claude-opus-4-6 | 81,888 | 259.0M | 26.4M | 7,484.0M | 479.1M | 91.0% | 2,397 | 384.7h |
 | claude-sonnet-4-6 | 71,445 | 148.9M | 22.0M | 6,185.6M | 137.2M | 95.6% | 1,290 | 277.0h |
-| claude-opus-5-5 | 45,944 | 95K | 15.2M | 6,435.9M | 210.3M | 96.8% | 774 | 352.1h |
+| claude-opus-5-5 | 45,961 | 95K | 15.2M | 6,436.8M | 210.5M | 96.8% | 774 | 352.5h |
 | gpt-5.6-sol | 25,047 | 97.6M | 4.8M | 2,025.2M | 0 | 95.4% | 1,075 | 137.5h |
 | gpt-5.6-terra | 17,326 | 82.0M | 3.9M | 1,017.7M | 0 | 92.5% | 1,258 | 99.0h |
 | claude-haiku-4-5 | 6,242 | 28K | 3.4M | 582.3M | 81.7M | 87.7% | 24 | 28.8h |
@@ -70,9 +70,9 @@ _19,579.3M total tokens processed. 95.8% cache hit rate._
 | gpt-6.1-sol | 39 | 0 | 0 | 0 | 0 | 0.0% | 39 | 0.0h |
 | gemini-3.1-pro | 27 | 0 | 0 | 0 | 0 | 0.0% | 27 | 0.0h |
 | claude-sonnet-4-5 | 17 | 70 | 4K | 1.7M | 413K | 80.6% | 3 | 0.0h |
-| **Total** | **590,626** | **1,457.8M** | **170.9M** | **60,131.4M** | **2,045.1M** | **94.5%** | **18,971** | **3,609.5h** |
+| **Total** | **591,637** | **1,457.8M** | **171.2M** | **60,277.9M** | **2,049.6M** | **94.5%** | **18,993** | **3,615.0h** |
 
-_63,805.3M total tokens processed. 94.5% cache hit rate._
+_63,956.7M total tokens processed. 94.5% cache hit rate._
 <!-- STATS-END -->
 
 <!-- PROJECTS-START -->
@@ -102,7 +102,7 @@ _63,805.3M total tokens processed. 94.5% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-11-24 08:04 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-11-24 09:06 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
